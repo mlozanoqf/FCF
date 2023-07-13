@@ -1,0 +1,207 @@
+---
+title: ''
+  html_document:
+    df_print: paged
+---
+
+\newpage
+
+# `r fontawesome::fa("calendar-alt")` Class schedule. 
+
+ARF1, Fall 2023. Room 1202, 16:00 – 17:30.
+
+## `r fontawesome::fa("battery-quarter")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Thursday, 3 August.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp and Deepnote accounts. You should have received invitations in your UDEM student email.
+- Activity. Define your group of no more than 4 members. You should have received an invitation in your UDEM student email.
+
+**Session 2. Monday, 7 August.**
+
+- Reading. @crouhy2014essentials, Chapter 1 *Risk management a helicopter view*.
+- Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management.](https://youtu.be/sKMt1qzmGfU) video 2 [Risk management: A helicopter view.](https://youtu.be/PJbRtIVGdaI)
+- Complementary material. @brealey2020principles, Chapter 26 *Managing risk*.
+
+**Session 3. Thursday, 10 August.**
+
+- Extra marks 1/8. DataCamp course: *Credit risk modeling in R*, before 7:00 a.m.
+- Reading. @crouhy2014essentials, Chapter 2 *Corporate risk management a primer*.
+- Complementary material. @crouhy2014essentials, video [Corporate risk management: A primer.](https://youtu.be/YWpfwi8wD4c)
+
+**Session 4. Monday, 14 August.**
+
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+
+**Session 5. Thursday, 17 August.**
+
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- To know more about regression with a binary dependent variable, and references to credit risk please see @hanck2020introduction, Chapter 11. @hull2020machine, Chapter 3.
+
+**Session 6, Zoom. Monday, 21 August.**
+
+- Extra marks 2/8. DataCamp skill track: *R programming*, before 7:00 a.m.
+- Extra marks. $ME_1$ Instructions in Blackboard.
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Reading. Mensajes del futuro para ARF.
+- Complementary material. @alonso2021understanding.
+
+**Session 7. Thursday, 24 August.**
+
+- Activity. $H_1$ review.
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+
+**Session 8, Zoom. Monday, 28 August.**
+
+- Graded. Complete $H_1$ before 7:00 a.m.
+- Activity. Discuss $H_1$ answers.
+- Activity. $E_1$ review.
+- Reading. @Hull9, Section 24.1 Credit ratings; Section 24.2 Historical default probabilities; Section 24.3 Recovery rates.
+- Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
+- Complementary material. Video: [Ethics and trust in the investment profession.](https://youtu.be/azBhDSjBRS0)
+- Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
+
+**Session 9, Zoom. Thursday, 31 August.**
+
+- Graded. $E_1$ Instructions in Blackboard.
+
+## `r fontawesome::fa("battery-half")` Part 2.
+
+**Session 10, Zoom. Monday, 4 September.**
+
+- Extra marks 3/8. [Introduction to Sustainable Finance (NEW).](https://unccelearn.org/course/view.php?id=139&page=overview) Submit your PDF certificate before 7:00 a.m. by the discussion forum.
+- Activity. Discuss $E_1$ answers.
+- Extra marks. The wheel of fortune 1/3.
+- Graded. Submit $H_1$ and $E_1$ auto and co-evaluation before 7:00 a.m. Instructions in Blackboard.
+
+**Session 11. Thursday, 7 September.**
+
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 12. Monday, 11 September.**
+
+- Extra marks 4/8. DataCamp course: *Introduction to ChatGPT*, before 7:00 a.m.
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Complementary material. @brealey2020principles, Chapter 23 *Credit risk and the value of corporate debt*.
+
+**Session 13. Thursday, 14 September.**
+
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
+
+**Session 14. Monday, 18 September.**
+
+- Extra marks 5/8. DataCamp skill track: *Data Visualization with R*, before 7:00 a.m.
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+
+**Session 15. Thursday, 21 September.**
+
+- Class activity. Analysis of the Mexican economy 1/2.
+- Readings. Look for a recent and relevant Banxico presentation: [Banxico.](https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/presentaciones-junta-gobierno.html)
+
+**Session 16, Zoom. Monday, 25 September.**
+
+- Extra marks. $ME_2$ Instructions in Blackboard.
+- Class activity. Analysis of the Mexican economy 2/2.
+- Readings. Look for a recent and relevant Banxico presentation: [Banxico.](https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/presentaciones-junta-gobierno.html)
+
+**Session 17. Thursday, 28 September.**
+
+- Activity. $H_2$ review.
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+
+**Session 18, Zoom. Monday, 2 October.**
+
+- Graded. Complete $H_2$ before 7:00 a.m.
+- Activity. Discuss $H_2$ answers.
+- Activity. $E_2$ review.
+
+**Session 19, Zoom. Thursday, 5 October.**
+
+- Graded. $E_2$ Instructions in Blackboard.
+
+## `r fontawesome::fa("battery-three-quarters")` Part 3.
+
+**Session 20, Zoom. Monday, 9 October.**
+
+- Activity. Discuss $E_2$ answers.
+- Extra marks. The wheel of fortune 2/3.
+- Graded. Submit $H_2$ and $E_2$ auto and co-evaluation before 7:00 a.m. Instructions in Blackboard.
+
+**Session 21. Thursday, 12 October.**
+
+- Extra marks 6/8. [Introduction to Green Economy.](https://unccelearn.org/course/view.php?id=51&page=overview) Submit your PDF certificate before 7:00 a.m. by the discussion forum.
+- Reading. @Hull9, Section 24.8 *Default correlation*.
+- Reading. @lozanoARF, Chapter 3 *The Gaussian copula model*.
+
+**Session 22. Monday, 16 October.**
+
+- Reading. @Hull9, Section 24.8 *Default correlation*.
+- Reading. @lozanoARF, Chapter 3 *The Gaussian copula model*.
+- Complementary material. Video: [Measuring credit risk.](https://youtu.be/03nNzt8PyYM)
+- To know more about copulas see @ruppert2011statistics, Chapter 8.
+
+**Session 23. Thursday, 19 October.**
+
+- Reading. @Hull9, Section 24.8 *Default correlation*.
+- Reading. @lozanoARF, Chapter 3 *The Gaussian copula model*.
+
+**Session 24. Monday, 23 October.**
+
+- Reading. @Hull9, Section 24.8 *Default correlation*.
+- Reading. @lozanoARF, Chapter 3 *The Gaussian copula model*.
+
+**Session 25. Thursday, 26 October.**
+
+- Reading. @Hull9, Section 25.1 *Credit default swaps*.
+- Complementary material. Video: [Credit risk transfer mechanisms.](https://youtu.be/nEp2RfweCjs)
+
+**Session 26. Monday, 30 October.**
+
+- Extra marks 7/8. DataCamp skill track: *Python Programming*, before 7:00 a.m.
+- Reading. @Hull9, Section 25.1 *Credit default swaps*.
+- Complementary material. Fictional video: [Dr. Michael Burry betting against the housing market.](https://youtu.be/dqDu1sHoIAw)
+
+**Session 27. Thursday, 2 November.**
+
+- Reading. @Hull9, Section 25.1 *Credit default swaps*.
+
+**Session 28, Zoom. Monday, 6 November.**
+
+- Reading. @Hull9, Section 25.2 *Valuation of credit default swaps*.
+
+**Session 29, Zoom. Thursday, 9 November.**
+
+- Extra marks 8/8. DataCamp skill track: *Data Visualization with Python*, before 7:00 a.m.
+- Reading. @Hull9, Section 25.2 *Valuation of credit default swaps*.
+
+**Session 30, Zoom. Monday, 13 November.**
+
+- Extra marks. $ME_F$ Instructions in Blackboard.
+
+**Session 31, Zoom. Thursday, 16 November.**
+
+- Non graded. Complete $H_3$ before 7:00 a.m.
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3.
+- Farewell.
+
+## `r fontawesome::fa("battery-full")` The end.
+
+**Final exam, Zoom. Thursday, 23 November, 16:00 – 18:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
+
+\newpage
+
+
+
+
+

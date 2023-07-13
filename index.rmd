@@ -1,5 +1,5 @@
 ---
-title: Fundamentos Cuantitativos en Finanzas FCF. #`r fontawesome::fa("credit-card")`.
+title: Fundamentos Cuantitativos en Finanzas FCF. #`r fontawesome::fa("piggy-bank")`.
 subtitle: Course syllabus. Fall 2023. 
 author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
 #- name: Back to main [`r fontawesome::fa("home")`](https://mlozanoqf.github.io/)
@@ -16,10 +16,10 @@ output:
     code_folding: show
     theme: readable #darkly 
     includes:
-      #after_body: analytics_arf1.html
+      after_body: analytics_fcf.html
 abstract: A course syllabus is an academic document containing relevant information for students. This document serves as your ultimate guide to successfully completing this course. Please read it regularly and carefully. Within this document, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references, and learning outcomes. The objective of this document is to provide you with complete certainty regarding what to expect from this course, starting from day 1 until the final exam. Based on my experience, reading this syllabus is positively correlated with students' performance.
 
-#bibliography: mybibfile.bib
+bibliography: mybibfile.bib
 link-citations: true
 ---
 
@@ -62,11 +62,47 @@ xfun::file_string('contact.html')
 ```
 ````
 
-# [`r fa("arrow-circle-up", fill = "black")`](https://mlozanoqf.github.io/ARF1/) [<span style="color: black">Back to top.</span>](https://mlozanoqf.github.io/ARF1/) {-}
+# [`r fa("arrow-circle-up", fill = "black")`](https://mlozanoqf.github.io/FCF/) [<span style="color: black">Back to top.</span>](https://mlozanoqf.github.io/FCF/) {-}
 
 \newpage
 
+```{r introduction, child = 'Introduction.Rmd'}
+```
 
+\newpage
+
+```{r overview, child = 'Course overview.Rmd'}
+```
+
+\newpage
+
+```{r data science, child = 'Data Science.Rmd'}
+```
+
+\newpage
+
+```{r resources and activities, child = 'Learning resources and activities.Rmd'}
+```
+
+\newpage
+
+```{r evaluation, child = 'Evaluation.Rmd'}
+```
+
+\newpage
+
+```{r check, child = 'Checklist.Rmd'}
+```
+
+\newpage
+
+```{r schedule, child = 'Class schedule fall.Rmd'}
+```
+
+\newpage
+
+```{r resources, child = 'Internet resources.Rmd'}
+```
 
 ```{r include=FALSE}
 a <- toc()

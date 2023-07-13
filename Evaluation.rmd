@@ -1,0 +1,207 @@
+---
+title: ''
+  html_document:
+    df_print: paged
+---
+
+\newpage
+
+# `r fontawesome::fa("user-check")` Evaluation. 
+
+Let's see how your final grade $F$ is calculated.
+
+## `r fontawesome::fa("users")` Auto and co-evaluation.
+
+Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer an auto and co-evaluation for exams $E_1$, $E_2$ and assignments $H_1$, $H_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
+
+Consider the co-evaluation as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. I am not going to change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
+
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/_-mP3YKptwQ")
+```
+
+Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their auto and co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest including himself using a simple Google Form. Then, John Doe's auto and co-evaluation mark $mean(AC)$ is the simple average of his 4 assigned marks. 
+
+In case $mean(AC) \ge 70$, the group mark $H_m \ge 70$ and he does not receive a zero from the group, then John Doe's individual $H_1$ mark is computed as: $H_1=(0.70 \times H_m)+(0.30 \times mean(AC))$. 
+
+Otherwise, the individual assignment mark will be the lowest of $mean(AC)$ and $H_m$: $H_1=\mathrm{min}(mean(AC), H_m)$. 
+
+Using R:
+
+```{r}
+fun <- function(AC, Hm) {
+  if (mean(AC) >= 70 && Hm >= 70 && any(AC == 0) == FALSE) { 
+  H <- (0.7 * Hm) + (0.3 * mean(AC)) } # H is the individual assignment mark.
+  else {H <- min(mean(AC), Hm) } # Free-riders are penalized.
+  H }
+```
+
+Let's evaluate this function in R to see how it works. Assume this auto and co-evaluation is for the $H_1$ and we are calculating John Doe's mark.
+
+```{r}
+# Bebito Fiu-Fiu assigns 90 to John Doe.
+# Baby Yoda 0 to John Doe.
+# John Doe 90 (autoevaluation).
+# Winnie Pooh 100 to John Doe.
+AC <- c(90, 0, 90, 100)
+Hm <- 90 # Group mark.
+H1 <- fun(AC, Hm) # Individual mark.
+paste("John Doe's individual mark in the first assignment is:", H1)
+```
+
+This is because we apply $H_1=\mathrm{min}(mean(AC), H_m) \rightarrow H_1=\mathrm{min}(70, 90)\rightarrow H_1=70$. 
+
+
+If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
+
+```{r}
+AC <- c(90, 70, 90, 100)
+Hm <- 90 # Group mark.
+H1 <- fun(AC, Hm) # Individual mark.
+paste("John Doe's individual mark in the first assignment is:", H1)
+```
+
+This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{90+70+90+100}{4}\right) = 89.25$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 70 to 89.25 depending on Baby Yoda coevaluation.
+
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/nqVoY8pt9oTddtHK9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
+
+In particular, you will have two Google Forms web links to complete your auto and co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is no auto and co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
+
+## `r fontawesome::fa("flag-checkered")` Final grade $F$. 
+
+The final grade $F$ is computed as follows:
+$$
+\begin{aligned}
+ F &= 0.4[0.7\mathrm{max}(E_1, E_2) + 0.3\mathrm{min}(E_1, E_2)] \\
+ &+ 0.3[0.7\mathrm{max}(H_1, H_2) + 0.3\mathrm{min}(H_1, H_2)] \\
+ & + 0.3E_F.
+\end{aligned}
+$$
+This criterion is significantly better compared with the traditional average as the higher exam and assignment marks weigh more than twice the lower marks (70% versus 30%).
+
+Unfortunately, some students who do badly in their first exam and/or their first homework assignment believe that everything is lost and they should drop the class. My view is that this is not an accurate view as the grading above allows you to have a very bad exam and/or homework assignment and still be in a good position to pass the course. For example, imagine that for some reason you have $H_1=35$, but you manage to improve and get $H_2=85$. In any other course you will have an average of $\frac{35+85}{2}=60$ `r fontawesome::fa("meh")`. However, in my course we compute weighted averages for both homework assignments and partial exams, so your weighted average is $(35\times 0.3) + (85\times 0.7)=70$ `r fontawesome::fa("grin-stars")`.
+
+The difference between the weighted versus regular average is illustrated below:
+
+```{r echo=FALSE}
+H1 <- seq(from = 0, to = 100)
+H2 <- H1
+HF <- function(H1, H2) { 0.7 * pmax(H1, H2) + 
+    0.3 * pmin(H1, H2) }
+
+HF2 <- function(H1, H2) { 0.5 * pmax(H1, H2) + 
+    0.5 * pmin(H1, H2) }
+```
+
+```{r echo=FALSE}
+# outer evaluates the function for each combination of the vectors.
+z <- outer(H1, H2, HF) # z is now 50x50 matrix.
+par(mfrow=c(1, 2), oma = c(0, 0, 2, 0))
+par(pty = "s")
+contour(H1, H2, z, xlab = expression('H'[1]), 
+        ylab = expression('H'[2]), lwd = 3, 
+        nlevels = 10,
+        main = "Weighted average.
+This course.",
+        sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "blue", cex = 2)
+
+z2 <- outer(H1, H2, HF2) # z is now 50x50 matrix.
+par(pty = "s")
+contour(H1, H2, z2, xlab = expression('H'[1]), 
+        ylab = expression('H'[2]), lwd = 3, 
+        nlevels = 10,
+        main = "Simple average.
+Other courses.",
+        sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "red", cex = 2)
+```
+
+The effect of weighted averages over the final grade $F$ is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.
+
+
+```{r, results = "asis", echo = FALSE, message = FALSE}
+library(knitr)
+
+tex2markdown <- function(texstring) {
+  writeLines(text = texstring,
+             con = myfile <- tempfile(fileext = ".tex"))
+  texfile <- pandoc(input = myfile, format = "html")
+  cat(readLines(texfile), sep = "\n")
+  unlink(c(myfile, texfile))
+}
+
+textable <- "
+\\begin{table}[H]
+\\centering
+\\begin{tabular}{@{}|c|cc|c|c|@{}}
+\\toprule
+\\textbf{Weight} & \\multicolumn{1}{c|}{\\textbf{Activity}} & \\textbf{Mark} & \\textbf{Points in this course} & \\textbf{Points in other courses} \\\\ \\midrule
+\\multirow{2}{*}{40\\%} & \\multicolumn{1}{c|}{$E_1$} & 0 & $0 \\times 0.3 \\times 0.4 = 0$ & $0 \\times 0.5 \\times 0.4 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$E_2$} & 100 & $100 \\times \\ 0.7 \\times 0.4 = 28$ & $100 \\times \\ 0.5 \\times 0.4 = 20$ \\\\ \\midrule
+\\multirow{2}{*}{30\\%} & \\multicolumn{1}{c|}{$H_1$} & 0 & $0 \\times 0.3 \\times 0.3 = 0$ & $0 \\times 0.5 \\times 0.3 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$H_2$} & 100 & $100 \\times \\ 0.7 \\times 0.3 = 21$ & $100 \\times \\ 0.5 \\times 0.3 = 15$ \\\\ \\midrule
+30\\% & \\multicolumn{1}{c|}{$E_F$} & 70 & $70 \\times 0.3 = 21$ & $70 \\times 0.3 = 21$ \\\\ \\midrule
+100\\% & \\multicolumn{2}{c|}{$F$} & 70 & 56 \\\\ \\bottomrule
+\\end{tabular}
+\\end{table}"
+
+tex2markdown(textable)
+```
+
+In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
+
+## `r fontawesome::fa("marker")` General rubric. 
+
+The following list illustrates a typical rubric for graded activities.
+
+**What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
+
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) give their tips on ways to improve your English.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/NPwTgfswnD8")
+```
+
+**What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question.
+
+**What is a poor answer?** Work shows some weak understanding of the main elements of the course material. Shows very limited achievement of the relevant intended learning outcomes of the course. Has a weak understanding of fundamental concepts with no critical analysis. Produces answers that contain factual or conceptual inadequacies or inadequate analytic skills. Provides poorly written answers that fail to address the question, or answers that are too brief to answer the question properly. Shows a confusing or wrong math notation as e^-rT instead of $e^{-rT}$, this is wrong because as in chemistry as we do not write H2O, we write $H_2O$.
+
+You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
+
+## `r fontawesome::fa("hands-helping")` If you are struggling with the course. 
+
+In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are in the first page of this syllabus. The email is definitely the best way to initially approach me.
+
+In case you get a low mark in one activity or you get difficulties at some specific topic you should take immediate actions in order to quickly revert this. I am not planning to relax the marking criterion so what you have to do is to improve your own quality standards in order to pass given my marking standards and my expectations about your academic performance. You are free to contact me in case you need assistance about specific strategies to improve your academic performance.
+
+I do not recommend you to get disappointed, angry or sad if you get a low mark. There is no need for that because getting one low mark is not determinant to fail the course. Please see the evaluation method to verify how the final grade is computed and you will be amazed in a positive way. Also, I do not recommend you to get frustrated if you receive an unexpected low mark or an unexpected negative feedback about your work or your answers. The mechanics here are very simple: *in order to improve, understand and learn, you need to know what you did well, what you did wrong, and try again until you do well without getting desperate or frustrated in the process*. In short, avoid negative feelings as these might lead to further frustration. Nobody wants to hurt you, we all want you to learn in a favorable environment. You have overcome challenges before, so avoid the dark side `r fontawesome::fa("ghost")`. On the contrary, you should rather work harder to meet the course standards. We are not in conflict, in fact we are collaborating. According to my experience, students who sadly fail this course ignore or forget these recommendations.
+
+As a student, you may have different responsibilities. You are probably working, you might have family commitments, other courses, unexpected workload, troubles, and other diverse duties. All these may affect your academic performance at some time. My view here is that you are expected to do well in all aspects of your life and you will have to manage your time effectively and be productive. I hope you can allocate your time in such a way that you can pass this course and do well in the rest of your personal activities. Sometimes the workload is so intense that you have to evaluate whether you need to drop an activity to do well in the rest and keep you healthy, physically and mentally. If you find yourself overwhelmed by your personal troubles, workload and responsibilities, please ask for help, the university has professionals that can help you with this. If you have personal problems I can hear you and if I am unable to guide you properly, we can ask for professional help. Keep this in mind, we all care about your health, and health is far more important than a job, a course, and the university.
+
+We all know that good grades do not necessarily make you a good person or a good professional. One could have difficulties at school but have such a good professional network, or an impressive ability to do business, or an impressive entrepreneurship spirit. However, grades are still quite useful to assess how well you are at meeting some academic standards and how well you manage to understand the relevant topics in your area of expertise. It is more important to be a good person than a good professional, and the graded activities are specifically designed to partially evaluate your technical abilities as a professional. Then, we all assume that you are a good person, and the course activities will help us to evaluate some of the required skills and competences as professionals. Having said that, I hope you can achieve high grades in this course.
+
+In sum, I expect the best academic performance you can achieve, not the average, and definitely not the minimum. This should not be a surprise since you are studying at one of the most prestigious private universities in the country (we belong to a business school with AACSB and AMBA accreditation). If you succeed at delivering your best performance in this course, and I believe you can, then you might be in a better position to eventually tackle business problems including the most interesting and valuable ones which includes those that do not exist yet. I am sure you have done some extraordinary things in the past, you have overcome very hard challenges, so take this course just as another opportunity to unleash your full potential and show me how committed you are with your academic professional training. 
+
+I strongly believe you can learn anything just as this video from Khan Academy indicates:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/JC82Il2cjqA")
+```
+
+Most of my previous recommendations in this subsection are for those who are having difficulties with the course. If you are doing fine, then good for you `r fontawesome::fa("thumbs-up")`, try to enjoy the learning process as much as you can. My commitment is that you will have all the support and resources you need to pass the course during the semester; you only have to take them or ask for them during the lecture period, not after the last course session, and follow all my recommendations in this syllabus.
+
+
+

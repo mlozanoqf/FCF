@@ -1,0 +1,29 @@
+---
+title: ''
+  html_document:
+    df_print: paged
+---
+
+\newpage
+
+# `r fontawesome::fa("check-square")` Checklist.
+
+Please consider the following checklist to improve the chances to achieve a good performance in this course.
+
+1.  Read very consciously this document as it contains important information about the course, including the attached videos and references. You might need to read it several times during the semester. Quoting Yoda `r fontawesome::fa("jedi-order")`: *read the syllabus you must.*
+2.  If you consider learning how to code is very difficult and you think you need more practice, then take all the [Swirl](https://swirlstats.com/) and [DataCamp](https://www.datacamp.com/) courses that you want or need. I teach a course of R every year, and you can also contact me if you need further help. You are expected to learn new things, and this is only one of them.
+3.  If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
+4.  Always keep academic quality standards high for your own work and overall course performance. Find your own motivation and keep a regular weekly progress to study the course material in advance.
+5.  If you fail one activity do not get angry or upset as this is the best way to frustration. You better do the activity again by yourself the best way you can. You may say *how can I do it again if I failed?* Well, just remember we have one class session in which we discuss the correct exam and homework assignment answers, so look at your class notes again because you will find the answers there. Once you do that, you are free to contact me to comment on your work or to verify that now you know how to do it correctly. Most of the students who sadly fail this class ignore this recommendation because they are truly convinced that they do not understand or get frustrated because they fail to understand in the first attempts. Try and try again, eventually you will get it.
+6.  If you have trouble with your group members because they fail to work under the basic standards, and you consider it unfair to include their names in the assignment cover sheet, remember you can co-evaluate them with 0 to activate a straight penalty in his or her mark. Your homework assignment co-evaluation will remain anonymous.
+7.  Never get frustrated for too long because there will be no challenge that you cannot overcome with the right amount of time and effort. If after all you get frustrated, upset, or angry, do not let it happen too frequently and do not let it last for long. Ask for help whenever you need it, and remember you are free to contact me.
+
+Prof. Dan Fleisch describes an effective way to ask for help in college classes.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/dXG9UgW65fU")
+```
+
+8.  Remember the grading scheme. The lowest mark always weighs 30%, not 50%. And the highest mark always weighs 70%, not 50%. Do the math and you will see that failing one activity does not necessarily represent a risk to fail the class.
+9.  If you would like to share something (anything) with me, feel free to do so. My email is: <tt>`<martin.lozano@udem.edu>`</tt>.
+10. Follow number 1.
