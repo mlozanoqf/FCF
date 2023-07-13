@@ -8,7 +8,7 @@ title: ''
 
 # `r fontawesome::fa("calendar-alt")` Class schedule. 
 
-FCF, Fall 2023, 7:00 a.m. – 8:30 a.m.
+FCF, Fall 2023. Zoom sessions 7:00 a.m. – 8:30 a.m.
 
 ## `r fontawesome::fa("battery-quarter")` Part 1.
 
@@ -46,7 +46,7 @@ FCF, Fall 2023, 7:00 a.m. – 8:30 a.m.
 
 **Session 7. Thursday, 24 August.**
 
-- Reading. @brigham2009fundamentals, Chapter 1 *An Overview of Financial Management*.
+- Reading. @brigham2009fundamentals, Chapter 2 *Financial Markets and Institutions*.
 - Extra marks 3/10. [How to prevent e-waste?](https://unccelearn.org/course/view.php?id=143&page=overview) Submit your PDF certificate before 7:00 a.m. by the discussion forum.
 
 **Session 8. Monday, 28 August.**
