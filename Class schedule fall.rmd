@@ -179,6 +179,10 @@ FCF, Fall 2023. Zoom sessions 7:00 a.m. – 8:30 a.m.
 - Extra marks. The wheel of fortune 3/3.
 - Farewell.
 
+**Session 32. Tuesday, 21 November.**
+
+- Review.
+
 ## `r fontawesome::fa("battery-full")` The end.
 
 **Final exam. Thursday, 30 November, 7:00 a.m. – 8:30 a.m.**

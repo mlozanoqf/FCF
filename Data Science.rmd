@@ -119,11 +119,11 @@ In this course, you will be asked to complete graded activities (homework assign
 
 If you have not yet installed the necessary programs on your computer, please download R, Python, and RStudio from the following websites: <https://www.r-project.org/>, <https://www.python.org/downloads/>, and <https://posit.co/downloads/>, respectively. In the reference list at the end of this document, you will find some helpful YouTube installation guides that explain the step-by-step process of downloading and installing these programs from scratch. These videos have proven to be useful for my previous students. However, if you happen to come across a new and improved video, please feel free to share it.
 
-`r fontawesome::fa("egg")` Easter egg. I may need some volunteers to help other fellow students install RStudio and ensure that it can run both R and Python code on their own computers. These volunteers may need to familiarize themselves by reviewing YouTube tutorials on how to correctly install it on PC and Mac. Volunteers need to demonstrate that they have successfully assisted other students enrolled in this class in completing their installations. I will assign one sticker to each volunteer for every group of three students they provide help to. The evidence must be uploaded in the discussion forum (first partial) before our first partial exam. Here is a sample of valid evidence:
+<!-- `r fontawesome::fa("egg")` Easter egg. I may need some volunteers to help other fellow students install RStudio and ensure that it can run both R and Python code on their own computers. These volunteers may need to familiarize themselves by reviewing YouTube tutorials on how to correctly install it on PC and Mac. Volunteers need to demonstrate that they have successfully assisted other students enrolled in this class in completing their installations. I will assign one sticker to each volunteer for every group of three students they provide help to. The evidence must be uploaded in the discussion forum (first partial) before our first partial exam. Here is a sample of valid evidence: -->
 
-```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics('./proof.jpg')
-```
+<!-- ```{r echo=FALSE, out.width="70%", fig.align="center"} -->
+<!-- knitr::include_graphics('./proof.jpg') -->
+<!-- ``` -->
 
 Please note that there are other alternatives to RStudio like  [Anaconda](https://www.anaconda.com/) and [Visual Studio Code](https://code.visualstudio.com/). If you were to ask, my personal favorite is RStudio. In fact, I created this syllabus using RStudio with R markdown.
 
