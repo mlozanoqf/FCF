@@ -8,7 +8,9 @@ title: ''
 
 # `r fontawesome::fa("calendar-alt")` Class schedule. 
 
-FCF, Fall 2023. Zoom sessions 7:00 a.m. – 8:30 a.m.
+`r fontawesome::fa("piggy-bank")` FCF, Fall 2023. 
+
+Zoom sessions 7:00 a.m. – 8:30 a.m. [https://us02web.zoom.us/j/86831032971](https://us02web.zoom.us/j/86831032971)
 
 ## `r fontawesome::fa("battery-quarter")` Part 1.
 
@@ -48,6 +50,7 @@ FCF, Fall 2023. Zoom sessions 7:00 a.m. – 8:30 a.m.
 
 - Reading. @brigham2009fundamentals, Chapter 2 *Financial Markets and Institutions*.
 - Extra marks 3/10. [How to prevent e-waste?](https://unccelearn.org/course/view.php?id=143&page=overview) Submit your PDF certificate before 7:00 a.m. by the discussion forum.
+- Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
 
 **Session 8. Monday, 28 August.**
 

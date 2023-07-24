@@ -4,7 +4,7 @@ subtitle: Course syllabus. Fall 2023.
 author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
 #- name: Back to main [`r fontawesome::fa("home")`](https://mlozanoqf.github.io/)
 #  affiliation: Academic website. [Web.](https://sites.google.com/site/mlozanoqf/)
-date: Current `r fontawesome::fa("code-commit") ` `r format(Sys.time(), '%d %b %Y, %H:%M:%S.')` Under revision `r fontawesome::fa("exclamation-circle", fill = "red")`
+date: Current `r fontawesome::fa("code-commit") ` `r format(Sys.time(), '%d %b %Y, %H:%M:%S.')` #Under revision `r fontawesome::fa("exclamation-circle", fill = "red")`
 #  bookdown::gitbook: default
 output: 
   bookdown::html_document2:
