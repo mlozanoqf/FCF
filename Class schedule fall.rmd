@@ -10,7 +10,7 @@ title: ''
 
 `r fontawesome::fa("piggy-bank")` FCF, Fall 2023. 
 
-Zoom sessions 7:00 a.m. – 8:30 a.m. [https://us02web.zoom.us/j/86831032971](https://us02web.zoom.us/j/86831032971)
+Zoom sessions 7:00 a.m. – 8:30 a.m. [https://us02web.zoom.us/j/84820420974](https://us02web.zoom.us/j/84820420974)
 
 ## `r fontawesome::fa("battery-quarter")` Part 1.
 
