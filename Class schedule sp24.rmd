@@ -13,25 +13,59 @@
 
 **Session 2. Tuesday, 16 January.**
 
+- Reading. @drake2010basics, Chapter 1 *What is finance?*
+- Reading. @brigham2009fundamentals, Chapter 1 *An overview of financial management*.
+- Complementary material. Video 1/14: [Masters of Finance: Eugene Fama.](https://youtu.be/tRSaz5TIyno)
+
 **Session 3. Friday, 19 January.**
+
+- Reading. @drake2010basics, Chapter 1 *What is finance?*
+- Reading. @brigham2009fundamentals, Chapter 1 *An overview of financial management*.
+- Complementary material. Video 2/14: [Masters of Finance: Paul A. Samuelson.](https://youtu.be/RbIzwTGN3Yc)
+- Extra marks 1/10. DataCamp course: *Data Analysis in Excel*, before 10:00 a.m.
 
 **Session 4. Tuesday, 23 January.**
 
+- Reading. @brigham2009fundamentals, Chapter 2 *Financial markets and institutions*.
+- Reading. @drake2010basics, Chapter 2 *Financial instruments, markets, and intermediaries*.
+
 **Session 5. Friday, 26 January.**
 
-- Extra marks. Mentimeter 1/3.
+- Reading. @brigham2009fundamentals, Chapter 2 *Financial markets and institutions*.
+- Reading. @drake2010basics, Chapter 2 *Financial instruments, markets, and intermediaries*.
+- Extra marks 2/10. DataCamp course: *Introduction to ChatGPT*, before 10:00 a.m.
+- Complementary material. Video 3/14: [Masters of Finance: Robert C. Merton.](https://youtu.be/cmzON43dWA4)
 
 **Session 6. Tuesday, 30 January.**
 
+- Reading. @brigham2009fundamentals, Chapter 3 *Financial statements, cash flow, and taxes*.
+- Reading. @drake2010basics, Chapter 4 *Financial statements*.
+- Extra marks. Mentimeter 1/3.
+
 **Session 7. Friday, 2 February.**
+
+- Reading. @brigham2009fundamentals, Chapter 3 *Financial statements, cash flow, and taxes*.
+- Reading. @drake2010basics, Chapter 4 *Financial statements*.
+- Extra marks 3/10. [How to prevent e-waste?](https://unccelearn.org/course/view.php?id=143&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+- Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
+- Complementary material. Video 4/14: [Masters of Finance: Michael Jensen.](https://youtu.be/OWP6Hg2bvmo)
 
 **Session 8. Tuesday, 6 February.**
 
+- Reading. @brigham2009fundamentals, Chapter 3 *Financial statements, cash flow, and taxes*.
+- Reading. @drake2010basics, Chapter 4 *Financial statements*.
+- Complementary material. Video 5/14: [Masters of Finance: Myron Scholes.](https://youtu.be/zqfRmY1cag4)
+
 **Session 9. Friday, 9 February.**
+
+- Guest lecturer 1/5.
+- Extra marks 4/10. DataCamp course: *Understanding Data Visualization*, before 10:00 a.m.
 
 **Session 10. `r fontawesome::fa("heart", fill = "red")` Tuesday, 13 February.**
 
+- Guest lecturer 2/5.
 - Activity. $H_1$ review.
+- Complementary material. Video 6/14: [Masters of Finance: Ken Arrow.](https://youtu.be/A2lUzcr0S6M)
 
 **Session 11. Friday, 16 February.**
 
@@ -55,19 +89,42 @@
 
 **Session 15. Friday, 1 March.**
 
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
+- Extra marks 5/10. DataCamp course: *Understanding Machine Learning*, before 10:00 a.m.
+- Complementary material. Video 7/14: [Masters of Finance: Jack Treynor.](https://youtu.be/TdMf9nkKWhY)
+
 **Session 16. Tuesday, 5 March.**
+
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
 
 **Session 17. `r fontawesome::fa("female")` Friday, 8 March.**
 
-- Extra marks. Mentimeter 2/3.
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
+- Extra marks 6/10. [Gender Equality and Human Rights in Climate Action and Renewable Energy.](https://unccelearn.org/course/view.php?id=142&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 
 **Session 18. Tuesday, 12 March.**
 
+- Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
+- Reading. @drake2010basics, Chapter 10 *The math of finance*.
+- Extra marks. Mentimeter 2/3.
+- Complementary material. Video 8/14: [Masters of Finance: Richard Roll.](https://youtu.be/ma7W4Iqfctc)
+
+
 **Session 19. $\pi$ Friday, 15 March.**
+
+- Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
+- Reading. @drake2010basics, Chapter 10 *The math of finance*.
+- Extra marks 7/10. DataCamp course: *Analyzing Financial Statements in Python*, before 10:00 a.m.
 
 **Session 20. Tuesday, 19 March.**
 
+- Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
+- Reading. @drake2010basics, Chapter 10 *The math of finance*.
 - Activity. $H_2$ review.
+- Complementary material. Video 9/14: [Masters of Finance: Harry Markowitz.](https://youtu.be/RVWEhCd819E)
 
 **Session 21. Friday, 22 March.**
 
@@ -80,6 +137,7 @@
 **Session 22. Tuesday, 2 April.**
 
 - Activity. $E_2$ review.
+- Complementary material. Video 10/14: [Masters of Finance: William F. Sharpe.](https://youtu.be/PfVaOn9W3mo)
 
 **Session 23. Friday, 5 April.**
 
@@ -95,23 +153,48 @@
 
 **Session 25. Friday, 12 April.**
 
+- Guest lecturer 3/5.
+- Complementary material. Video 11/14: [Masters of Finance: Robert Engle.](https://youtu.be/ejb1Ka2QqCw)
+
 **Session 26. Tuesday, 16 April.**
+
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
+- Extra marks 8/10. DataCamp course: *Data-Driven Decision Making for Business*, before 10:00 a.m.
 
 **Session 27. Friday, 19 April.**
 
-- Extra marks. Mentimeter 3/3.
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
 - Actividad +5 puntos sobe la calificación del primer parcial. Compartir, reaccionar y/o agregar un comentario en redes sociales. *Retos y oportunidadades en el aprendizaje de ciencia de datos en las escuelas de negocios.* [Episodio en Spotify](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=5s9ik8ffQcW_Sy9NVU5sxg); [episodio en YouTube](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC). Café de Datos, Datlas. Temporada 9, capítulo 132. Subir eviencia (screenshot) al foro de discusión del tercer parcial. La hora límite es 10:00 am de la sesión 25.
+- Complementary material. Video 12/14: [Masters of Finance: Fred Weston.](https://youtu.be/12s9LUaYlE0)
+
 
 **Session 28. Tuesday, 23 April.**
 
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
+
 **Session 29. Friday, 26 April.**
+
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
+- Extra marks 9/10. DataCamp course: *Introduction to R*, before 10:00 a.m.
+- Complementary material. Video 13/14: [Masters of Finance: Maureen O'Hara.](https://youtu.be/vTB1ckSFA-w)
 
 **Session 30. `r fontawesome::fa("children")` Tuesday, 30 April.**
 
+- Guest lecturer 4/5.
+
 **Session 31. `r fontawesome::fa("jedi-order")` Friday, 3 May.**
+
+- Guest lecturer 5/5.
+- Extra marks 10/10. DataCamp course: *Introduction to Python*, before 10:00 a.m.
+- Complementary material. Video 14/14: [Masters of Finance: Stephen Ross.](https://youtu.be/tKIwXnVEjWM)
 
 **Session 32. Tuesday, 7 May.**
 
+- Extra marks. Mentimeter 3/3.
 - Non-graded. Complete $H_3$ before 10:00 a.m.
 - Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
 
