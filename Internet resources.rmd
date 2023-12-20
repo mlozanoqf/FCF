@@ -1,10 +1,3 @@
----
-title: ''
-  html_document:
-    df_print: paged
----
-
-\newpage
 
 # `r fontawesome::fa("globe")` Internet resources.
 
@@ -99,5 +92,5 @@ Here you can find questions and answers about programming in R.
 
 -   [ProjectElon.](https://www.youtube.com/c/ProjectElon/) Study Motivation.
 -   [iPanda.](https://www.youtube.com/c/iPandaChannel) Pandas are precious and vulnerable species in the world today.  
--   Twitter hashtags: \#rstats, \#DataScience
+-   X hashtags: \#rstats, \#DataScience
 

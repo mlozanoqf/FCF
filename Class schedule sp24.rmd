@@ -1,0 +1,128 @@
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+`r fontawesome::fa("piggy-bank")` FCF, Spring 2024. Online 10:00 – 11:30. Zoom [https://us02web.zoom.us/j/82782293259](https://us02web.zoom.us/j/82782293259)
+
+## `r fontawesome::fa("battery-quarter")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Friday, 12 January.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp and Deepnote accounts. You should have received invitations in your UDEM student email.
+- Activity. Define your group of no more than 4 members. You should have received an invitation in your UDEM student email.
+
+**Session 2. Tuesday, 16 January.**
+
+**Session 3. Friday, 19 January.**
+
+**Session 4. Tuesday, 23 January.**
+
+**Session 5. Friday, 26 January.**
+
+- Extra marks. Mentimeter 1/3.
+
+**Session 6. Tuesday, 30 January.**
+
+**Session 7. Friday, 2 February.**
+
+**Session 8. Tuesday, 6 February.**
+
+**Session 9. Friday, 9 February.**
+
+**Session 10. `r fontawesome::fa("heart", fill = "red")` Tuesday, 13 February.**
+
+- Activity. $H_1$ review.
+
+**Session 11. Friday, 16 February.**
+
+- Graded. Complete $H_1$ before 10:00 a.m.
+
+**Session 12. Tuesday, 20 February.**
+
+- Activity. $E_1$ review.
+
+**Session 13. Friday, 23 February.**
+
+- Graded. $E_1$ Instructions in Blackboard.
+- Graded. Submit $H_1$ and $E_1$ auto and co-evaluation before Monday 26 February 10:00 a.m. Instructions in Blackboard.
+
+## `r fontawesome::fa("battery-half")` Part 2.
+
+**Session 14. Tuesday, 27 February.**
+
+- Activity. Discuss $E_1$ answers.
+- Extra marks. The wheel of fortune 1/3.
+
+**Session 15. Friday, 1 March.**
+
+**Session 16. Tuesday, 5 March.**
+
+**Session 17. `r fontawesome::fa("female")` Friday, 8 March.**
+
+- Extra marks. Mentimeter 2/3.
+
+**Session 18. Tuesday, 12 March.**
+
+**Session 19. $\pi$ Friday, 15 March.**
+
+**Session 20. Tuesday, 19 March.**
+
+- Activity. $H_2$ review.
+
+**Session 21. Friday, 22 March.**
+
+- Graded. Complete $H_2$ before 10:00 a.m.
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Tuesday, 26 March.**
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Friday, 29 March.**
+
+**Session 22. Tuesday, 2 April.**
+
+- Activity. $E_2$ review.
+
+**Session 23. Friday, 5 April.**
+
+- Graded. $E_2$ Instructions in Blackboard.
+- Graded. Submit $H_2$ and $E_2$ auto and co-evaluation before Monday 8 April 10:00 a.m. Instructions in Blackboard.
+
+## `r fontawesome::fa("battery-three-quarters")` Part 3.
+
+**Session 24. Tuesday, 9 April.**
+
+- Activity. Discuss $E_2$ answers.
+- Extra marks. The wheel of fortune 2/3.
+
+**Session 25. Friday, 12 April.**
+
+**Session 26. Tuesday, 16 April.**
+
+**Session 27. Friday, 19 April.**
+
+- Extra marks. Mentimeter 3/3.
+- Actividad +5 puntos sobe la calificación del primer parcial. Compartir, reaccionar y/o agregar un comentario en redes sociales. *Retos y oportunidadades en el aprendizaje de ciencia de datos en las escuelas de negocios.* [Episodio en Spotify](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=5s9ik8ffQcW_Sy9NVU5sxg); [episodio en YouTube](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC). Café de Datos, Datlas. Temporada 9, capítulo 132. Subir eviencia (screenshot) al foro de discusión del tercer parcial. La hora límite es 10:00 am de la sesión 25.
+
+**Session 28. Tuesday, 23 April.**
+
+**Session 29. Friday, 26 April.**
+
+**Session 30. `r fontawesome::fa("children")` Tuesday, 30 April.**
+
+**Session 31. `r fontawesome::fa("jedi-order")` Friday, 3 May.**
+
+**Session 32. Tuesday, 7 May.**
+
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 33. `r fontawesome::fa("female")` Friday, 10 May.**
+
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3.
+- Farewell.
+
+## `r fontawesome::fa("battery-full")` The end.
+
+**Final exam. Friday, 24 May, 10:00 – 12:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.

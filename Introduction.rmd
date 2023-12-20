@@ -1,10 +1,5 @@
----
-title: ''
-  html_document:
-    df_print: paged
----
 
-\newpage
+
 
 # `r fontawesome::fa("handshake")` Introduction. 
 
@@ -20,7 +15,7 @@ Welcome to the course! My name is Martín. I hope that at the time you are readi
 
 The content of this syllabus applies to any learning format, including face-to-face, blended or fully distance learning. 
 
-Distance learning is an educational method in which students are not physically present on school premises. In my experience, distance learning courses can be just as good as traditional in-person learning. Students may have their preferences, but I believe you (as students) should be able to learn under a wide variety of changing circumstances. In fact, recruiters often seek applicants who can demonstrate adaptability to unfamiliar environments and respond positively to unexpected changes and new ways of working. So, do not be afraid of online courses or distance learning schemes. If you approach them with a positive mindset, not only can you learn a lot, but you can also develop valuable skills that are increasingly sought after in the job market.
+Distance learning is an educational method in which students are not physically present on school premises. In my experience, distance learning courses can be just as good as traditional in-person learning. Students may have their preferences, but I believe you (as students) should be able to learn under a wide variety of changing circumstances. In fact, recruiters often seek applicants who can demonstrate adaptability to unfamiliar environments and respond positively to unexpected changes and new ways of working. So, do not be afraid of online courses or distance learning schemes. If you approach them with a positive mindset, not only you can learn a lot, but you can also develop valuable skills that are increasingly sought after in the job market.
 
 The first distance learning course I taught was in September 1999, and I have been into distance learning since then as a postgraduate student and professor. My growing research network consists of colleagues in Chile, Ireland, UK, Italy and Spain. Even though we physically meet about once a year, most of the time we work remotely and we are quite used to it. It is important to know how to collaborate in virtual environments just as well as we do in face-to-face formats, including the available technology that allows us to shorten physical distance between us. 
 
@@ -30,7 +25,7 @@ I have vast experience with face-to-face, blended and distance learning in all i
 
 I am currently a professor of finance and economics at UDEM. I regularly collaborate with [The University of Manchester](https://www.manchester.ac.uk/) at the [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/), and [SOAS University of London](https://www.soas.ac.uk/) at the [Centre for Financial and Management Studies (CeFiMS)](https://www.cefims.ac.uk/), among others universities.
 
-Allow me to introduce myself by listing my postgraduate studies and providing a description of my professional background.
+My academic profile, including my full and updated curriculum vitae, is [here](https://sites.google.com/site/mlozanoqf/). These are my postgraduate studies and a description of my professional background.
 
 **Areas of expertise.** Finance, Economics, Statistics, Data Science.
 
@@ -42,11 +37,9 @@ I have also completed more than 20 professional training programs in various are
 
 **Research.** I am a researcher in the area of quantitative finance. I have held a couple of full-time research positions as a one-year pre-doctoral [Marie Curie research fellow](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) supported by the [Sixth European Community Framework Programme](https://ec.europa.eu/commission/presscorner/detail/en/MEMO_02_152), and a two-year post-doctoral research fellow position both at [The University of Manchester](https://www.manchester.ac.uk/), [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/), and the [Centre for the Analysis of Investment Risk](https://www.alliancembs.manchester.ac.uk/research/accounting-and-finance/centre-for-the-analysis-of-investment-risk/). My research has been published in 3-star journals according to [The Chartered Association of Business Schools](https://charteredabs.org/), including Journal of Empirical Finance, Quantitative Finance, and Journal of Financial and Quantitative Analysis (research assistance). My research has been presented in numerous research seminars in the UK, Spain, Mexico, Sweden and Ireland. My research has also been presented in prestigious international conferences including the [Spanish Association of Finance Forum](https://finance-forum.es/); [Eastern Finance Association](https://easternfinance.org/) (USA); [World Congress of the Econometric Society](https://www.econometricsociety.org/) (Italy); [French Finance Association](https://www.affi.asso.fr/en); and [Econometric Research in Finance](https://www.erfin.org/journal/index.php/erfin) among others. I collaborate as reviewer and editor for several academic journals in the areas of finance.
 
-**Teaching.** I have been a lecturer in economics, finance and data science for under and postgraduate levels at different universities in Mexico and the UK for the last 20 years. Also, I have supervised almost 90 dissertations at under and postgraduate academic programs of schools including the [London School of Business & Finance](https://www.lsbf.org.uk/); [University of London](https://www.london.ac.uk/), [SOAS University of London](https://www.soas.ac.uk/); [The University of Manchester](https://www.manchester.ac.uk/); [Universidad Complutense de Madrid](https://www.ucm.es/), UDEM, among others. Also, I have experience in continuous education, consulting, and executive training in the area of finance.
+**Teaching.** I have been a lecturer in economics, finance and data science for under and postgraduate levels at different universities in Mexico and the UK for the last 20 years. Also, I have supervised more than 90 dissertations at under and postgraduate academic programs of schools including the [London School of Business & Finance](https://www.lsbf.org.uk/); [University of London](https://www.london.ac.uk/), [SOAS University of London](https://www.soas.ac.uk/); [The University of Manchester](https://www.manchester.ac.uk/); [Universidad Complutense de Madrid](https://www.ucm.es/), UDEM, among others. Also, I have experience in continuous education, consulting, and executive training in the area of finance.
 
 <!-- [^1]: The Chartered Association of Business Schools is considered the voice of the UK's business and management education sector. According to ABS, all 3 stars rated journals publish original and well executed research papers and are highly regarded. These journals typically have good submission rates and are very selective in what they publish. Papers are heavily refereed in 3 stars rated journals. -->
-
-My academic profile, including my full and updated curriculum vitae, can be found [here](https://github.com/mlozanoqf/resume/raw/master/cv-mlozano.pdf).
 
 <!-- This is my teaching philosophy in 100 words: *The time and the brain are resources and constraints as both restrict the amount of time available to learn. We understand this at the university, so we use these resources efficiently. Here, we stimulate our mental capacity to create and innovate by doing research; and we teach how to think and learn in a systematic and scientific manner. Here, we promote the most fundamental human values to build a prosperous society. I love teaching almost as much as doing research because every semester represents a new opportunity to further enhance our lives by learning the most given our time constraints.* -->
 

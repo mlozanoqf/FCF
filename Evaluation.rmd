@@ -1,12 +1,6 @@
----
-title: ''
-  html_document:
-    df_print: paged
----
 
-\newpage
 
-# `r fontawesome::fa("user-check")` Evaluation. 
+# `r fontawesome::fa("user-check")` Evaluation. {#sec-evaluation}
 
 Let's see how your final grade $F$ is calculated.
 
@@ -190,6 +184,12 @@ In case you get a low mark in one activity or you get difficulties at some speci
 I do not recommend you to get disappointed, angry or sad if you get a low mark. There is no need for that because getting one low mark is not determinant to fail the course. Please see the evaluation method to verify how the final grade is computed and you will be amazed in a positive way. Also, I do not recommend you to get frustrated if you receive an unexpected low mark or an unexpected negative feedback about your work or your answers. The mechanics here are very simple: *in order to improve, understand and learn, you need to know what you did well, what you did wrong, and try again until you do well without getting desperate or frustrated in the process*. In short, avoid negative feelings as these might lead to further frustration. Nobody wants to hurt you, we all want you to learn in a favorable environment. You have overcome challenges before, so avoid the dark side `r fontawesome::fa("ghost")`. On the contrary, you should rather work harder to meet the course standards. We are not in conflict, in fact we are collaborating. According to my experience, students who sadly fail this course ignore or forget these recommendations.
 
 As a student, you may have different responsibilities. You are probably working, you might have family commitments, other courses, unexpected workload, troubles, and other diverse duties. All these may affect your academic performance at some time. My view here is that you are expected to do well in all aspects of your life and you will have to manage your time effectively and be productive. I hope you can allocate your time in such a way that you can pass this course and do well in the rest of your personal activities. Sometimes the workload is so intense that you have to evaluate whether you need to drop an activity to do well in the rest and keep you healthy, physically and mentally. If you find yourself overwhelmed by your personal troubles, workload and responsibilities, please ask for help, the university has professionals that can help you with this. If you have personal problems I can hear you and if I am unable to guide you properly, we can ask for professional help. Keep this in mind, we all care about your health, and health is far more important than a job, a course, and the university.
+
+This is a video from The University of Arizona Global Campus about How to Manage College Stress.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/_2BFj-k__s0?si=B5pTS3Zs0X1EJIUF")
+```
 
 We all know that good grades do not necessarily make you a good person or a good professional. One could have difficulties at school but have such a good professional network, or an impressive ability to do business, or an impressive entrepreneurship spirit. However, grades are still quite useful to assess how well you are at meeting some academic standards and how well you manage to understand the relevant topics in your area of expertise. It is more important to be a good person than a good professional, and the graded activities are specifically designed to partially evaluate your technical abilities as a professional. Then, we all assume that you are a good person, and the course activities will help us to evaluate some of the required skills and competences as professionals. Having said that, I hope you can achieve high grades in this course.
 

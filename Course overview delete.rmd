@@ -1,7 +1,14 @@
-# `r fontawesome::fa("info-circle")` Overview.
+---
+title: ''
+  html_document:
+    df_print: paged
+---
 
-This section includes the course objectives, mechanics, and important information about academic integrity.
+\newpage
 
+# `r fontawesome::fa("info-circle")` Course overview.
+
+In this section I describe and explain the course objectives, mechanics, and important information about academic integrity.
 
 ## `r fontawesome::fa("piggy-bank")` FCF description.
 
@@ -21,23 +28,19 @@ Quantitative fundamentals play a crucial role in understanding modern finance fo
 
 Overall, understanding quantitative fundamentals is crucial in modern finance because it enables informed decision-making, effective risk management, accurate valuation, financial modeling, portfolio management, performance measurement, and successful trading strategies. By leveraging these fundamentals, individuals and institutions can navigate the complex world of finance and enhance their ability to achieve their financial objectives.
 
+<!-- EMF. `r fontawesome::fa("chart-line")` The course incorporates a COIL (Collaborative Online International Learning) activity with students from Universidad Pontificia Bolivariana in Colombia, aiming to foster intercultural understanding among students. Econometrics is a branch of economics that utilizes mathematical and statistical methods to describe economic systems. In the context of finance, financial econometrics applies statistical techniques to address problems specific to the field. For instance, while we may know from previous courses that there exists a negative relationship between interest rates and stock prices, econometrics allows us to measure and assess the strength and dynamics of this relationship. Moreover, financial econometrics enables us to incorporate data into existing financial models, empirically testing their validity and obtaining estimates that are significantly more reliable than informal guesses or estimations.
 
-<!-- ## `r fontawesome::fa("chart-line")` EMF description. -->
-<!-- The course incorporates a COIL (Collaborative Online International Learning) activity with students from Universidad Católica Luis Amigó in Colombia, aiming to foster intercultural understanding among students. Econometrics is a branch of economics that utilizes mathematical and statistical methods to describe economic systems. In the context of finance, financial econometrics applies statistical techniques to address problems specific to the field. For instance, while we may know from previous courses that there exists a negative relationship between interest rates and stock prices, econometrics allows us to measure and assess the strength and dynamics of this relationship. Moreover, financial econometrics enables us to incorporate data into existing financial models, empirically testing their validity and obtaining estimates that are significantly more reliable than informal guesses or estimations. -->
+Forecasting is a key aspect of financial econometrics and holds great importance in decision-making processes across various areas of a company. This course primarily focuses on forecasting methods commonly used in finance and economics. Forecasting entails predicting the future as accurately as possible, leveraging available information such as historical data and awareness of potential future events that might impact the forecasts. This subject is valuable in bridging the gap between being a student and becoming a practitioner in the finance field. We will also explore computational finance using R and Python as a means to learn financial econometrics.
 
-<!-- Forecasting is a key aspect of financial econometrics and holds great importance in decision-making processes across various areas of a company. This course primarily focuses on forecasting methods commonly used in finance and economics. Forecasting entails predicting the future as accurately as possible, leveraging available information such as historical data and awareness of potential future events that might impact the forecasts. This subject is valuable in bridging the gap between being a student and becoming a practitioner in the finance field. We will also explore computational finance using R and Python as a means to learn financial econometrics. -->
+The main electronic textbooks recommended for this course are: @49018680cf534023b6ae0f4e933c475d, and @lozanoEMF. Additionally, there are other highly regarded reference books that employ R, such as: @hanck2020introduction, @gujarati2012basic, @brooks2019introductory, @Oswaldeconometrics, @heiss2020usingR and @mcnulty2021handbook, @RundelIntroduction, @james2013introduction. For Python enthusiasts, see @heiss2020usingPython is a recommended resource. Please refer to the course calendar provided at the end of this syllabus for a detailed overview of topics, activities, and required readings. -->
 
-<!-- The main electronic textbooks recommended for this course are: @49018680cf534023b6ae0f4e933c475d, and @lozanoEMF. Additionally, there are other highly regarded reference books that employ R, such as: @hanck2020introduction, @gujarati2012basic, @brooks2019introductory, @Oswaldeconometrics, @heiss2020usingR and @mcnulty2021handbook, @RundelIntroduction, @james2013introduction. For Python enthusiasts, see @heiss2020usingPython is a recommended resource.  -->
+<!-- Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit risk models and their practical implementation using R and Python. Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. -->
 
-<!-- Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule. -->
+<!-- This course can be viewed as having two main pillars. The first pillar covers modern techniques and methodologies used to identify, quantify, and manage financial risks, particularly credit risk. The second pillar focuses on developing analytical skills and understanding the key financial and economic challenges specific to México. -->
 
-<!-- Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit and market risk models and their practical implementation using R and Python.  -->
+<!-- The main textbooks recommended for this course are: @Hull9, which covers influential credit risk models widely used in the financial industry; @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; and @lozanoARF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books. -->
 
-<!-- Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. Market risk refers to the potential for financial losses arising from adverse movements in market prices, such as the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in the dynamic nature of financial markets, where prices are influenced by various factors such as economic indicators, geopolitical events, interest rates, and overall market sentiment. -->
-
-<!-- The main textbooks recommended for this course are: @Hull9, which covers influential credit risk models widely used in the financial industry; @drake2010basics, @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; @lozanoARF and @lozanoIF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books. -->
-
-<!-- Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule. -->
+<!-- Please refer to the course calendar provided at the end of this syllabus for a detailed overview of the topics, activities, and required readings. -->
 
 <!-- IF. `r fontawesome::fa("cogs")` Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
 
@@ -74,11 +77,11 @@ The main objectives of this course are threefold:
 
 Overall, the course provides a comprehensive learning experience that combines theoretical understanding with practical application. It aims to prepare you for a successful career in finance by fostering your proficiency as a financial professional and enabling you to contribute as a practitioner or junior researcher.
 
-To achieve the objectives of the course, you are required to undertake various tasks throughout the semester. These tasks can be summarized as follows:
+To achieve the objectives of the course, you will be required to undertake various tasks throughout the semester. These tasks can be summarized as follows:
 
-1. **Reading.** You are be expected to engage in extensive reading to grasp the concepts and theories covered in the course. This involves studying the recommended textbooks, academic papers, and other relevant resources provided. Reading is fundamental for understanding the subject matter.
+1. **Reading.** You will be expected to engage in extensive reading to grasp the concepts and theories covered in the course. This will involve studying the recommended textbooks, academic papers, and other relevant resources provided. Reading materials will serve as a foundation for understanding the subject matter.
 
-2. **Hard work.** Success in the course will require dedicated effort and hard work. You need to actively participate in lectures, complete assignments and projects, and actively engage with the course material. It is important to invest sufficient time and energy into mastering the concepts and techniques taught.
+2. **Hard work.** Success in the course will require dedicated effort and hard work. You will need to actively participate in lectures, complete assignments and projects, and actively engage with the course material. It is important to invest sufficient time and energy into mastering the concepts and techniques taught.
 
 3. **Seeking assistance.** Should you encounter difficulties or have questions, it is encouraged to reach me out for assistance. I can help you to clarify concepts, resolve doubts, and ensure a deeper understanding of the material. I am available to support your learning journey.
 
@@ -132,7 +135,7 @@ embed_url("https://youtu.be/Aa01-lwYllU")
 
 In accordance with some of [The Sustainable Development Goals](https://sdgs.un.org/goals) by the United Nations, see @UN17, all the compulsory readings and activity submissions are available in electronic format. Other complementary materials and activities may be incorporated or altered during the semester, depending on relevant news or events that do not currently exist or are hard to anticipate at the beginning of the semester. If that is the case, I will inform you in advance. As a student, you should be confident that all the course materials and activities are perfectly suitable for an undergraduate student enrolled in a prestigious world-class university. In other words, there will not be an intellectual challenge that you cannot overcome with the appropriate amount of enthusiasm, time, work, determination, and, if necessary, assistance. This course is designed in such a way that you can pass and learn as long as you invest the right amount of time and work.
 
-I assume you are aware of the academic regulations dictated by the university, including class attendance and maximum absences allowed. If you are not familiar with them, please review the corresponding student regulations. In this course, we will adhere to those regulations.
+I assume you are aware of the academic regulations dictated by the university. If you are not familiar with them, please review the corresponding student regulations. In this course, we will adhere to those regulations.
 
 ## `r fontawesome::fa("thumbs-up")` Academic integrity.
 
@@ -180,7 +183,7 @@ Integrity is particularly crucial in the realm of finance professionals due to t
 
 In summary, integrity is vital for finance professionals to establish trust, uphold ethical standards, protect confidentiality, manage risks, comply with regulations, maintain a strong professional reputation, and contribute to the overall integrity of the finance industry.
 
-## `r fontawesome::fa("envira", fill = "green")` Sustainable finance. 
+## `r fontawesome::fa("envira")` Sustainable finance. 
 
 I am certified as 'carbon literate' by the [UN Climate Change Conference](https://unfccc.int/) and [Coventry University](https://www.coventry.ac.uk/). The certification represents a robust understanding of the climate context and a commitment to recognizing ways to adjust our behavior to reduce our carbon footprint, as well as influencing our social and professional circles. My view is that one way of achieving a positive impact on the environment and society is to learn more about sustainable finance.
 
