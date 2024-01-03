@@ -70,6 +70,7 @@
 **Session 11. Friday, 16 February.**
 
 - Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. $H_1$ presentations.
 
 **Session 12. Tuesday, 20 February.**
 
@@ -78,6 +79,7 @@
 **Session 13. Friday, 23 February.**
 
 - Graded. $E_1$ Instructions in Blackboard.
+- Graded. $H_1$ and $E_1$ auto and co-evaluation form is available for you to complete after the exam. Instructions in Blackboard.
 - Graded. Submit $H_1$ and $E_1$ auto and co-evaluation before Monday 26 February 10:00 a.m. Instructions in Blackboard.
 
 ## `r fontawesome::fa("battery-half")` Part 2.
@@ -129,6 +131,7 @@
 **Session 21. Friday, 22 March.**
 
 - Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. $H_2$ presentations.
 
 **Holiday. `r fontawesome::fa("umbrella-beach")` Tuesday, 26 March.**
 
@@ -142,6 +145,7 @@
 **Session 23. Friday, 5 April.**
 
 - Graded. $E_2$ Instructions in Blackboard.
+- Graded. $H_2$ and $E_2$ auto and co-evaluation form is available for you to complete after the exam. Instructions in Blackboard.
 - Graded. Submit $H_2$ and $E_2$ auto and co-evaluation before Monday 8 April 10:00 a.m. Instructions in Blackboard.
 
 ## `r fontawesome::fa("battery-three-quarters")` Part 3.
@@ -150,6 +154,7 @@
 
 - Activity. Discuss $E_2$ answers.
 - Extra marks. The wheel of fortune 2/3.
+- Extra marks. DataCamp top 5 XP of the last 90 days.
 
 **Session 25. Friday, 12 April.**
 
