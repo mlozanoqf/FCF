@@ -1,11 +1,15 @@
 
-# `r fontawesome::fa("check-square")` Lecturas.
+# `r fontawesome::fa("check-square")` Ensayos.
+
+Considere las siguientes lecturas introductorias para comprender mejor los temas del curso.
 
 ## Dinero e ideas.
 
+*Autor: Dr. Martín Lozano.*
+
 Como en cualquier otra área de conocimiento, finanzas nos ayuda a comprender mejor el mundo complejo que nos rodea. Considere una simplificación radical en donde en este mundo cada uno de nosotros tiene dinero o ideas.  El dinero representa los recursos materiales, y las ideas son los recursos intelectuales. Tanto las ideas sin financiamiento, como el dinero por si mismos son improductivos. Pero las ideas con financiamiento tienen el potencial de generar más riqueza para los involucrados, y en el agregado crecimiento y desarrollo económico para la sociedad. Así, tenemos dos grupos de personas con intereses complementarios: las personas con dinero buscan oportunidades de inversión para incrementar su riqueza, y las personas con ideas buscan financiamiento para concretar sus proyectos.
 
-En la práctica, las empresas compiten con otras para recibir recursos. Esta batalla con frecuencia es injusta porque frecuentemente es el tamaño de la empresa y no el potencial de la idea lo que atrae al financiamiento. Así, las empresas pequeñas terminan perdiendo, y la brecha entre las grandes y pequeñas aumenta. Por otro lado, si las opciones de financiamiento son escasas, entonces tenemos financiamiento costoso que dificulta que los proyectos tengan utilidades, las cuales son necesarias para que las personas con dinero reciban su compensación en forma de rendimiento. Si el sistema financiero es deficiente, entonces las buenas ideas pueden quedarse sin financiamiento o con uno muy caro, mientras que los malos proyectos podrían recibirlo en condiciones favorables. Por estas y otras razones, las decisiones de inversión y financiamiento son complejas.
+En la práctica, las empresas compiten con otras para recibir recursos. Esta batalla con frecuencia es injusta porque frecuentemente es el tamaño de la empresa y no el potencial de la idea lo que atrae al financiamiento. Así, las empresas pequeñas terminan perdiendo, y la brecha entre las grandes y pequeñas aumenta. Por otro lado, si las opciones de financiamiento son escasas, entonces tenemos financiamiento costoso que dificulta que los proyectos tengan utilidades, las cuales son necesarias para que las personas con dinero reciban su compensación en forma de rendimiento. Si el sistema financiero es deficiente, entonces las buenas ideas pueden quedarse sin financiamiento o con uno muy caro, mientras que los malos proyectos podrían recibirlo en condiciones favorables. Por éstas y otras razones, las decisiones de inversión y financiamiento son complejas.
 
 Incluso si el financiamiento no fuera un problema, todavía queda la posibilidad de que la idea fracase. Esto puede suceder por muchas razones, pero un factor que aglutina a la mayoría es el tiempo. El tiempo debe pasar para que una idea financiada genere los resultados esperados. Y como el tiempo es una fuente de incertidumbre, mientras los proyectos sean de más largo plazo, habrá más posibilidad de que algo salga mal y la idea fracase. Con lo cual, las decisiones de financiamiento e inversión no solo son complejas sino inciertas.
 
