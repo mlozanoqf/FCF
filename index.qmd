@@ -47,6 +47,9 @@ xfun::file_string('contact.html')
 ```{r schedule, child = 'Class schedule sp24.Rmd'}
 ```
 
+```{r schedule, child = 'lecturas.Rmd'}
+```
+
 
 ```{r resources, child = 'Internet resources.Rmd'}
 ```
