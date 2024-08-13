@@ -1,0 +1,213 @@
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+`r fontawesome::fa("piggy-bank")` FCF, Fall 2024. Online 10:00 – 11:30. Zoom [https://us02web.zoom.us/j/89765853595](https://us02web.zoom.us/j/89765853595)
+
+## `r fontawesome::fa("battery-quarter")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Tuesday, August 6.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. You should have received invitations in your UDEM student email.
+- Activity. Define your group of no more than 4 members.
+
+**Session 2. Friday, August 9.**
+
+- Reading. @drake2010basics, Chapter 1 *What is finance?*
+- Reading. @brigham2009fundamentals, Chapter 1 *An overview of financial management*.
+- Complementary material. Video 1/14: [Masters of Finance: Eugene Fama.](https://youtu.be/tRSaz5TIyno)
+
+**Session 3. Tuesday, August 13.**
+
+- Reading. @drake2010basics, Chapter 1 *What is finance?*
+- Reading. @brigham2009fundamentals, Chapter 1 *An overview of financial management*.
+- Complementary material. Video 2/14: [Masters of Finance: Paul A. Samuelson.](https://youtu.be/RbIzwTGN3Yc)
+
+**Session 4. Friday, August 16.**
+
+- Reading. @brigham2009fundamentals, Chapter 2 *Financial markets and institutions*.
+- Reading. @drake2010basics, Chapter 2 *Financial instruments, markets, and intermediaries*.
+- Complementary material. Video 3/14: [Masters of Finance: Robert C. Merton.](https://youtu.be/cmzON43dWA4)
+
+**Session 5. Tuesday, August 20.**
+
+- Reading. @brigham2009fundamentals, Chapter 3 *Financial statements, cash flow, and taxes*.
+- Reading. @drake2010basics, Chapter 4 *Financial statements*.
+- Extra marks 1/10. DataCamp course: *Data Analysis in Excel*, before 10:00 a.m.
+- Actividad individual: Completar el siguiente formulario para confirmar que has leído el syllabus del curso: [Formulario](https://forms.gle/eQBGdheG7YMwwcpDA). Si no se completa, se penaliza con -5 puntos sobre la calificación individual del primer parcial. La hora límite es 10:00 a.m. de la sesión 5.
+- Extra marks. Mentimeter 1/3.
+
+**Session 6. Friday, August 23.**
+
+- Reading. @brigham2009fundamentals, Chapter 3 *Financial statements, cash flow, and taxes*.
+- Reading. @drake2010basics, Chapter 4 *Financial statements*.
+- Extra marks 2/10. DataCamp course: *Introduction to ChatGPT*, before 10:00 a.m.
+- Complementary material. Video 4/14: [Masters of Finance: Michael Jensen.](https://youtu.be/OWP6Hg2bvmo)
+
+**Session 7. Tuesday, August 27.**
+
+- Reading. @brigham2009fundamentals, Chapter 3 *Financial statements, cash flow, and taxes*.
+- Reading. @drake2010basics, Chapter 4 *Financial statements*.
+- Extra marks 3/10. [How to prevent e-waste?](https://unccelearn.org/course/view.php?id=143&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+- Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
+- Complementary material. Video 5/14: [Masters of Finance: Myron Scholes.](https://youtu.be/zqfRmY1cag4)
+
+**Session 8. Friday, August 30.**
+
+- Guest lecturer 1/5.
+
+**Session 9. Tuesday, September 3.**
+
+- Guest lecturer 2/5.
+- Activity. $H_1$ review.
+- Complementary material. Video 6/14: [Masters of Finance: Ken Arrow.](https://youtu.be/A2lUzcr0S6M)
+- Extra marks 4/10. DataCamp course: *Understanding Data Visualization*, before 10:00 a.m.
+
+**Session 10. Friday, September 6.**
+
+- Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. $H_1$ presentations.
+
+**Session 11. Tuesday, September 10.**
+
+- Activity. $E_1$ review.
+
+**Session 12. Friday, September 13.**
+
+- Graded. $E_1$ Instructions in Blackboard.
+- Graded. Co-evaluation 1 form is available for you to complete after the exam. Instructions in Blackboard, in “Homeworks and exams” section.
+
+## `r fontawesome::fa("battery-half")` Part 2.
+
+**Session 13. Tuesday, September 17.**
+
+- Activity. Discuss $E_1$ answers.
+- Extra marks. The wheel of fortune 1/3.
+- Graded. Submit co-evaluation 1 before 10:00 a.m. Instructions in Blackboard, in “Homeworks and exams” section.
+
+**Session 14. Friday, September 20.**
+
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
+- Extra marks 5/10. DataCamp course: *Understanding Machine Learning*, before 10:00 a.m.
+
+**Session 15. Tuesday, September 24.**
+
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
+- Complementary material. Video 7/14: [Masters of Finance: Jack Treynor.](https://youtu.be/TdMf9nkKWhY)
+
+**Session 16. Friday, September 27.**
+
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
+- Extra marks 6/10. [Gender Equality and Human Rights in Climate Action and Renewable Energy.](https://unccelearn.org/course/view.php?id=142&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+
+**Session 17. Friday, October 4..**
+
+- Reading. @brigham2009fundamentals, Chapter 4 *Analysis of financial statements*.
+- Reading. @drake2010basics, Chapter 11 *Financial ratio analysis*.
+
+
+**Session 18. Tuesday, October 8.**
+
+- Activity. $H_2$ review.
+- Extra marks 7/10. DataCamp course: *Analyzing Financial Statements in Python*, before 10:00 a.m.
+
+**Session 19. Friday, October 11.**
+
+- Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. $H_2$ presentations.
+
+**Session 20. Tuesday, October 15.**
+
+- Activity. $E_2$ review.
+
+**Session 21. Friday, October 18.**
+
+- Graded. $E_2$ Instructions in Blackboard.
+- Graded. Co-evaluation 2 form is available for you to complete after the exam. Instructions in Blackboard, in “Homeworks and exams” section.
+
+## `r fontawesome::fa("battery-three-quarters")` Part 3.
+
+<!-- **Holiday. `r fontawesome::fa("umbrella-beach")` Tuesday, 26 March.** -->
+
+**Session 22. Tuesday, October 22.**
+
+- Activity. Discuss $E_2$ answers.
+- Extra marks. The wheel of fortune 2/3.
+- Graded. Submit co-evaluation 2 before 10:00 a.m. Instructions in Blackboard, in “Homeworks and exams” section.
+
+**Session 23. Friday, October 25.**
+
+- Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
+- Reading. @drake2010basics, Chapter 10 *The math of finance*.
+
+**Session 24. Tuesday, October 29.**
+
+- Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
+- Reading. @drake2010basics, Chapter 10 *The math of finance*.
+- Extra marks. Mentimeter 2/3.
+- Complementary material. Video 8/14: [Masters of Finance: Richard Roll.](https://youtu.be/ma7W4Iqfctc)
+
+**Session 25. Friday, November 1.**
+
+- Guest lecturer 3/5.
+- Monday, November 4. Extra marks. DataCamp top 5 XP of the last 90 days.
+- Extra marks 8/10. DataCamp course: *Data-Driven Decision Making for Business*, before 10:00 a.m.
+- Complementary material. Video 9/14: [Masters of Finance: Harry Markowitz.](https://youtu.be/RVWEhCd819E)
+
+**Session 26. Tuesday, November 5.**
+
+- Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
+- Reading. @drake2010basics, Chapter 10 *The math of finance*.
+- Complementary material. Video 10/14: [Masters of Finance: William F. Sharpe.](https://youtu.be/PfVaOn9W3mo)
+
+**Session 27. Friday, November 8.**
+
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
+- Actividad +5 puntos sobe la calificación del primer parcial. Compartir, reaccionar y/o agregar un comentario en redes sociales. *Retos y oportunidadades en el aprendizaje de ciencia de datos en las escuelas de negocios.* [Episodio en Spotify](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [episodio en YouTube](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [publicación en LinkedIn](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Subir evidencia (screenshot) al foro de discusión del tercer parcial. La hora límite es 10:00 a.m. de la sesión 27.
+
+
+**Session 28. Tuesday, November 12.**
+
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
+- Extra marks 9/10. DataCamp course: *Introduction to R*, before 10:00 a.m.
+- Complementary material. Video 11/14: [Masters of Finance: Robert Engle.](https://youtu.be/ejb1Ka2QqCw)
+
+**Session 29. Friday, November 15.**
+
+- Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
+- Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
+- Complementary material. Video 12/14: [Masters of Finance: Fred Weston.](https://youtu.be/12s9LUaYlE0)
+
+**Session 30. Tuesday, November 19.**
+
+- Guest lecturer 4/5.
+- Complementary material. Video 13/14: [Masters of Finance: Maureen O'Hara.](https://youtu.be/vTB1ckSFA-w)
+
+**Session 31. Friday, November 22.**
+
+- Guest lecturer 5/5.
+- Extra marks 10/10. DataCamp course: *Introduction to Python*, before 10:00 a.m.
+- Complementary material. Video 14/14: [Masters of Finance: Stephen Ross.](https://youtu.be/tKIwXnVEjWM)
+
+**Session 32. Tuesday, November 26.**
+
+- Extra marks. Mentimeter 3/3.
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 33. Friday, November 29.**
+
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3.
+- Farewell.
+
+## `r fontawesome::fa("battery-full")` The end.
+
+**Final exam. Friday, December 6, 10:00 – 12:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.

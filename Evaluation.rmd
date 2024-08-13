@@ -2,11 +2,11 @@
 
 Let's see how your final grade $F$ is calculated.
 
-## `r fontawesome::fa("users")` Auto and co-evaluation.
+## `r fontawesome::fa("users")` Co-evaluation.
 
-Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer an auto and co-evaluation for exams $E_1$, $E_2$ and assignments $H_1$, $H_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
+Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two co-evaluations $C_1$ and $C_2$, one for the first part of the course and one for the second part. The first co-evaluation $C_1$ is used to calculate the individual marks of $H_1$ and $E_1$; the second co-evaluation $C_2$ is used to calculate the individual marks of $H_2$ and $E_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
 
-Consider the co-evaluation as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. I am not going to change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
+The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. I am not going to change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
 
 In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
 
@@ -14,52 +14,52 @@ In this video, students from [The University of Melbourne](https://www.unimelb.e
 embed_url("https://youtu.be/_-mP3YKptwQ")
 ```
 
-Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their auto and co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest including himself using a simple Google Form. Then, John Doe's auto and co-evaluation mark $mean(AC)$ is the simple average of his 4 assigned marks. 
+Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest using a simple Google Form. Then, John Doe's co-evaluation mark $mean(C_1)$ is the simple average of his 3 assigned marks. 
 
-In case $mean(AC) \ge 70$, the group mark $H_m \ge 70$ and he does not receive a zero from the group, then John Doe's individual $H_1$ mark is computed as: $H_1=(0.70 \times H_m)+(0.30 \times mean(AC))$. 
+In case $mean(C_1) \ge 70$ and the group mark $H_m \ge 70$, then John Doe's individual $H_1$ mark is computed as: $H_1=(0.70 \times H_m)+(0.30 \times mean(C_1))$.
 
-Otherwise, the individual assignment mark will be the lowest of $mean(AC)$ and $H_m$: $H_1=\mathrm{min}(mean(AC), H_m)$. 
+Otherwise, the individual assignment mark will be the lowest of $mean(C_1)$ and $H_m$: $H_1=\mathrm{min}(mean(C_1), H_m)$. 
 
 Using R:
 
 ```{r}
-fun <- function(AC, Hm) {
-  if (mean(AC) >= 70 && Hm >= 70 && any(AC == 0) == FALSE) { 
-  H <- (0.7 * Hm) + (0.3 * mean(AC)) } # H is the individual assignment mark.
-  else {H <- min(mean(AC), Hm) } # Free-riders are penalized.
+fun <- function(C1, Hm) {
+  if (mean(C1) >= 70 && Hm >= 70) { 
+  H <- (0.7 * Hm) + (0.3 * mean(C1)) } # H is the individual assignment mark.
+  else {H <- min(mean(C1), Hm) } # Free-riders are penalized.
   H }
 ```
 
-Let's evaluate this function in R to see how it works. Assume this auto and co-evaluation is for the $H_1$ and we are calculating John Doe's mark.
+Let's evaluate this function in R to see how it works. Assume this co-evaluation is for the $H_1$ and we are calculating John Doe's mark.
 
 ```{r}
-# Bebito Fiu-Fiu assigns 90 to John Doe.
-# Baby Yoda 0 to John Doe.
-# John Doe 90 (autoevaluation).
-# Winnie Pooh 100 to John Doe.
-AC <- c(90, 0, 90, 100)
+# Bebito Fiu-Fiu assigns 70 to John Doe.
+# Baby Yoda 60 to John Doe.
+# Winnie Pooh 70 to John Doe.
+C1 <- c(70, 60, 70)
 Hm <- 90 # Group mark.
-H1 <- fun(AC, Hm) # Individual mark.
+H1 <- fun(C1, Hm) # Individual mark.
+paste("John Doe's coevaluation in the first assignment is:", round(mean(C1), 2))
+paste("John Doe's individual mark in the first assignment is:", round((H1), 2))
+```
+
+This is because we apply $H_1=\mathrm{min}(mean(C1), H_m) \rightarrow H_1=\mathrm{min}(66.67, 90)\rightarrow H_1=66.67$. 
+
+If instead of 60, Baby Yoda evaluates John Doe with a 80, then:
+
+```{r}
+C1 <- c(70, 80, 70)
+Hm <- 90 # Group mark.
+H1 <- fun(C1, Hm) # Individual mark.
+paste("John Doe's coevaluation in the first assignment is:", round(mean(C1), 2))
 paste("John Doe's individual mark in the first assignment is:", H1)
 ```
 
-This is because we apply $H_1=\mathrm{min}(mean(AC), H_m) \rightarrow H_1=\mathrm{min}(70, 90)\rightarrow H_1=70$. 
+This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{70+80+70}{3}\right) = 85$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 66.67 to 85 depending on Baby Yoda's co-evaluation.
 
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/89wVdX2N18csUVKZ9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
 
-If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
-
-```{r}
-AC <- c(90, 70, 90, 100)
-Hm <- 90 # Group mark.
-H1 <- fun(AC, Hm) # Individual mark.
-paste("John Doe's individual mark in the first assignment is:", H1)
-```
-
-This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{90+70+90+100}{4}\right) = 89.25$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 70 to 89.25 depending on Baby Yoda coevaluation.
-
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/nqVoY8pt9oTddtHK9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
-
-In particular, you will have two Google Forms web links in Blackboard to complete your auto and co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is no auto and co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
+In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
 ## `r fontawesome::fa("flag-checkered")` Final grade $F$. 
 
