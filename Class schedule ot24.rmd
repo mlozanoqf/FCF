@@ -43,6 +43,7 @@
 - Reading. @drake2010basics, Chapter 4 *Financial statements*.
 - Extra marks 2/10. DataCamp course: *Introduction to ChatGPT*, before 10:00 a.m.
 - Complementary material. Video 4/14: [Masters of Finance: Michael Jensen.](https://youtu.be/OWP6Hg2bvmo)
+- Reading. Dinero e ideas. See: @sec-ensayos.
 
 **Session 7. Tuesday, August 27.**
 
@@ -142,6 +143,7 @@
 
 - Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
 - Reading. @drake2010basics, Chapter 10 *The math of finance*.
+- Reading. Interés. See: @sec-ensayos.
 
 **Session 24. Tuesday, October 29.**
 
