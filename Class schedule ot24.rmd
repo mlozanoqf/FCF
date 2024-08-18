@@ -164,6 +164,7 @@
 - Reading. @brigham2009fundamentals, Chapter 5 *Time value of money*.
 - Reading. @drake2010basics, Chapter 10 *The math of finance*.
 - Complementary material. Video 10/14: [Masters of Finance: William F. Sharpe.](https://youtu.be/PfVaOn9W3mo)
+- Reading. Finanzas. See: @sec-ensayos.
 
 **Session 27. Friday, November 8.**
 
@@ -184,6 +185,7 @@
 - Reading. @brigham2009fundamentals, Chapter 6 *Interest rates*.
 - Reading. @drake2010basics, Chapter 18 *The structure of interest rates*.
 - Complementary material. Video 12/14: [Masters of Finance: Fred Weston.](https://youtu.be/12s9LUaYlE0)
+- Reading. There is no free lunch. See: @sec-ensayos.
 
 **Session 30. Tuesday, November 19.**
 
