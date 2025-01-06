@@ -16,42 +16,48 @@ knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
 
 ````{=html}
 ```{r, echo=FALSE, results='asis'}
-xfun::file_string('contact.html')
+xfun::file_string('8 contact.html')
 ```
 ````
 
-```{r introduction, child = 'Introduction.Rmd'}
+<!-- {{< fa thumbs-up >}}  -->
+<!-- {{< fa folder >}} -->
+<!-- {{< fa chess-pawn >}} -->
+<!-- {{< fa brands bluetooth >}} -->
+<!-- {{< fa brands twitter size=2xl >}} -->
+<!-- {{< fa brands github size=5x >}} -->
+<!-- {{< fa battery-half size=Huge >}} -->
+<!-- {{< fa envelope title="An envelope" >}} -->
+
+```{r introduction, child = '1 Well.Rmd'}
 ```
 
 
-```{r overview, child = 'Course overview.Rmd'}
+```{r overview, child = '2 Over.Rmd'}
 ```
 
 
-```{r data science, child = 'Data Science.Rmd'}
+```{r data science, child = '3 Data.Rmd'}
 ```
 
 
-```{r resources and activities, child = 'Learning resources and activities.Rmd'}
+```{r resources and activities, child = '4 RA.Rmd'}
 ```
 
 
-```{r evaluation, child = 'Evaluation.Rmd'}
+```{r evaluation, child = '5 Eva.Rmd'}
 ```
 
 
-```{r check, child = 'Checklist.Rmd'}
+```{r check, child = '6 PoliCheck.Rmd'}
 ```
 
 
 ```{r schedule, child = 'Class schedule ot24.Rmd'}
 ```
 
-```{r schedule, child = 'lecturas.Rmd'}
-```
 
-
-```{r resources, child = 'Internet resources.Rmd'}
+```{r resources, child = '7 Int.Rmd'}
 ```
 
 ```{r include=FALSE}

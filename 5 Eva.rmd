@@ -6,7 +6,7 @@ Let's see how your final grade $F$ is calculated.
 
 Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two co-evaluations $C_1$ and $C_2$, one for the first part of the course and one for the second part. The first co-evaluation $C_1$ is used to calculate the individual marks of $H_1$ and $E_1$; the second co-evaluation $C_2$ is used to calculate the individual marks of $H_2$ and $E_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
 
-The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. I am not going to change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
+The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I do not reveal specific details about how you co-evaluate your colleagues. So, your co-evaluation details will remain anonymous. I cannot change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
 
 In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
 
@@ -43,7 +43,7 @@ paste("John Doe's coevaluation in the first assignment is:", round(mean(C1), 2))
 paste("John Doe's individual mark in the first assignment is:", round((H1), 2))
 ```
 
-This is because we apply $H_1=\mathrm{min}(mean(C1), H_m) \rightarrow H_1=\mathrm{min}(66.67, 90)\rightarrow H_1=66.67$. 
+This is because we apply $H_1=\mathrm{min}(mean(C_1), H_m) \rightarrow H_1=\mathrm{min}(66.67, 90)\rightarrow H_1=66.67$. 
 
 If instead of 60, Baby Yoda evaluates John Doe with a 80, then:
 
@@ -57,11 +57,11 @@ paste("John Doe's individual mark in the first assignment is:", H1)
 
 This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{70+80+70}{3}\right) = 85$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 66.67 to 85 depending on Baby Yoda's co-evaluation.
 
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/89wVdX2N18csUVKZ9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/Rzd6Chv89X5HR4rWA>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
 
 In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
-## `r fontawesome::fa("flag-checkered")` Final grade $F$. 
+## `r fontawesome::fa("flag-checkered")` Final grade. 
 
 The final grade $F$ is computed as follows:
 $$
@@ -155,9 +155,9 @@ tex2markdown(textable)
 
 In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
 
-## `r fontawesome::fa("marker")` General rubric. 
+## `r fontawesome::fa("marker")` Rubrics. 
 
-The following list illustrates a typical rubric for graded activities.
+The following list illustrates a typical generic rubric for graded activities.
 
 **What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
 
@@ -173,9 +173,83 @@ embed_url("https://youtu.be/NPwTgfswnD8")
 
 You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
 
-## `r fontawesome::fa("hands-helping")` If you are struggling with the course. 
+Following the assignment and exam instructions are important to get full marks. Here, I define a few common verbs used in assignment and exam instructions.  
 
-In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are in the first page of this syllabus. The email is definitely the best way to initially approach me.
+1. **Define.** State the precise meaning of a term or concept. Your response should be concise, accurate, and free from ambiguity, often including a formal or widely accepted definition.  
+1. **Describe.**  Provide a detailed account of the characteristics or features of a concept, process, or phenomenon. Focus on "what it is" and include relevant details, but avoid analysis or interpretation unless specified.  
+1. **Explain.**  Clarify the "why" or "how" of a concept or phenomenon. Provide reasoning, causes, or mechanisms to ensure the topic is fully understood, often using examples or logical arguments to support your answer.  
+1. **Replicate.** (e.g., replicate a figure or table). Reproduce a figure, table, or result from provided data or information using appropriate tools and methods. Ensure that the replication matches the original in terms of accuracy, formatting, and presentation.  
+1. **Compare.** Identify and discuss the similarities between two or more items, concepts, or processes. Highlight key points of resemblance and ensure the comparison is structured and focused.  
+1. **Contrast.**  Identify and discuss the differences between two or more items, concepts, or processes. Highlight key points of distinction while maintaining a clear structure in your response.  
+1. **Evaluate.**  Assess the strengths, weaknesses, or implications of a concept, argument, or result. Your answer should include a reasoned judgment supported by evidence or criteria, rather than mere opinion.  
+1. **Analyze.**  Break down a topic or problem into its essential components to examine relationships, patterns, or underlying principles. Your response should include interpretation and insight based on evidence or logical reasoning.  
+1. **Extend.** (e.g., extend an analysis or model)  Go beyond the original scope of an analysis or model by adding new elements, perspectives, or considerations. This could involve applying it to new data, proposing modifications, or exploring additional implications.  
+1. **Estimate.**  Provide an approximate calculation, measurement, or judgment based on available data, information, or assumptions. Clearly state the method or reasoning used to arrive at your estimate and acknowledge its potential limitations.  
+1. **Comment.** Provide a brief but insightful observation or opinion on a topic, issue, or result. Your response should be concise and focused, offering interpretation, critique, or additional perspective without requiring extensive elaboration.
+1. **Discuss.** Explore a topic in depth by presenting a balanced argument or analysis. Your response should include multiple viewpoints, evidence, or examples, and may evaluate or interpret different aspects of the topic. A structured and thorough approach is expected.
+
+This is a complementary rubric for some kind of quantitative assignments.
+
+**Criterion 1: Comments and explanations in the code.**
+
+| Level.            | Description.                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 3. Complete (86 – 100).  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. |
+| 2. Adequate (70 – 85).   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. |
+| 1. Insufficient (0 – 69).| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. |
+
+---
+
+**Criterion 2: Quality of analysis.**
+
+| Level.            | Description.                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 3. Ambitious & in-depth (86 – 100).  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. |
+| 2. Adequate (70 – 85).   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. |
+| 1. Insufficient (0 – 69).| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. |
+
+---
+
+**Criterion 3: Report structure.**
+
+| Level.            | Description.                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 3. Clear & logical (86 – 100).  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. |
+| 2. Adequate (70 – 85).   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. |
+| 1 – Confusing & disorganized (0 – 69).| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. |
+
+
+<!-- **Criterio 1: Comentarios y explicaciones en el código.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Completo (86 – 100)**  | El código está bien documentado con comentarios claros que explican las secciones clave. Las explicaciones en inglés son bien redactadas, con un hilo conductor lógico, y demuestran un sólido entendimiento de lo que se está haciendo y su propósito. Los comentarios demuestran no solo un entendimiento de lo que se está haciendo, sino también de por qué se hacen de esa manera, mostrando una comprensión avanzada de las decisiones de diseño. | -->
+<!-- | **2 – Adecuado (70 – 85)**   | El código incluye algunos comentarios, pero faltan en varias secciones clave. Las explicaciones en inglés son comprensibles, aunque pueden tener errores menores o falta de coherencia en el hilo conductor. El entendimiento del propósito es adecuado pero no profundo. Los comentarios son suficientes pero no profundizan en las decisiones de diseño o en la justificación de las implementaciones. | -->
+<!-- | **1 – Insuficiente (0 – 69)**| El código tiene pocos o ningún comentario, y las explicaciones en inglés son mínimas, mal redactadas, o inexistentes. No se demuestra un entendimiento claro de lo que se está haciendo ni de su propósito. La ausencia o escasez de comentarios hace que el código sea difícil de entender para terceros, afectando la calidad del reporte. | -->
+
+<!-- --- -->
+
+<!-- **Criterio 2: Calidad del análisis.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Ambicioso y Profundo (86 – 100)**  | El análisis es original, ambicioso, y profundamente desarrollado. Cumple con todas las instrucciones de la actividad, es claro, detallado y bien fundamentado. La solución presentada es creativa, bien estructurada y demuestra un entendimiento profundo del problema. El análisis no solo es profundo y ambicioso, sino que también anticipa y aborda posibles problemas o limitaciones en la solución propuesta. | -->
+<!-- | **2 – Adecuado (70 – 85)**   | El análisis es pertinente y cumple con la mayoría de las instrucciones de la actividad. Es claro y detallado, pero puede carecer de profundidad o creatividad. La solución presentada es correcta, pero no destaca por su originalidad o fundamentación exhaustiva. El análisis es adecuado pero puede no explorar completamente todas las posibles alternativas o implicaciones de la solución. | -->
+<!-- | **1 – Insuficiente (0 – 69)**| El análisis se aleja de las instrucciones de la actividad, es superficial o se limita a reproducir el material de estudio sin aportar ideas propias. La solución presentada es incompleta, mal fundamentada, o incorrecta. La falta de un análisis profundo sugiere una comprensión limitada del problema o de las posibles soluciones. | -->
+
+<!-- --- -->
+
+<!-- **Criterio 3: Estructura del reporte.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Clara y lógica (86 – 100)**  | El reporte está bien organizado con secciones y subsecciones claras. La estructura es lógica y facilita la comprensión de los resultados. La redacción es clara, y el contenido está bien presentado, priorizando calidad y claridad. La estructura lógica del reporte resalta los puntos clave del análisis, facilitando la comprensión del lector. | -->
+<!-- | **2 – Adecuada (70 – 85)**   | El reporte está organizado, pero puede carecer de algunas subsecciones necesarias o presentar una estructura que no siempre es fácil de seguir. La redacción es en general clara, aunque puede tener algunas partes confusas. Una estructura menos clara puede hacer que los argumentos pierdan fuerza y dificultar la presentación de resultados. | -->
+<!-- | **1 – Confusa y desordenada (0 – 69)**| El reporte carece de una estructura lógica, con secciones confusas o mal organizadas. La redacción es difícil de seguir y compromete la comprensión de los resultados. El reporte es extenso pero carece de claridad y calidad en el contenido. Una estructura confusa no solo dificulta la comprensión, sino que también compromete una evaluación justa del trabajo presentado. | -->
+
+## `r fontawesome::fa("hands-helping")` Help. 
+
+In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are at the beginning of this syllabus. The email is definitely the best way to initially approach me.
 
 In case you get a low mark in one activity or you get difficulties at some specific topic you should take immediate actions in order to quickly revert this. I am not planning to relax the marking criterion so what you have to do is to improve your own quality standards in order to pass given my marking standards and my expectations about your academic performance. You are free to contact me in case you need assistance about specific strategies to improve your academic performance.
 

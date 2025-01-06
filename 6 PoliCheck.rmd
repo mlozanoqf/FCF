@@ -1,0 +1,66 @@
+# `r fontawesome::fa("gavel")` Policies. {#sec-policies}
+
+It is your responsibility as a student to read the syllabus to ensure good performance in the course, and I assume that you have read it and understand it well, including the following policies.
+
+## `r fontawesome::fa_i("clock", class = "fa-solid")` Tardiness.
+
+1. In face-to-face classes, three tardies count as one absence. Tardies accumulate over the course of the semester. A tardy is recorded if the student arrives immediately after attendance is taken and remains for the rest of the class. If a student is marked as present or tardy, this can be changed to an absence if they leave the classroom or do not stay until the end of the class.
+1. If the class is online, there is no tardy policy, and attendance will be based on the user log provided by Zoom.
+1. In face-to-face classes, we usually hold a few Zoom sessions during the semester (see @sec-schedule for details). During these sessions, the tardy policy is the same as in online classes.
+1. In face-to-face classes, unless a different rule is set by the academic department, I allow my students to attend class via Zoom as an exception rather than regularly. If this applies to you, simply notify me by email.
+1. With respect to the maximum absences policy, we will adhere to the current university regulations.
+
+
+## `r fontawesome::fa("people-group")` Groups.
+
+1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students at the beginning of the semester. 
+1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit.
+1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify expulsion from the team or a penalty in the peer evaluation. If things do not work well within the team, I will be in a better position to help you if there is evidence that the agreed-upon rules were not followed. These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way.
+1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. This first option is a decision made by the group in which I do not intervene. Another option is for the group to remove the member due to poor performance, but in such cases, the group must have clear and concrete evidence that the initial group agreements were not upheld. For this second option, I must intervene to authorize, validate the evidence and make the necessary changes to the group formation.
+
+
+## `r fontawesome::fa("circle-nodes")` Meetings.
+
+1. We can arrange 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. If you need more time, we can arrange for additional meetings or extend the duration as needed.
+1. Meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability as I do not have fixed office hours during the semester. 
+1. This is the Zoom link for all meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512).
+1. The student or the group may request that the Zoom meeting be recorded, and I can share the recording with them for future reference.
+
+
+## `r fontawesome::fa_i("file-code", class = "fa-solid")` DataCamp.
+
+1. We rely on DataLab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
+1. DataLab is the platform used for completing and submitting evaluated activities, such as assignments and exams. In this class, it is important to note that DataLab is not a repository for uploading files. All deliverables, including tasks and exams, must be created directly within the DataLab environment in the form of Jupyter notebooks (.ipynb). While DataLab technically allows uploading files in formats like PDF or MS Word, these formats are not acceptable for evaluated activities in this class. You are required to complete your work directly in the provided Jupyter notebook environment within DataLab, ensuring consistency and proper evaluation of your submissions.
+1. In my experience, my students create and work with various documents within DataLab. For convenience, I have created a folder called "submissions" in your workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder and to use it so that I can easily identify the documents I need to assess and grade.
+1. After completing your final exam $E_F$, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
+
+
+## `r fontawesome::fa("jedi")` Others.
+
+1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
+1. The partial grades I will report for the first and second periods will be the ones the student achieves in their partial exams $E_1$ and $E_2$.
+1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.
+1. The final exam $E_F$ is the last activity of the semester. No activities are planned after the final exam to pass the course.
+1. Other more specific instructions and policies are in @sec-activities and @sec-evaluation.
+
+
+# `r fontawesome::fa("check-square")` Checklist.
+
+Please consider the following checklist to improve the chances to achieve a good performance in this course.
+
+1.  Read very consciously this document as it contains important information about the course, including the attached videos and references. You might need to read it several times during the semester. Quoting Yoda `r fontawesome::fa("jedi-order")`: *read the syllabus you must.*
+1.  If you consider learning how to code is very difficult and you think you need more practice, then take all the [Swirl](https://swirlstats.com/) and [DataCamp](https://www.datacamp.com/) courses that you want or need. I teach a course of R every year, and you can also contact me if you need further help. You are expected to learn new things, and this is only one of them.
+1.  If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
+1.  Always keep academic quality standards high for your own work and overall course performance. Find your own motivation and keep a regular weekly progress to study the course material in advance.
+1.  If you fail one activity do not get angry or upset as this is the best way to frustration. You better do the activity again by yourself the best way you can. You may say *how can I do it again if I failed?* Well, just remember we have one class session in which we discuss the correct exam and homework assignment answers, so look at your class notes again because you will find the answers there. Once you do that, you are free to contact me to comment on your work or to verify that now you know how to do it correctly. Most of the students who sadly fail this class ignore this recommendation because they are truly convinced that they do not understand or get frustrated because they fail to understand in the first attempts. Try and try again, eventually you will get it.
+1.  If you have trouble with your group members because they fail to work under the basic standards, and you consider it unfair to include their names in the assignment cover sheet, remember you can co-evaluate them with 0 to activate a straight penalty in his or her mark. Your homework assignment co-evaluation will remain anonymous.
+1.  Never get frustrated for too long because there will be no challenge that you cannot overcome with the right amount of time and effort. If after all you get frustrated, upset, or angry, do not let it happen too frequently and do not let it last for long. Ask for help whenever you need it, and remember you are free to contact me.
+1.  Remember the evaluation method is particularly beneficial for students because of how the average is calculated. Instead of simply averaging the grades, I use a weighted system for both assignments and partial exams. For each category, the lower grade is weighted at 30% and the higher grade at 70%. This approach ensures that stronger performance is given greater importance, encouraging improvement and rewarding effort.
+1.  If you would like to share something (anything) with me, feel free to do so. My email is: <tt>`<martin.lozano@udem.edu>`</tt>.
+1. Follow number 1.
+
+Prof. Dan Fleisch describes an effective way to ask for help in college classes.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/dXG9UgW65fU")
+```

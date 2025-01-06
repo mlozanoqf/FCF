@@ -1,8 +1,8 @@
-# `r fontawesome::fa("brain")` Resources.
+# `r fontawesome::fa("brain")` Resources. {#sec-resources}
 
 Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
 
-## `r fontawesome::fa("toolbox")` Learning resources.
+<!-- ## `r fontawesome::fa("toolbox")` Learning resources. -->
 
 Here is a list and description of the available resources to help you learn the subject. My advice is to utilize as many resources as possible, as they will enable you to grasp the subject matter and develop the necessary professional competences.
 
@@ -26,19 +26,19 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 <!-- **Audio files (if available).** I explain part of the course material with my *sweet melodic* voice. Some students might have difficulties at understanding the required readings and I believe these mp3 audio files are useful to better understand some topics. It is compulsory to listen to them before the class session. Please note that not all the course material is discussed in audio files, for this reason you are not supposed to listen to audio files and ignore the rest of the course material, all resources complement each other. Audio files are not listed in the course calendar, but it will be easy for you to identify which audio file corresponds to each course topic. -->
 
-**Review sessions.** We have review sessions for assignments and exams, which take place before the assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams.
+**Review sessions.** We have review sessions for assignments and exams, which take place before the assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams. I usually avoid to discuss new material during these review sessions.
 
-Please see some recommendations about review sessions:
+See some recommendations about review sessions:
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/XoHx_UIgtt0")
 ```
 
-**Discussion forums.** There are three discussion forums available for us to interact and engage with one another. Each forum corresponds to a different part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums. Additionally, we may use the discussion forums as a means to submit individual activities.
+**Discussion forums.** There are three discussion forums available for us to interact and engage with one another. Each forum corresponds to a different part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums.
 
-**Email.** You are welcome to contact me via email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails containing important information, so please ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.
+**Email.** You are welcome to contact me via email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails containing important information, so ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.
 
-**Meetings.** Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512). For the class session Zoom link, please refer to the course calendar: @sec-schedule.
+**Meetings.** Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512). For the class session Zoom link, refer to the course calendar: @sec-schedule.
 
 **Book.** The book (or books) is one of the main pillars of this course. In my experience, learning primarily occurs through reading and then reinforcing the concepts through practical application, although there are various other activities included in this course. The authors of the book are esteemed experts in their respective fields: John C. Hull from [University of Toronto](https://www.utoronto.ca/); Frank Fabozzi from [Johns Hopkins Carey Business School](https://carey.jhu.edu/); Richard A. Brealey from [London Business School](https://www.london.edu/); Stewart C. Myers from [Sloan School of Management, Massachusetts Institute of Technology](https://mitsloan.mit.edu/); Franklin Allen from [Imperial College London](https://www.imperial.ac.uk/); Rob J. Hyndman and George Athanasopoulos from [Monash University](https://www.monash.edu/); ad Eugene F. Brigham and Joel F. Houston from [University of Florida](https://www.ufl.edu/). These books are not only suitable for intermediate and advanced undergraduate degrees but also for first-year master's degrees. I prefer using the original versions of the books rather than translations because, in my experience, the translations may not always match the quality of the original English version and, in some cases, may not be available.
 
@@ -46,7 +46,7 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 
 **Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, AI tools, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
 
-# `r fontawesome::fa("tasks")` Activities.
+# `r fontawesome::fa("tasks")` Activities. {#sec-activities}
 
 Learning activities are structured tasks or exercises designed to facilitate the acquisition of knowledge, skills, and understanding in an educational context. They are intended to promote active engagement, deepen understanding, and support the achievement of specific learning objectives.
 
@@ -56,7 +56,7 @@ The learning activities are classified into graded, non-graded, and extra marks 
 
 ## `r fontawesome::fa("check")` Exams. 
 
-We have two partial exams, $E_1$ and $E_2$, which together contribute 40% to the final grade, as well as one final exam, $E_F$, which accounts for 30% of the final grade. In total, these three exams represent 70% of the final grade, while the remaining 30% consists of two homework assignments, denoted as $H_1$ and $H_2$.
+We have two partial exams, $E_1$ and $E_2$, which together contribute 40% to the final grade, as well as one final exam, $E_F$, which accounts for 30% of the final grade. In total, these three exams represent 70% of the final grade, while the remaining 30% consists of two homework assignments, denoted as $H_1$ and $H_2$. In sum: 40% partial exams, 30% assignments, 30% final exam.
 
 All the topics covered in this course will be evaluated in the exams. If you aim to achieve an outstanding final grade, I strongly advise you to take thorough class notes throughout the semester.
 
@@ -72,7 +72,7 @@ This one is good as well. In this video, students from [The University of Melbou
 embed_url("https://youtu.be/Lll3MsS5chk")
 ```
 
-**When?** The exams will be conducted as per the course calendar @sec-schedule, aligning with the official dates specified by the university for partial and final exams. Both $E_1$ and $E_2$ will be 1.5-hour activities conducted during the class session, while $E_F$ will last for 2 hours. In the case of 3-hour class sessions, the $E_1$ and $E_2$ exams will be administered in the first part of the class, and we will review the exam answers on the same day during the second part of the class session. Note that the final exam date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.
+**When?** The exams will be conducted as per the course calendar @sec-schedule, aligning with the official dates specified by the university for partial and final exams. Both $E_1$ and $E_2$ will be 1.5-hour activities conducted during the class session, while $E_F$ will last for 2 hours. In the case of 3-hour class sessions, the $E_1$ and $E_2$ exams will be administered in the first part of the class, and we will review the exam answers on the same day during the second part of the class session.
 
 Please consider the following recommendations about exams:
 
@@ -80,21 +80,24 @@ Please consider the following recommendations about exams:
 embed_url("https://youtu.be/w1w0dkHdakE")
 ```
 
-**Individual or in groups?** All exams $E_1$, $E_2$, and $E_F$ are group activities, with a maximum of 4 students per group. If there are more than 4 students in a group, a significant mark deduction will be applied. You have the freedom to define your own groups, and these groupings will remain fixed throughout the semester. Each group will be assigned a distinctive name. These groups will also be used for the homework assignments $H$. Please note that the class list may change during the semester due to late enrollments or dropouts. In such cases, group members may change, but the maximum number of students per group will remain the same. Your group will have private access to a Datalab project, where only your group members and I will have editing privileges.
+**Individual or in groups?** All exams $E_1$, $E_2$, and $E_F$ are group activities, with a maximum of 4 students per group. These groups will also be used for the homework assignments $H_1$ and $H_2$. Your group will have private access to a DataLab workbook, where only your group members and I will have editing privileges. Please see @sec-policies for further details about group policies.
 
-**Do all group members receive the same mark?** Not necessarily. Individual activities may contribute to earning extra marks in $E_1$, $E_2$ and $E_F$. Additionally, if a group member fails to contribute, they will receive a zero mark for that particular activity. While I assign a group mark that is the same for all group members, you are also required to complete a co-evaluation. Then, your individual exam mark is a combination of the group mark assigned by me, extra marks, and the co-evaluation marks assigned by you and your colleagues. Please find the full details in @sec-evaluation.
+**Do all group members receive the same mark?** Not necessarily. Individual activities may contribute to earning extra marks in $E_1$, $E_2$ and $E_F$. Additionally, if a group member fails to contribute, they will receive a zero mark for that particular activity. While I assign a group mark that is the same for all group members, you are also required to complete a co-evaluation. Then, your individual exam mark is a combination of the group mark assigned by me, extra marks, and the co-evaluation assigned by your colleagues. Please find the full details in @sec-evaluation.
 
 **Where?** Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable internet connection. I will be available during the exams through Zoom, and while joining the Zoom session is not mandatory, please be aware that I will be accessible in case you need any assistance. The Zoom link for the exams is the same as the one assigned to the course. It is important to note that for 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the $E_1$ and $E_2$ exams. I can create Zoom rooms for your group to answer the exam if you wish.
 
-**How many questions?** For both $E_1$ and $E_2$, there will be a total of 4 questions, out of which you are required to answer 3. This allows you the opportunity to choose the 3 questions that you feel most confident about. As for $E_F$, there will be 5 questions, and you are expected to answer 4. All questions carry equal weight. It is important to note that attempting to answer all the exam questions is not recommended, as it may result in a significant deduction of marks. The $E_F$ covers all the topics and activities covered in the course. To ensure convenience, one question from $E_1$ and one question from $E_2$ will be included in $E_F$ with minor modifications. This means that if you have prepared well for $E_1$ and $E_2$, you should be able to answer at least 50% of the $E_F$ correctly. However, if you take the exam on a different date for any reason, your $E_1$ or $E_2$ will consist of 3 questions instead of 4. In this case, you will not have the advantage of leaving one exam question unanswered. The same principle applies to the $E_F$.
+**How many questions?** For both $E_1$ and $E_2$, there will be a total of 4 questions, out of which you are required to answer 3. This allows you the opportunity to choose the 3 questions that you feel most confident about. As for $E_F$, there will be 5 questions, and you are expected to answer 4. All questions carry equal weight. It is important to note that if you answer all questions may result in a significant mark deduction, you only have to answer 3 out of 4 for partial exams and 4 out of 5 for the final exam. The $E_F$ covers all the topics and activities covered in the course. To ensure convenience, one question from $E_1$ and one question from $E_2$ will be included in $E_F$ with minor modifications. This means that if you have prepared well for $E_1$ and $E_2$, you should be able to answer at least 50% of the $E_F$ correctly. However, if you take the exam on a different date for any reason, your $E_1$ or $E_2$ will consist of 3 questions instead of 4. In this case, you will not have the advantage of leaving one exam question unanswered. The same principle applies to the $E_F$.
 
-**What are typical exam questions?** I always allow my students to retain their own partial exams, so it is possible that you can find previous partial exams. It is important to note that the course material evolves, and exam questions change every semester. However, reviewing old exams can provide you with a good understanding of the types of questions you can expect. I often include questions that require the use of R and/or Python, and the exam questions typically involve analysis and interpretation of results. To assist you in your exam preparation, we will have review class sessions and mock exams prior to each graded exam. If additional time is needed for review, we can utilize the discussion forum for that purpose.
+**What are typical exam questions?** I always allow my students to retain their own partial exams, so it is possible that you can find previous partial exams. It is important to note that the course material evolves, and exam questions change every semester. However, reviewing old exams can provide you with a good understanding of the types of questions you can expect. I often include questions that require the use of R and/or Python, and the exam questions typically involve analysis and interpretation of results. To assist you in your exam preparation, we will have review class sessions prior to each graded exam. If additional time is needed for review, we can utilize the discussion forum for that purpose.
 
-**What are the mechanics?** The exam instructions will be available to you in an electronic format (.ipynb file) according to the course calendar. These instructions will automatically appear in Blackboard 5 minutes before the start of the class session. Once the file is available, you will need to download it and upload it to your own Datalab project, which should be named after your group. You and your group members will then collaborate online to solve the exam within the given time frame. There is no need to submit your exam file separately, as I have access to your Datalab project and can make an electronic copy for review and grading. It is important to ensure that you finish the exam before the specified time deadline. A few days later, you will receive your group's mark, along with comments and feedback. Please note that during the exam, I may quietly visit your notebook to monitor your progress `r fontawesome::fa("eye")`.
+**What are the mechanics?** The exam instructions will be available to you in an electronic format (.ipynb file) according to the course calendar. These instructions will automatically appear in Blackboard 5 minutes before the start of the class session. Once the .ipynb file is available, you will need to download it and upload it to your own DataLab workbook, which should be named after your group. You and your group members will then collaborate online to solve the exam within the given time frame. There is no need to submit your exam file separately, as I have access to your DataLab workbook and can make an electronic copy for review and grading. It is important to ensure that you finish the exam before the specified time deadline. A few days later, you will receive your group's mark, along with comments and feedback. Please note that during the exam, I may quietly visit your notebook to monitor your progress `r fontawesome::fa("eye")`.
+
+**How does DataLab work?**
+It is possible that this is your first time working with "Jupyter Notebooks." DataCamp includes a feature called DataLab, where each team has access to a private "workbook." This is a secure workspace where only your team and I, as your instructor, have access. DataLab workbooks can load and create "notebooks," which are files with the .ipynb extension. Each notebook is a collaborative document, similar to an MS Word document, that supports R and Python code, professional mathematical notation, markdown, and text. Notebooks can be organized into folders within a workbook. The homeworks and exams instructions will be provided as notebooks, which you must upload to your workspace to complete the activities and answer the exam questions.
 
 **Can we open the textbook during the exam?** Yes, you are allowed to use the Internet and all course materials during the exams. The purpose of the exams is to assess your reasoning, coding, and analytical skills rather than your ability to memorize concepts or perform internet searches. The exam questions are designed in a way that the answers cannot be found online, in the textbook, or in a test bank. Even AI tools frequently fail to provide full correct answers because most of the time questions are very specific and data oriented. While the questions are based on the course material, they are typically new and original. However, it is important to note that you are expected to answer the exam on your own, with the assistance of your own group, which should consist of no more than 4 students. 
 
-**Are we going to review the exam answers?** Yes, the class session after the exam is a Zoom session to solve the exam questions and discuss the correct approach to answering them. This applies only to $E_1$ and $E_2$; we cannot do it for $E_F$ because classes are over by then. Exam questions are open-ended, and there are usually multiple ways to answer them correctly. Therefore, we will discuss a range of correct answers and common mistakes. Sometimes students are accustomed to closed-ended and singular answers, but that is often not the case in this course. If we require more time to discuss the exam answers, we can utilize the discussion forum, Datalab, or you can request an online meeting. This is important as we usually have limited time during the class session. Correcting your own mistakes in the exam is a valuable way to learn and practice for the final exam.
+**Are we going to review the exam answers?** Yes, the class session after the exam is a Zoom session to solve the exam questions and discuss the correct approach to answering them. This applies only to $E_1$ and $E_2$; we cannot do it for $E_F$ because classes are over by then. Exam questions are open-ended, and there are usually multiple ways to answer them correctly. Therefore, we will discuss a range of correct answers and common mistakes. Sometimes students are accustomed to closed-ended and singular answers, but that is often not the case in this course. If we require more time to discuss the exam answers, we can utilize the discussion forum, DataLab, or you can request an online meeting. This is important as we usually have limited time during the class session. Correcting your own mistakes in the exam is a valuable way to learn and practice for the final exam.
 
 **What if we fail to understand our own mistakes?** Regardless of the activity, if you have any difficulty understanding your mistakes, it is expected that you reach out to me for clarification. In such cases, I may request you to attempt the questions again before we can discuss your specific mistakes in a meeting. It is important to note that the grade you receive in the exam, which includes individual extra marks and the co-evaluation, will be reported as your partial grade.
 
@@ -102,7 +105,7 @@ embed_url("https://youtu.be/w1w0dkHdakE")
 
 ## `r fontawesome::fa("check")` Homework assignments. 
 
-We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one non-graded homework $H_3$ in English. Assignments are good practice towards exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to start working on them as soon as possible. You can always show me your assignment progress and I can give you comments to improve. Datalab allow you to add comments to some specific part of your assignment, if you tag me as <tt>`@martin.lozano@udem.edu`</tt> then I will receive an email notification to review your specific question, then I will answer you back as a reply to your original comment and you will receive an email notification as well.
+We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one non-graded homework $H_3$ in English. Assignments are good practice towards exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to start working on them as soon as possible. You can always show me your assignment progress and I can give you comments to improve. 
 
 **When?** The fixed deadline to complete homework assignments is 10:00 a.m. on the day marked in the course calendar and there is no late homework policy at all. This basically means that if you fail to do the assignment, and/or if you have an empty, wrong, or corrupted file by the deadline, then the group mark is zero. This is important because sadly there are always some students who forget or simply ignore this information no matter how much I insist on this. The $H_1$ is due a few days before $E_1$; $H_2$ is due a few days before $E_2$; and $H_3$ is due a few days before $E_F$. I recommend taking enough time to plan and execute the required tasks in the assignments. Usually, low marks in this activity are not precisely because the assignment is difficult, but because the group started the assignment a couple of days before the deadline.
 
@@ -110,9 +113,9 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one
 
 **Do all group members receive the same mark?** The same as in the case of exams.
 
-**What are typical assignment questions?** You should expect applied questions, some of them with a research-oriented approach. These questions will require you to develop computational code in R and/or Python. You will need to learn new things and conduct some research to be able to tackle them correctly. However, you are not alone in this process, you have a long list of resources described in this syllabus including my help in the form of synchronous Zoom meetings, or asynchronous communications via Datalab, or email communication.
+**What are typical assignment questions?** You should expect applied questions, some of them with a research-oriented approach. These questions will require you to develop computational code in R and/or Python. You will need to learn new things and conduct some research to be able to tackle them correctly. However, you are not alone in this process, you have a long list of resources described in this syllabus including my help in the form of synchronous Zoom meetings, or asynchronous communications via DataLab, or email communication.
 
-**What are the mechanics?** This is similar to the case of exams. The assignment instructions will be available for you in an electronic format in Blackboard. As soon as the file is available, you will have to upload the instructions in your own Datalab project named as your group, and solve it online with your group. By the deadline, I will make a copy of your notebook to review it and mark it. There is no need to submit your assignment file as I have access to your Datalab project to make an electronic copy, you only have to make sure to finish before the deadline. A few days later, you will receive your group mark and some comments.
+**What are the mechanics?** This is similar to the case of exams. The assignment instructions will be available for you in an electronic format in Blackboard. As soon as the file is available, you will have to upload the instructions in your own DataLab workbook named as your group, and solve it online with your group. By the deadline, I will make a copy of your notebook to review it and mark it. There is no need to submit your assignment file as I have access to your DataLab workbook to make an electronic copy, you only have to make sure to finish before the deadline. A few days later, you will receive your group mark and some comments.
 
 **Are we going to review the homework assignment answers?** Yes, we can review the answers during the class that coincides with the submission deadline. I may ask a team to present their answers in class. 
 
@@ -120,26 +123,25 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one
 
 **Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp and [UN CC:Learn](https://www.uncclearn.org/). The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ feedback as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
-## `r fontawesome::fa("grin-hearts")` Extra marks activities. 
+## `r fontawesome::fa("grin-hearts")` Extra marks. 
 
-As with any extra mark activity, you do not lose marks if you fail to complete them, but you can get extra marks over your next individual exam if you complete them on time. In case you are taking two courses with me this semester, then the extra marks that you get in one course will be valid for the second and vice versa. This applies for differentiated extra marks activities.
-
-For every DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time you get a nice PDF certificate that looks good in your CV and LinkedIn profile. It also can help you to have more tools to write your homework assignments, exams, write your own PEF, and apply for interesting jobs. The list of courses, skill tracks and projects that apply for this course is available in the course calendar. 
-
+Extra marks activities are individual tasks. As with any extra marks activity, you will not lose points if you fail to complete them, but you can earn additional marks if you complete them on time. For each DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time, you will receive a nice PDF certificate, which looks great on your CV and LinkedIn profile.
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp and UN CC:Learn courses.** You will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section or [UN CC:Learn](https://www.uncclearn.org/) courses, and listed in the course calendar as *extra marks* tag. The deadline is 10:00 a.m. on the day marked in the course calendar. DataCamp's projects and courses can be completed in a few hours, but skill tracks and career tracks require more time as they include more than one regular course. Please note that [UN CC:Learn](https://www.uncclearn.org/) courses may require a minimum mark to get a valid certificate. 
+**DataCamp.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
 
-The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n+1$ extra marks per cumulative completed activity $n$. This function provides incentives to complete as many activities as possible during the semester.
+The amount of extra marks is based on the cumulative number of DataCamp assignments completed during the semester. There are 6 DataCamp assignments in total, allocated as 2 in the first partial, 2 in the second, and 2 in the third. You earn $n+1$ extra marks for each cumulative assignment completed, where $n$ is the number of assignments completed so far. If you complete all of them on time, for the $E_1$ exam you will earn:
 
-For example, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete all of them on time, you earn:
+$\displaystyle \sum_{n=1}^{3} (n+1) = (1+1) + (2+1) = 2 + 3 = 5$.
 
-* $\displaystyle \sum_{n=1}^{3} (n+1) = 9$ extra marks over your $E_1$. 
-* $\displaystyle \sum_{n=4}^{5} (n+1) = 11$ extra marks over your $E_2$. 
-* $\displaystyle \sum_{n=6}^{7} (n+1) = 15$ extra marks over your $E_F$.
+In sum:
 
-However, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete three, one in each period, you earn:
+* $\displaystyle \sum_{n=1}^{2} (n+1) = 5$ extra marks over your $E_1$. 
+* $\displaystyle \sum_{n=3}^{4} (n+1) = 9$ extra marks over your $E_2$. 
+* $\displaystyle \sum_{n=5}^{6} (n+1) = 13$ extra marks over your $E_F$.
+
+However, if you complete only one assignment in each period, you earn:
 
 * $\displaystyle \sum_{n=1}^{1} (n+1) = 2$ extra marks over your $E_1$. 
 * $\displaystyle \sum_{n=2}^{2} (n+1) = 3$ extra marks over your $E_2$. 
@@ -156,43 +158,45 @@ df <- data.frame("Activity completed" = x,
 df
 ```
 
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/5B8eajiYzjE")
-```
-
-Some students may have completed a DataCamp or UN CC:Learn activity in the past. If your certificate is older than the starting date of this current academic term, then it is not valid and you have the option to substitute it.
-
-* You can substitute it with one of the following DataCamp Career Tracks: (1) Big Data with R; (2) Data Scientist with R; (3) Shiny Fundamentals with R; (4) Intermediate Tidyverse Toolbox; (5) Statistician with R; (6) Machine Learning Scientist with R; (7) SQL Fundamentals; (8) Data Scientist with Python; (9) Data Analyst with Python; (10) Machine Learning Scientist with Python; (11) Data Scientist Professional with Python; (12) AI Fundamentals; or (13) Tableau Fundamentals. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
-* You can substitute it with one of your choice as long as you substitute a course by another course or a skill track for another skill track. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
-* In case UN CC:Learn does not allow you to obtain a newer dated certificate, you can substitute it with one of the following: (1) Indicators for an inclusive green economy: Advanced course; (2) Green Fiscal Policy; (3) Green Economy and Trade; (4) Carbon Taxation; (5) Open Online Course on Gender and Environment; (14) other you may want to do given my written authorization. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
+To complete the XP assignments, you will need to choose courses, skill tracks, career tracks, practice exercises, and other types of DataCamp content on your own. You are free to select based on your personal interests and preferences. However, if you would like some guidance, I recommend starting with basic or fundamental R programming courses, data visualization in R, as well as finance courses with R. Other options include Python, SQL, Tableau, Power BI, Excel, ChatGPT, and more. Visit the "Learn" section on DataCamp to browse, search, and filter all available learning content to accumulate XP. Feel free to contact me if you would like further advice on which courses to take.
 
 <!-- **DataCamp assessments.** DataCamp assessments are individual activities that allow you to get extra marks over your final grade $F$. Yes, over your final grade. These are time-limit online evaluations of your knowledge of R and Python. DataCamp marks your assessment as N (novice), I (intermediate), and A (advanced) depending on your own performance. The rule to allocate the extra marks over your final grade $F$ is the following: 0 for N; +1 for I; and +2 for A. Assessments will be available in your DataCamp Assignments section and in the course calendar as *super extra marks* tag. Assessments are completed during the class session and although DataCamp allows you to complete the assessment twice, I will take your first try as your grade. -->
 
-**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your next exam $E_1$, $E_2$, or $E_F$. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $E_F$, and he passed the course partially because of that.
+**DataCamp top 5 XP for the first 30, 60, and 90 days.** DataCamp has a leaderboard that ranks participants based on the amount of XP they earn. I will assign +5 extra marks to the top 5 students with the highest XP during three specific time ranges: the first 30 days, days 31 to 60, and days 61 to 90 of the semester. The allocation of these extra marks will be recorded according to the course calendar.
 
-**DataCamp top 5 XP of the last 90 days.** XP is a way of measuring your engagement within DataCamp. It is calculated automatically based on the courses, exercises, or other content that you complete. DataCamp has a leaderboard, which is a list that ranks participants' success compared to others. Participants are ranked based on the amount of XP earned and the number of chapters or courses completed. I will assign one sticker to the top 5 students based on their XP during the first 90 days of the semester. The allocation of stickers will be announced by the end of Monday, November 4th, 2024.
-
-```{r}
+```{r eval=FALSE, include=FALSE}
 # Fecha inicial
-fecha_inicial <- as.Date("2024-08-05")
+fecha_inicial <- as.Date("2025-01-13")
 
-# Sumar 90 días
-fecha_final <- fecha_inicial + 90
+fecha_30 <- fecha_inicial + 30
+fecha_60 <- fecha_30 + 30
+fecha_90 <- fecha_60 + 30
+  
+# Sumar 30, 60 y 90 días
+fechas <- data.frame(
+  fecha = c(fecha_30, fecha_60, fecha_90),
+  dia_semana = weekdays(c(fecha_30, fecha_60, fecha_90))
+)
 
-# Obtener el día de la semana
-dia_semana <- weekdays(fecha_final)
+fechas
 
-# Mostrar la fecha final y el día de la semana
-list(fecha_final = fecha_final, dia_semana = dia_semana)
 ```
 
+The dates on which I will assign these marks according to the DataCamp leaderboard are: Wednesday, February 12; Friday, March 14; and Monday, April 14.
 
-**The wheel of fortune.** I roll a virtual wheel of fortune three times in the semester to randomly allocate extra marks to a lucky group of students. These extra marks are allocated to the next exam $E_1$, $E_2$, or $E_F$. Make sure to attend this class as this is mandatory to get the extra marks if you are selected by the wheel of fortune.
+**UN CC:Learn courses.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
 
-**Mentimeter.** We may have a few sessions in which we include a mentimeter activity. This activity is subject to be evaluated and if it is, then the top 10 best answers will have extra marks. Other restrictions may apply. 
+Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 extra marks for each completed course.
 
-## `r fontawesome::fa("shapes")` Non-graded activities. 
+As with DataCamp, you are expected to choose the UN CC:Learn course based on your own interests and preferences. Visit the course section to browse the full catalog.
+
+**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your next exam $E_1$, $E_2$, or $E_F$. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $E_F$, and he passed the course partially because of that.
+
+**The wheel of fortune.** I spin a virtual wheel of fortune three times during the semester to randomly allocate extra marks to a lucky group of students. Attendance in these sessions is mandatory to claim the extra marks if you are selected by the wheel. In total, you could earn +0, +5, or +10 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
+
+**Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn extra marks. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
+
+## `r fontawesome::fa("shapes")` Non-graded. 
 
 **DataCamp webinars.** You are free to attend live webinars organized by DataCamp. See the *live events* DataCamp section for the upcoming webinars in this semester. Please note that you have to register to attend. Let me know which ones you are planning to attend. 
 
