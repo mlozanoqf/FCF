@@ -1,6 +1,13 @@
 /* Change the hyperlink color */
 a {
-  color: #333333; /* You can use any hex color code */
+  color: #5555aa; /* You can use any hex color code */ #333333
+    text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #000080;
+  text-decoration: underline;
 }
 
 /* Target TOC active links with higher specificity */

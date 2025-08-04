@@ -1,0 +1,30 @@
+# `r fontawesome::fa("check-square")` Checklist.
+
+As a student in this course and more broadly, as a member of the academic community, you are expected to respect the rules outlined in this syllabus and in the university’s academic regulations. These rules are not arbitrary; they exist to ensure fairness, transparency, and equity for everyone enrolled in the course.
+
+At times, students may feel that their personal situation warrants an exception to one of these rules. It is important to understand that, even when such requests are made sincerely and in good faith, they are, in effect, asking for different treatment from that received by others, which amounts to altering the rules.
+
+I recognize that such requests often do not come from a desire for unfair advantage, but from a genuine belief that the exception is reasonable. However, this often involves what is known as a *special pleading fallacy* assuming that a general rule should not apply in a particular case without an objective or institutional justification. It can also reflect a form of *motivated reasoning*, in which one interprets a situation in a way that aligns with what one wishes to be true.
+
+I also understand that students may sometimes argue: *Yes, I understand the rules, but what’s happening to me is unfair, and I have the right to have my case considered.* As your instructor, I will always listen respectfully to your concerns. Being heard is a right. However, being heard does not guarantee that an exception can be granted. My responsibility is to apply rules consistently to ensure fairness across the board. Making individual exceptions, even with the best intentions, could compromise that fairness and create new forms of injustice toward others.
+
+My commitment is to be clear, respectful, and fair with each of you. In return, I expect every student to approach their responsibilities with maturity, understanding that the rules are not obstacles, but essential parts of the learning environment we all share.
+
+Please consider the following checklist to improve the chances to achieve a good performance in this course.
+
+1.  Read very consciously this document as it contains important information about the course, including the attached videos and references. You might need to read it several times during the semester. Quoting Yoda `r fontawesome::fa("jedi-order")`: *read the syllabus you must.*
+1.  If you consider learning how to code is very difficult and you think you need more practice, then take all the [Swirl](https://swirlstats.com/) and [DataCamp](https://www.datacamp.com/) courses that you want or need. I teach a course of R every year, and you can also contact me if you need further help. You are expected to learn new things, and this is only one of them.
+1.  If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
+1.  Always keep academic quality standards high for your own work and overall course performance. Find your own motivation and keep a regular weekly progress to study the course material in advance.
+1.  If you fail one activity do not get angry or upset as this is the best way to frustration. You better do the activity again by yourself the best way you can. You may say *how can I do it again if I failed?* Well, just remember we have one class session in which we discuss the correct exam and homework assignment answers, so look at your class notes again because you will find the answers there. Once you do that, you are free to contact me to comment on your work or to verify that now you know how to do it correctly. Most of the students who sadly fail this class ignore this recommendation because they are truly convinced that they do not understand or get frustrated because they fail to understand in the first attempts. Try and try again, eventually you will get it.
+1.  If you have trouble with your group members because they fail to work under the basic standards, and you consider it unfair to include their names in the assignment cover sheet, remember you can co-evaluate them with 0 to activate a straight penalty in his or her mark. Your homework assignment co-evaluation will remain anonymous.
+1.  Never get frustrated for too long because there will be no challenge that you cannot overcome with the right amount of time and effort. If after all you get frustrated, upset, or angry, do not let it happen too frequently and do not let it last for long. Ask for help whenever you need it, and remember you are free to contact me.
+1.  Remember the evaluation method is particularly beneficial for students because of how the average is calculated. Instead of simply averaging the grades, I use a weighted system for both assignments and partial exams. For each category, the lower grade is weighted at 30% and the higher grade at 70%. This approach ensures that stronger performance is given greater importance, encouraging improvement and rewarding effort.
+1.  If you would like to share something (anything) with me, feel free to do so. My email is: <tt>`<martin.lozano@udem.edu>`</tt>.
+1. Follow number 1.
+
+Prof. Dan Fleisch describes an effective way to ask for help in college classes.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/dXG9UgW65fU")
+```

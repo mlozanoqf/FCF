@@ -1,0 +1,196 @@
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+FCF1, Fall 2025. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web.zoom.us/j/81368888103](https://us02web.zoom.us/j/81368888103)
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Tuesday, August 5.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team of no more than 4 members.
+
+**Session 2. Friday, August 8.**
+
+- Reading. Course syllabus (this document).
+- Activity. How DataCamp and DataLab works.
+
+**Session 3. Tuesday, August 12.**
+
+- Topic 1/3: Foundations of finance: Markets, ethics, and value creation.
+- Obligatorio. Acepta las normativas del curso: [Formulario.](https://forms.gle/jHnWcLngLNSX1xmcA)
+- Reading. @drake2010basics, chapter 1, section 1.1: *What Is finance?*
+- Reading. @drake2010basics, chapter 1, section 1.2: *Jobs in finance*.
+- Reading. @drake2010basics, chapter 1, section 1.3: *Forms of business organization*.
+
+**Session 4. Friday, August 15.**
+
+- Reading. @drake2010basics, chapter 1, section 1.4: *The main financial goal: Creating value for investors*. *What is finance?*
+- Reading. @brigham2019fundamentals, chapter 1, section 1.5: *Stockholder–manager conflicts*.
+- Reading. Dinero e ideas. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+
+**Session 5. Tuesday, August 19.**
+
+- Reading. @brigham2019fundamentals, chapter 1, section 1.6: *Stockholder–debtholder conflicts*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.7: *Balancing shareholder interests and the interests of society*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.8: *Business ethics*.
+
+**Session 6. Friday, August 22.**
+
+- Reading. @drake2010basics, chapter 2, section 2.1: *The capital allocation process*.
+- Reading. @drake2010basics, chapter 2, section 2.4: *The stock market*.
+- Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
+
+**Session 7. Tuesday, August 26.**
+
+- Reading. @drake2010basics, chapter 2, section 2.5: *The market for common stock*.
+- Reading. @drake2010basics, chapter 2, section 2.6: *Stock markets and returns*.
+- Reading. There is no free lunch. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+
+**Session 8. Friday, August 29.**
+
+- Activity. $H_1$ review.
+
+**Session 9. Tuesday, September 2.**
+
+- Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. $H_1$ presentations 1/2.
+- Extra marks. DataCamp top 5 XP for the first 30 days. Deadline: Wednesday, September 3.
+
+**Session 10. Friday, September 5.**
+
+- Activity. $H_1$ presentations 2/2.
+
+**Session 11. Tuesday, September 9.**
+
+- Activity. $E_1$ review.
+- Extra marks. Complete 3 DataCamp assignments (first 30,000 XP) before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if they were completed on time.
+- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by Blackboard.
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 12. Friday, September 12.**
+
+- Graded. $E_1$ Instructions in Blackboard.
+
+## `r fontawesome::fa("battery-half", fill = "red")` Part 2.
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Tuesday, September 16.**
+
+**Session 13. Friday, September 19.**
+
+- Activity. Discuss $E_1$ answers.
+- Extra marks. The wheel of fortune 1/3. This is a class activity.
+- Graded. Submit $H_1$ and $E_1$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
+
+**Session 14. Tuesday, September 23.**
+
+- Topic 2/3: Discounting and compounding: The analytical core of financial decision-making.
+- Reading. Interés. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Reading. Finanzas. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* Available at: [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
+
+**Session 15. Friday, September 26.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.1: *Time lines*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.2: *Future values*.
+
+
+**Session 16. Tuesday, September 30.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.3: *Present values*.
+- Reading. @drake2010basics, chapter 10 *The math of finance*.
+
+**Session 17. Friday, October 3.**
+
+- Activity. $H_2$ review.
+- Extra marks. DataCamp top 5 XP for the days 31 to 60. Deadline: Friday, October 3.
+
+**Session 18. Tuesday, October 7.**
+
+- Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. $H_2$ presentations 1/2.
+
+**Session 19. Friday, October 10.**
+
+- Activity. $H_2$ presentations 2/2.
+
+**Session 20. Tuesday, October 14.**
+
+- Activity. $E_2$ review.
+- Extra marks. Complete 3 DataCamp assignments (additional 30,000 XP) before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if they were completed on time.
+- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by Blackboard.
+
+**Session 21. Friday, October 17.**
+
+- Graded. $E_2$ Instructions in Blackboard.
+
+## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3.
+
+**Session 22. Tuesday, October 21.**
+
+- Activity. Discuss $E_2$ answers.
+- Extra marks. The wheel of fortune 2/3. This is a class activity.
+- Graded. Submit $H_2$ and $E_2$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
+
+**Session 23. Friday, October 24.**
+
+- Guest lecturer.
+
+**Session 24. Tuesday, October 28.**
+
+- Topic 3/3: Applied financial mathematics: Interest rates, cash flows, and loan structures.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.4: *Finding the interest rate, I*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.5: *Finding the number of years, N*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.6: *Annuities*.
+
+**Session 25. `r fontawesome::fa("ghost")` Friday, October 31.**
+
+- Guest lecturer. 
+- Extra marks. DataCamp top 5 XP for the days 61 to 90. Deadline: Monday, November 3.
+
+**Session 26. Tuesday, November 4.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.7: *Future value of an ordinary annuity*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.8: *Future value of an annuity due*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.9: *Present value of an ordinary annuity*.
+
+**Session 27. Friday, November 7.**
+
+- Guest lecturer.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 28. Tuesday, November 11.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.10: *Finding annuity payments, periods, and interest rates*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.11: *Perpetuities*.
+
+**Session 29. Friday, November 14.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.12: *Uneven cash flows*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.13: *Future value of an uneven cash flow stream*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.14: *Solving for I with uneven cash flows*.
+
+**Session 30. Tuesday, November 18.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.15: *Semiannual and other compounding periods*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.16: *Comparing interest rates*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.17: *Fractional time periods*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.18: *Amortized loans*.
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 31. Friday, November 21.**
+
+- Activity. $E_F$ review.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.18: *Amortized loans*.
+- Extra marks. Complete 3 DataCamp assignments (additional 30,000 XP) before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if they were completed on time.
+- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by Blackboard.
+- Extra marks. The wheel of fortune 3/3. This is a class activity.
+- Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam. Friday, November 28, 10:00 – 12:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
