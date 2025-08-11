@@ -20,13 +20,13 @@ FCF1, Fall 2025. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web
 
 - Topic 1/3: Foundations of finance: Markets, ethics, and value creation.
 - Obligatorio. Acepta las normativas del curso: [Formulario.](https://forms.gle/jHnWcLngLNSX1xmcA)
-- Reading. @drake2010basics, chapter 1, section 1.1: *What Is finance?*
-- Reading. @drake2010basics, chapter 1, section 1.2: *Jobs in finance*.
-- Reading. @drake2010basics, chapter 1, section 1.3: *Forms of business organization*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.1: *What Is finance?*
+- Reading. @brigham2019fundamentals, chapter 1, section 1.2: *Jobs in finance*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.3: *Forms of business organization*.
 
 **Session 4. Friday, August 15.**
 
-- Reading. @drake2010basics, chapter 1, section 1.4: *The main financial goal: Creating value for investors*. *What is finance?*
+- Reading. @brigham2019fundamentals, chapter 1, section 1.4: *The main financial goal: Creating value for investors*. *What is finance?*
 - Reading. @brigham2019fundamentals, chapter 1, section 1.5: *Stockholder–manager conflicts*.
 - Reading. Dinero e ideas. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
 
@@ -38,14 +38,14 @@ FCF1, Fall 2025. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web
 
 **Session 6. Friday, August 22.**
 
-- Reading. @drake2010basics, chapter 2, section 2.1: *The capital allocation process*.
-- Reading. @drake2010basics, chapter 2, section 2.4: *The stock market*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.1: *The capital allocation process*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.4: *The stock market*.
 - Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
 
 **Session 7. Tuesday, August 26.**
 
-- Reading. @drake2010basics, chapter 2, section 2.5: *The market for common stock*.
-- Reading. @drake2010basics, chapter 2, section 2.6: *Stock markets and returns*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.5: *The market for common stock*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.6: *Stock markets and returns*.
 - Reading. There is no free lunch. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
 
 **Session 8. Friday, August 29.**
