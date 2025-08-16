@@ -72,6 +72,7 @@ FCF1, Fall 2025. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web
 **Session 12. Friday, September 12.**
 
 - Graded. $E_1$ Instructions in Blackboard.
+- The link to complete $H_1$ and $E_1$ co-evaluation will be available on Blackboard right after the exam.
 
 ## `r fontawesome::fa("battery-half", fill = "red")` Part 2.
 
@@ -124,6 +125,7 @@ FCF1, Fall 2025. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web
 **Session 21. Friday, October 17.**
 
 - Graded. $E_2$ Instructions in Blackboard.
+- The link to complete $H_2$ and $E_2$ co-evaluation will be available on Blackboard right after the exam.
 
 ## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3.
 
