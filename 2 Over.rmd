@@ -3,23 +3,23 @@
 This section includes the course objectives, mechanics, and important information about academic integrity.
 
 
-## `r fontawesome::fa("piggy-bank")` FCF description.
+<!-- ## `r fontawesome::fa("piggy-bank")` FCF description. -->
 
-Quantitative fundamentals play a crucial role in understanding modern finance for several reasons:
+<!-- Quantitative fundamentals play a crucial role in understanding modern finance for several reasons: -->
 
-**1. Decision-making and risk management:** Quantitative fundamentals provide the foundation for making informed financial decisions and managing risk effectively. By analyzing key financial metrics, such as revenue, expenses, profitability, and cash flow, investors, analysts, and managers can evaluate the financial health and performance of companies. This information helps in determining investment opportunities, assessing creditworthiness, and identifying potential risks.
+<!-- **1. Decision-making and risk management:** Quantitative fundamentals provide the foundation for making informed financial decisions and managing risk effectively. By analyzing key financial metrics, such as revenue, expenses, profitability, and cash flow, investors, analysts, and managers can evaluate the financial health and performance of companies. This information helps in determining investment opportunities, assessing creditworthiness, and identifying potential risks. -->
 
-**2. Valuation:** Quantitative analysis is instrumental in valuing financial assets, such as stocks, bonds, and derivatives. Methods like discounted cash flow (DCF), price-to-earnings (P/E) ratio, and other financial models rely on quantitative fundamentals to estimate the intrinsic value of an asset. Understanding these fundamentals is essential for accurately valuing securities and making informed investment decisions.
+<!-- **2. Valuation:** Quantitative analysis is instrumental in valuing financial assets, such as stocks, bonds, and derivatives. Methods like discounted cash flow (DCF), price-to-earnings (P/E) ratio, and other financial models rely on quantitative fundamentals to estimate the intrinsic value of an asset. Understanding these fundamentals is essential for accurately valuing securities and making informed investment decisions. -->
 
-**3. Financial modeling and forecasting:** Quantitative fundamentals form the basis of financial modeling and forecasting. Through these models, analysts and investors can project future financial performance, estimate earnings growth, and evaluate the impact of various factors on financial outcomes. Financial models often incorporate historical data, market trends, and quantitative relationships to provide insights into the potential outcomes of investment decisions.
+<!-- **3. Financial modeling and forecasting:** Quantitative fundamentals form the basis of financial modeling and forecasting. Through these models, analysts and investors can project future financial performance, estimate earnings growth, and evaluate the impact of various factors on financial outcomes. Financial models often incorporate historical data, market trends, and quantitative relationships to provide insights into the potential outcomes of investment decisions. -->
 
-**4. Portfolio management:** Quantitative fundamentals are vital in constructing and managing investment portfolios. Modern portfolio theory (MPT) relies on quantitative analysis to optimize asset allocation and balance risk and return. By assessing various quantitative factors, such as historical returns, volatility, correlation, and covariance, investors can create diversified portfolios that align with their risk preferences and investment goals.
+<!-- **4. Portfolio management:** Quantitative fundamentals are vital in constructing and managing investment portfolios. Modern portfolio theory (MPT) relies on quantitative analysis to optimize asset allocation and balance risk and return. By assessing various quantitative factors, such as historical returns, volatility, correlation, and covariance, investors can create diversified portfolios that align with their risk preferences and investment goals. -->
 
-**5. Performance measurement:** Quantitative fundamentals are used to evaluate the performance of investments and financial strategies. Metrics like return on investment (ROI), return on equity (ROE), and risk-adjusted return measures are derived from quantitative analysis. These metrics help investors and managers assess the efficiency and profitability of their investment decisions and compare their performance against benchmarks.
+<!-- **5. Performance measurement:** Quantitative fundamentals are used to evaluate the performance of investments and financial strategies. Metrics like return on investment (ROI), return on equity (ROE), and risk-adjusted return measures are derived from quantitative analysis. These metrics help investors and managers assess the efficiency and profitability of their investment decisions and compare their performance against benchmarks. -->
 
-**6. Financial markets and trading:** Quantitative fundamentals are integral to understanding financial markets and executing trading strategies. Market participants use quantitative analysis to analyze market trends, identify patterns, and develop trading algorithms. Quantitative factors, such as supply and demand dynamics, market liquidity, and price movements, are critical inputs for making trading decisions and managing investment positions.
+<!-- **6. Financial markets and trading:** Quantitative fundamentals are integral to understanding financial markets and executing trading strategies. Market participants use quantitative analysis to analyze market trends, identify patterns, and develop trading algorithms. Quantitative factors, such as supply and demand dynamics, market liquidity, and price movements, are critical inputs for making trading decisions and managing investment positions. -->
 
-Overall, understanding quantitative fundamentals is crucial in modern finance because it enables informed decision-making, effective risk management, accurate valuation, financial modeling, portfolio management, performance measurement, and successful trading strategies. By leveraging these fundamentals, individuals and institutions can navigate the complex world of finance and enhance their ability to achieve their financial objectives.
+<!-- Overall, understanding quantitative fundamentals is crucial in modern finance because it enables informed decision-making, effective risk management, accurate valuation, financial modeling, portfolio management, performance measurement, and successful trading strategies. By leveraging these fundamentals, individuals and institutions can navigate the complex world of finance and enhance their ability to achieve their financial objectives. -->
 
 
 <!-- ## `r fontawesome::fa("chart-line")` EMF description. -->
@@ -31,17 +31,17 @@ Overall, understanding quantitative fundamentals is crucial in modern finance be
 
 <!-- Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule. -->
 
-<!-- ## `r fontawesome::fa("credit-card")` ARF description. -->
+## `r fontawesome::fa("credit-card")` ARF description.
 
-<!-- Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit and market risk models and their practical implementation using R and Python. -->
+Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit and market risk models and their practical implementation using R and Python.
 
-<!-- Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. On the other hand, market risk refers to the potential for financial losses arising from adverse movements in market prices, such as the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in the dynamic nature of financial markets, where prices are influenced by various factors such as economic indicators, geopolitical events, interest rates, and overall market sentiment. -->
+Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. On the other hand, market risk refers to the potential for financial losses arising from adverse movements in market prices, such as the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in the dynamic nature of financial markets, where prices are influenced by various factors such as economic indicators, geopolitical events, interest rates, and overall market sentiment.
 
-<!-- The main textbooks recommended for this course are: @Hull11 and @HullRM5, which covers influential credit risk models widely used in the financial industry; @drake2010basics, @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; @lozanoARF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books. -->
+The main textbooks recommended for this course are: @Hull11 and @HullRM5, which covers influential credit risk models widely used in the financial industry; @drake2010basics, @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; @lozanoARF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books.
 
-<!-- Listen to this [Spotify `r fontawesome::fa("spotify")` podcast](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56) to learn more about financial risk. -->
+Listen to this [Spotify `r fontawesome::fa("spotify")` podcast](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56) to learn more about financial risk.
 
-<!-- Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule. -->
+Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule.
 
 
 <!-- IF. `r fontawesome::fa("cogs")` Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
@@ -193,10 +193,10 @@ In this course, you will be exposed to an introduction about sustainable finance
 
 Learning materials are taken from The One UN Climate Change Learning Partnership [UN CC:Learn](https://unccelearn.org/), which is a joint initiative of more than 30 multilateral organizations helping countries to achieve climate change action both through general climate literacy and applied skills development. [UN CC:Learn](https://unccelearn.org/) provides strategic advice and quality learning resources to help people, governments and businesses to understand, adapt, and build resilience to climate change.
 
-See the earth’s global average surface temperature in 2021 tied with 2018 as the sixth warmest year on record, according to an analysis by NASA:
+See the earth’s historic global average surface temperature, according to an analysis by NASA:
 
 ```{r echo=FALSE}
-embed_url("https://youtu.be/haBG2IIbwbA")
+embed_url("https://youtu.be/jWoCXLuTIkI?si=1qo-lHzZC3AHaCt5")
 ```
 
 Learning about sustainable finance is important as it enables individuals and organizations to make informed financial decisions that consider environmental and social factors, manage risks, comply with regulations, meet investor demand, and contribute to a more sustainable and responsible financial system.

@@ -53,7 +53,7 @@ xfun::file_string('8 contact.html')
 ```
 
 
-```{r schedule, child = 'Class schedule ot25.Rmd'}
+```{r schedule, child = 'Class schedule pr26.Rmd'}
 ```
 
 

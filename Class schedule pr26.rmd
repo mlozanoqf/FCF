@@ -1,0 +1,201 @@
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+FCF1, Spring 2026. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web.zoom.us/j/82646203847](https://us02web.zoom.us/j/82646203847)
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Tuesday, January 13.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team of no more than 4 members.
+- Bonus points. Reto grupal. Al menos durante este semestre es necesario que te suscribas al canal de YouTube [ahyaentendi](https://www.youtube.com/@ahyaentendi). Si todo el grupo lo hace, entonces asigno +5 a todos mis alumnos de este grupo.
+
+**Session 2. Friday, January 16.**
+
+- Reading. Course syllabus (this document).
+- Activity. How DataCamp and DataLab works.
+- Bonus points. Reto colectivo. Tengo aproximadamente 90 alumnos este semestre, y todos tienen que ver los siguientes tres videos: [Primavera 2026](https://youtube.com/playlist?list=PLLvF5aOnCZwmKMGr3AciOR4SHtAf73DLv&si=mnWuaBu0q7o1l1rG). Si todos mis alumnos lo hacen, equivale a 180 horas de reproducción. En caso de que al jueves 15 de enero a las 7:00pm se alcance esa meta, entonces asigno +10 a todos mis alumnos.
+
+**Session 3. Tuesday, January 20.**
+
+- Topic 1/3: Foundations of finance: Markets, ethics, and value creation.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.1: *What Is finance?*
+- Reading. @brigham2019fundamentals, chapter 1, section 1.2: *Jobs in finance*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.3: *Forms of business organization*.
+- Obligatorio. Acepta las normativas del curso: [Formulario.](https://forms.gle/uDkL2QtQget2ByaT6)
+
+**Session 4. Friday, January 23.**
+
+- Reading. @brigham2019fundamentals, chapter 1, section 1.4: *The main financial goal: Creating value for investors*. *What is finance?*
+- Reading. @brigham2019fundamentals, chapter 1, section 1.5: *Stockholder–manager conflicts*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.6: *Stockholder–debtholder conflicts*.
+- Reading. Dinero e ideas. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Video. [Dinero, tiempo e información](https://youtu.be/8pIBBWmmLg8?si=Uh6wgZXIu9yWo34Y).
+
+**Session 5. Tuesday, January 27.**
+
+- Reading. @brigham2019fundamentals, chapter 1, section 1.7: *Balancing shareholder interests and the interests of society*.
+- Reading. @brigham2019fundamentals, chapter 1, section 1.8: *Business ethics*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.1: *The capital allocation process*.
+
+**Session 6. Friday, January 30.**
+
+- Reading. @brigham2019fundamentals, chapter 2, section 2.4: *The stock market*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.5: *The market for common stock*.
+- Reading. @brigham2019fundamentals, chapter 2, section 2.6: *Stock markets and returns*.
+- Reading. There is no free lunch. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
+- Video. [Rendimientos accionarios en R](https://youtu.be/WVSP6z9EG44?si=mex63WfLHoCTT9tI).
+
+**Session 7. Tuesday, February 3.**
+
+- Activity. $H_1$ review.
+
+**Session 8. Friday, February 6.**
+
+- Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. $H_1$ presentations 1/2.
+
+**Session 9. Tuesday, February 10.**
+
+- Activity. $H_1$ presentations 2/2.
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 10. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Friday, February 13.**
+
+- Activity. $E_1$ review.
+
+**Session 11. Tuesday, February 17.**
+
+- Graded. $E_1$ Instructions in Blackboard.
+- The link to complete $H_1$ and $E_1$ co-evaluation will be available on Blackboard right after the exam.
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+## `r fontawesome::fa("battery-half", fill = "red")` Part 2.
+
+**Session 12. Friday, February 20.**
+
+- Activity. Discuss $E_1$ answers.
+- Bonus points. The wheel of fortune 1/3. This is a class activity.
+- Graded. Submit $H_1$ and $E_1$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
+
+**Session 13. Tuesday, February 24.**
+
+- Topic 2/3: Discounting and compounding: The analytical core of financial decision-making.
+- Reading. Interés. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Reading. Finanzas. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* Available at: [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, February 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+
+**Session 14. Friday, February 27.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.1: *Time lines*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.2: *Future values*.
+- Video. [El valor del dinero en el tiempo](https://youtu.be/OoBnNb-QhLw?si=BWyRt71afHU2EQQX).
+
+**Session 15. Tuesday, March 3.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.3: *Present values*.
+- Reading. @drake2010basics, chapter 10 *The math of finance*.
+- Video [Derivaciones matemáticas](https://youtu.be/fXL6R1nmN_g?si=HoLKptG2uUNOdqYh).
+
+**Session 16. Friday, March 6.**
+
+- Activity. $H_2$ review.
+
+**Session 17. Tuesday, March 10.**
+
+- Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. $H_2$ presentations 1/2.
+
+**Session 18. Friday, March 13.**
+
+- Activity. $H_2$ presentations 2/2.
+
+**Session 19. Tuesday, March 17.**
+
+- Activity. $E_2$ review.
+
+**Session 20. `r fontawesome::fa_i("sun", class = "fa-solid")` Friday, March 20.**
+
+- Graded. $E_2$ Instructions in Blackboard.
+- The link to complete $H_2$ and $E_2$ co-evaluation will be available on Blackboard right after the exam.
+
+## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3.
+
+**Session 21. Tuesday, March 24.**
+
+- Activity. Discuss $E_2$ answers.
+- Bonus points. The wheel of fortune 2/3. This is a class activity.
+- Graded. Submit $H_2$ and $E_2$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, March 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 22. Friday, March 27.**
+
+- Topic 3/3: Applied financial mathematics: Interest rates, cash flows, and loan structures.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.4: *Finding the interest rate, I*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.5: *Finding the number of years, N*.
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Tuesday, March 31.**
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Friday, April 3.**
+
+**Session 23. Tuesday, April 7.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.6: *Annuities*.
+- Video. [Anualidades](https://youtu.be/NbGjBMUfkVY?si=X1l1up6rmidUdMR0).
+
+**Session 24. Friday, April 10.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.7: *Future value of an ordinary annuity*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.8: *Future value of an annuity due*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.9: *Present value of an ordinary annuity*.
+
+**Session 25. Tuesday, April 14.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.10: *Finding annuity payments, periods, and interest rates*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.11: *Perpetuities*.
+
+**Session 26. Friday, April 17.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.12: *Uneven cash flows*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.13: *Future value of an uneven cash flow stream*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.14: *Solving for I with uneven cash flows*.
+
+**Session 27. Tuesday, April 21.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.15: *Semiannual and other compounding periods*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.16: *Comparing interest rates*.
+- Reading. @brigham2019fundamentals, chapter 5, section 5.17: *Fractional time periods*.
+
+**Session 28. Friday, April 24.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.18: *Amortized loans*.
+- Video. [Estados financieros y su análisis](https://www.youtube.com/watch?v=q3F4Uq782mo).
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 29. Tuesday, April 28.**
+
+- Reading. @brigham2019fundamentals, chapter 5, section 5.18: *Amortized loans*.
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Friday, May 1.**
+
+**Session 30. `r fontawesome::fa("jedi-order")` Tuesday, May 5.**
+
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, May 7</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+
+**Session 31. Friday, May 8.**
+
+- Activity. $E_F$ review.
+- Bonus points. The wheel of fortune 3/3. This is a class activity.
+- Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. – TBC.**
+
+- Graded. $E_F$ Instructions in Blackboard.

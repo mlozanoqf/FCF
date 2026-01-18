@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.54">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Martín Lozano <martin.lozano@udem.edu>">
+
+<title>Administración de riesgos financieros ARF.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="1 Well_files/libs/clipboard/clipboard.min.js"></script>
+<script src="1 Well_files/libs/quarto-html/quarto.js"></script>
+<script src="1 Well_files/libs/quarto-html/popper.min.js"></script>
+<script src="1 Well_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="1 Well_files/libs/quarto-html/anchor.min.js"></script>
+<link href="1 Well_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="1 Well_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="1 Well_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="1 Well_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="1 Well_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="1 Well_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="1 Well_files/libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+
+
+
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    #btn-back-to-top {
+
+      position: fixed;
+
+      bottom: 20px;
+
+      right: 20px;
+
+      width: 15px; /* Adjust the width */
+
+      height: 15px; /* Adjust the height */
+
+      box-sizing: content-box;
+
+      z-index: 1000;
+
+      background-color: rgba(0, 123, 255, 0.7);
+
+      border: none;
+
+      color: white;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+<button type="button" class="btn btn-primary btn-lg bi bi-arrow-up" id="btn-back-to-top"></button>
+
+
+
+<script>
+
+  let backToTopButton = document.getElementById("btn-back-to-top");
+
+
+
+  backToTopButton.addEventListener("click", function () {
+
+    document.documentElement.scrollTop = 0;
+
+  });
+
+</script>
+
+
+
+
+
+
+
+<div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 0px; z-index: 2000;"></div>
+
+
+
+<script id="progressbar" type="text/javascript">
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+
+
+    const bar = document.querySelector('#progress-bar');
+
+    const post = document.querySelector('#quarto-content');
+
+    const html = document.documentElement;
+
+    
+
+    const height = post.scrollHeight + post.offsetTop;
+
+    
+
+    window.addEventListener('scroll', () => {
+
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+
+    });
+
+});
+
+</script>
+<link href="1 Well_files/libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
+
+<link href="1 Well_files/libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="13_styles.css">
+
+
+
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#welcome." id="toc-welcome." class="nav-link active" data-scroll-target="#welcome."><span class="header-section-number">1</span> <i class="far fa-handshake fa-solid" role="presentation" aria-label="handshake icon"></i> Welcome.</a>
+  <ul class="collapse">
+  <li><a href="#learning-formats." id="toc-learning-formats." class="nav-link" data-scroll-target="#learning-formats."><span class="header-section-number">1.1</span> <svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M160 64c0-35.3 28.7-64 64-64H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H336.8c-11.8-25.5-29.9-47.5-52.4-64H384V320c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v32h64V64L224 64v49.1C205.2 102.2 183.3 96 160 96V64zm0 64a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM133.3 352h53.3C260.3 352 320 411.7 320 485.3c0 14.7-11.9 26.7-26.7 26.7H26.7C11.9 512 0 500.1 0 485.3C0 411.7 59.7 352 133.3 352z"></path></svg> Learning formats.</a></li>
+  <li><a href="#about-me." id="toc-about-me." class="nav-link" data-scroll-target="#about-me."><span class="header-section-number">1.2</span> <svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm130.7 57.9c-4.2-13.6 7.1-25.9 21.3-25.9H364.5c14.2 0 25.5 12.4 21.3 25.9C369 368.4 318.2 408 258.2 408s-110.8-39.6-127.5-94.1zM144.4 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg> About me.</a></li>
+  <li><a href="#teaching-philosophy." id="toc-teaching-philosophy." class="nav-link" data-scroll-target="#teaching-philosophy."><span class="header-section-number">1.3</span> <svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M246 315.7l-21.2-31.9c-2.1-3.2-1.7-7.4 1-10.1s6.9-3.1 10.1-1l29.5 19.7c2.1 1.4 4.9 0 5-2.6L279.7 8c.1-4.5 3.8-8 8.3-8s8.1 3.5 8.3 8l9.4 281.9c.1 2.5 2.9 3.9 5 2.6l29.5-19.7c3.2-2.1 7.4-1.7 10.1 1s3.1 6.9 1 10.1L330 315.7c-1.3 1.9-.2 4.5 2 4.9l37.6 7.5c3.7 .7 6.4 4 6.4 7.8s-2.7 7.1-6.4 7.8L332 351.4c-2.2 .4-3.3 3-2 4.9l21.2 31.9c2.1 3.2 1.7 7.4-1 10.1s-6.9 3.1-10.1 1l-26.3-17.6c-2.2-1.4-5.1 .2-5 2.8l2.1 61.5C370.6 435.2 416 382.9 416 320c0-37-15.7-70.4-40.8-93.7c-7-6.5-6.5-18.6 1-24.4C410.1 175.5 432 134.3 432 88c0-16.8-2.9-33-8.2-48c-4.6-13 10.2-30 21.4-22c53.5 38 92.7 94.8 107.8 160.7c.5 2.1-.2 4.3-1.7 5.9l-28.4 28.4c-4 4-1.2 10.9 4.5 10.9h26c3.4 0 6.2 2.6 6.3 6c.1 3.3 .2 6.6 .2 10c0 17.5-1.7 34.7-4.8 51.3c-.2 1.2-.9 2.4-1.7 3.3l-46.5 46.5c-4 4-1.2 10.9 4.5 10.9H526c4.6 0 7.7 4.8 5.7 9C487.2 450.5 394.8 512 288 512S88.8 450.5 44.3 361c-2.1-4.2 1-9 5.7-9H64.5c5.7 0 8.6-6.9 4.5-10.9L22.6 294.6c-.9-.9-1.5-2-1.7-3.3C17.7 274.7 16 257.5 16 240c0-3.3 .1-6.7 .2-10c.1-3.4 2.9-6 6.3-6h26c5.7 0 8.6-6.9 4.5-10.9L24.6 184.6c-1.5-1.5-2.2-3.8-1.7-5.9C38.1 112.8 77.3 56 130.8 18c11.3-8 26 8.9 21.4 22c-5.3 15-8.2 31.2-8.2 48c0 46.3 21.9 87.5 55.8 113.9c7.5 5.8 8 17.9 1 24.4C175.7 249.6 160 283 160 320c0 62.9 45.4 115.2 105.1 126l2.1-61.5c.1-2.6-2.8-4.2-5-2.8l-26.3 17.6c-3.2 2.1-7.4 1.7-10.1-1s-3.1-6.9-1-10.1L246 356.3c1.3-1.9 .2-4.5-2-4.9l-37.6-7.5c-3.7-.7-6.4-4-6.4-7.8s2.7-7.1 6.4-7.8l37.6-7.5c2.2-.4 3.3-3 2-4.9z"></path></svg> Teaching philosophy.</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Administración de riesgos financieros ARF.</h1>
+<p class="subtitle lead">Course syllabus. Spring 2026.</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-right">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Martín Lozano <tt><code>&lt;martin.lozano@udem.edu&gt;</code></tt> </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">December 28, 2025, 13:27:14 pm.</p>
+    </div>
+  </div>
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    A course syllabus is an academic document containing relevant information for students. This document serves as your ultimate guide to successfully completing this course. Please read it regularly and carefully. Within this document, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references, and learning outcomes. The objective of this document is to provide you with complete certainty regarding what to expect from this course, starting from day 1 until the final exam. Based on my experience, reading this syllabus is positively correlated with students’ performance.
+  </div>
+</div>
+
+
+</header>
+
+
+<p><em>The contents of this syllabus are mandatory for all students enrolled in the course. Not having read or fully reviewed this document does not release the student from the obligation to adhere to the rules, expectations, and procedures established here.</em></p>
+<hr>
+<section id="welcome." class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> <i class="far fa-handshake fa-solid" role="presentation" aria-label="handshake icon"></i> Welcome.</h1>
+<p>Welcome to the course! My name is Martín. I hope this message finds you and your loved ones in good health. <i class="far fa-heart fa-solid" role="presentation" aria-label="heart icon" style="color: red;"></i></p>
+<!-- ## Perfil de egreso (en español). -->
+<!-- This course contributes to developing the following professional profile. -->
+<!-- El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en *machine learning* e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech. -->
+<section id="learning-formats." class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="learning-formats."><span class="header-section-number">1.1</span> <svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M160 64c0-35.3 28.7-64 64-64H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H336.8c-11.8-25.5-29.9-47.5-52.4-64H384V320c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v32h64V64L224 64v49.1C205.2 102.2 183.3 96 160 96V64zm0 64a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM133.3 352h53.3C260.3 352 320 411.7 320 485.3c0 14.7-11.9 26.7-26.7 26.7H26.7C11.9 512 0 500.1 0 485.3C0 411.7 59.7 352 133.3 352z"></path></svg> Learning formats.</h2>
+<p>This syllabus applies to all delivery modes: face-to-face, blended, or fully online.</p>
+<p>Distance learning refers to educational formats where students and instructors are not physically in the same space. Based on my experience, these courses can be just as effective as traditional in-person classes. While you may have personal preferences, I encourage you to approach all formats with flexibility. Employers increasingly value adaptability, especially the ability to thrive under changing circumstances and embrace new ways of learning and working.</p>
+<p>My first experience with distance education was in 1999, and I have been engaged with it ever since, both as a postgraduate student and as a professor. My research network includes colleagues in Chile, Ireland, the UK, Italy, and Spain. Although we meet in person only once a year, we collaborate constantly through virtual means.</p>
+<p>Knowing how to work effectively in online environments is just as important as doing so face-to-face. I hope my experience with various teaching formats will support your success in this course. Welcome again!</p>
+</section>
+<section id="about-me." class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="about-me."><span class="header-section-number">1.2</span> <svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm130.7 57.9c-4.2-13.6 7.1-25.9 21.3-25.9H364.5c14.2 0 25.5 12.4 21.3 25.9C369 368.4 318.2 408 258.2 408s-110.8-39.6-127.5-94.1zM144.4 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg> About me.</h2>
+<p>My full and updated curriculum vitae is available <a href="https://mlozanoqf.github.io/resume/">here</a>.</p>
+<p>I am currently a professor of finance and economics at UDEM. I collaborate as a research fellow with the <a href="https://www.manchester.ac.uk/">University of Manchester</a> through the <a href="https://www.alliancembs.manchester.ac.uk/">Alliance Manchester Business School</a> and as a teaching fellow with <a href="https://www.soas.ac.uk/">SOAS University of London</a> via the <a href="https://www.cefims.ac.uk/">Centre for Financial and Management Studies (CeFiMS)</a>.</p>
+<p><strong>Areas of expertise.</strong> Finance, Economics, Statistics, Data Science.</p>
+<p><strong>Research interests.</strong> Empirical asset pricing; beta and SDF pricing models and tests; financial econometrics; GMM estimation and inference; portfolio allocation models and performance; computational finance; data science applications in business.</p>
+<p><strong>Teaching interests.</strong> Introductory and intermediate finance, statistics and economics; risk management; econometrics; quantitative methods; financial markets; financial management; international finance, corporate finance; asset pricing; R and Python applications to finance and economics.</p>
+<p><strong>Education:</strong></p>
+<ul>
+<li>Postdoc in Finance – <a href="https://www.manchester.ac.uk/">University of Manchester</a>.<br>
+</li>
+<li>PhD in Quantitative Finance – <a href="https://www.ehu.eus/es/">University of the Basque Country</a>.</li>
+<li><em>Doctor Europaeus</em> distinction - <a href="https://eua.eu/">European University Association</a>.</li>
+<li>Four MSc degrees in: Statistical Learning, Modern Applied Statistics, Quantitative Finance, and Finance.</li>
+<li>Three University Expert diplomas in: Statistical Learning, Applied Statistical Methods, and Advanced Statistics – from <a href="https://egade.tec.mx/es/home">EGADE</a> and <a href="https://www.uned.es/universidad/inicio.html">UNED</a>.<br>
+</li>
+<li>BS in Economics – <a href="https://tec.mx/es">Tecnológico de Monterrey</a>.</li>
+</ul>
+<p>I have also completed more than 20 professional training programs in various areas, including data science, sustainable finance, migration, and innovation. These programs were offered by prestigious institutions such as <a href="https://www.strath.ac.uk/business/">Strathclyde Business School</a>, <a href="https://www.bath.ac.uk/">University of Bath</a>, <a href="https://duke.edu/">Duke University</a>, <a href="https://www.risis2.eu/">RISIS Research Infrastructure for Science and Innovation Policy Studies</a>, <a href="https://www.usi.ch/it">Università della Svizzera Italiana</a>, <a href="https://www.ait.ac.at/en/">AIT Austrian Institute of Technology</a>, <a href="https://www.turing.ac.uk/">The Alan Turing Institute</a>, <a href="https://www.ucm.es/">Universidad Complutense de Madrid</a>, <a href="https://www.mioir.manchester.ac.uk/">Manchester Institute of Innovation Research</a>, among others.</p>
+<p><strong>Research.</strong> I am a researcher in the area of quantitative finance. I have held a couple of full-time research positions as a pre-doctoral <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships">Marie Curie research fellow</a> supported by the <a href="https://ec.europa.eu/commission/presscorner/detail/en/MEMO_02_152">Sixth European Community Framework Programme</a>, and a post-doctoral research fellow position both at <a href="https://www.manchester.ac.uk/">The University of Manchester</a>, <a href="https://www.alliancembs.manchester.ac.uk/">Alliance Manchester Business School</a>, and the <a href="https://www.alliancembs.manchester.ac.uk/research/accounting-and-finance/centre-for-the-analysis-of-investment-risk/">Centre for the Analysis of Investment Risk</a>. My research has been published in 3-star journals according to <a href="https://charteredabs.org/">The Chartered Association of Business Schools</a>, including Journal of Empirical Finance, Quantitative Finance, and Journal of Financial and Quantitative Analysis (research assistance). My research has been presented in numerous research seminars in the UK, Spain, Mexico, Brazil, Sweden and Ireland. My research has also been presented in prestigious international conferences including the <a href="https://finance-forum.es/">Spanish Association of Finance Forum</a>; <a href="https://easternfinance.org/">Eastern Finance Association</a> (USA); <a href="https://www.econometricsociety.org/">World Congress of the Econometric Society</a> (Italy); <a href="https://www.affi.asso.fr/en">French Finance Association</a>; and <a href="https://www.erfin.org/journal/index.php/erfin">Econometric Research in Finance</a> among others. I collaborate as reviewer and editor for several academic journals in the areas of finance.</p>
+<p><strong>Teaching.</strong> I have been a lecturer in economics, finance and data science for under and postgraduate levels at different universities in Mexico and the UK for the last 25 years. Also, I have supervised more than 100 dissertations at under and postgraduate academic programs of schools including the <a href="https://www.lsbf.org.uk/">London School of Business &amp; Finance</a>; <a href="https://www.london.ac.uk/">University of London</a>, <a href="https://www.soas.ac.uk/">SOAS University of London</a>; <a href="https://www.manchester.ac.uk/">The University of Manchester</a>; <a href="https://www.ucm.es/">Universidad Complutense de Madrid</a>, UDEM, among others. Also, I have experience in continuous education, consulting, and executive training in the area of finance.</p>
+<!-- [^1]: The Chartered Association of Business Schools is considered the voice of the UK's business and management education sector. According to ABS, all 3 stars rated journals publish original and well executed research papers and are highly regarded. These journals typically have good submission rates and are very selective in what they publish. Papers are heavily refereed in 3 stars rated journals. -->
+<!-- This is my teaching philosophy in 100 words: *The time and the brain are resources and constraints as both restrict the amount of time available to learn. We understand this at the university, so we use these resources efficiently. Here, we stimulate our mental capacity to create and innovate by doing research; and we teach how to think and learn in a systematic and scientific manner. Here, we promote the most fundamental human values to build a prosperous society. I love teaching almost as much as doing research because every semester represents a new opportunity to further enhance our lives by learning the most given our time constraints.* -->
+<p>Beyond academics, I have a passion for art, especially music and painting. I enjoy playing my Yamaha digital piano and have performed in concerts across Mexico and Europe. I have served as a keyboardist, pianist, and orchestra director, including more than a decade of musical productions with Tecnológico de Monterrey (Monterrey Campus).</p>
+</section>
+<section id="teaching-philosophy." class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="teaching-philosophy."><span class="header-section-number">1.3</span> <svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M246 315.7l-21.2-31.9c-2.1-3.2-1.7-7.4 1-10.1s6.9-3.1 10.1-1l29.5 19.7c2.1 1.4 4.9 0 5-2.6L279.7 8c.1-4.5 3.8-8 8.3-8s8.1 3.5 8.3 8l9.4 281.9c.1 2.5 2.9 3.9 5 2.6l29.5-19.7c3.2-2.1 7.4-1.7 10.1 1s3.1 6.9 1 10.1L330 315.7c-1.3 1.9-.2 4.5 2 4.9l37.6 7.5c3.7 .7 6.4 4 6.4 7.8s-2.7 7.1-6.4 7.8L332 351.4c-2.2 .4-3.3 3-2 4.9l21.2 31.9c2.1 3.2 1.7 7.4-1 10.1s-6.9 3.1-10.1 1l-26.3-17.6c-2.2-1.4-5.1 .2-5 2.8l2.1 61.5C370.6 435.2 416 382.9 416 320c0-37-15.7-70.4-40.8-93.7c-7-6.5-6.5-18.6 1-24.4C410.1 175.5 432 134.3 432 88c0-16.8-2.9-33-8.2-48c-4.6-13 10.2-30 21.4-22c53.5 38 92.7 94.8 107.8 160.7c.5 2.1-.2 4.3-1.7 5.9l-28.4 28.4c-4 4-1.2 10.9 4.5 10.9h26c3.4 0 6.2 2.6 6.3 6c.1 3.3 .2 6.6 .2 10c0 17.5-1.7 34.7-4.8 51.3c-.2 1.2-.9 2.4-1.7 3.3l-46.5 46.5c-4 4-1.2 10.9 4.5 10.9H526c4.6 0 7.7 4.8 5.7 9C487.2 450.5 394.8 512 288 512S88.8 450.5 44.3 361c-2.1-4.2 1-9 5.7-9H64.5c5.7 0 8.6-6.9 4.5-10.9L22.6 294.6c-.9-.9-1.5-2-1.7-3.3C17.7 274.7 16 257.5 16 240c0-3.3 .1-6.7 .2-10c.1-3.4 2.9-6 6.3-6h26c5.7 0 8.6-6.9 4.5-10.9L24.6 184.6c-1.5-1.5-2.2-3.8-1.7-5.9C38.1 112.8 77.3 56 130.8 18c11.3-8 26 8.9 21.4 22c-5.3 15-8.2 31.2-8.2 48c0 46.3 21.9 87.5 55.8 113.9c7.5 5.8 8 17.9 1 24.4C175.7 249.6 160 283 160 320c0 62.9 45.4 115.2 105.1 126l2.1-61.5c.1-2.6-2.8-4.2-5-2.8l-26.3 17.6c-3.2 2.1-7.4 1.7-10.1-1s-3.1-6.9-1-10.1L246 356.3c1.3-1.9 .2-4.5-2-4.9l-37.6-7.5c-3.7-.7-6.4-4-6.4-7.8s2.7-7.1 6.4-7.8l37.6-7.5c2.2-.4 3.3-3 2-4.9z"></path></svg> Teaching philosophy.</h2>
+<p>I aim to teach the kind of course I would be eager to take as a student. My perspective has been shaped by more than 25 years of experience as both a student and researcher at several universities in Mexico and Europe. These experiences have given me deep insights not only in my field of expertise but also in diverse educational approaches and learning techniques across different academic cultures. This dual exposure has taught me the importance of combining theory with practice. Relying only on theory can limit the applicability of knowledge, while focusing only on practice can weaken the understanding of core principles. A thoughtful mix of both is essential for meaningful learning.</p>
+<p>In my courses, I place strong emphasis on the use of data and computer programming to develop practical skills and a research-oriented approach to solve business problems. This emphasis is not simply a personal preference, but a reflection of the growing demands of the job market. I understand that not all students enjoy learning computer programming, but it has become an essential skill across disciplines, and the university is committed to helping students develop it as part of their professional training. I seek to integrate current technologies and innovation tools so that students are prepared not only for today’s challenges but also for the ones they will face in the near future.</p>
+<p>The use of AI tools is not prohibited in my courses, as I believe it is both impractical and counterproductive to ban them in today’s academic and professional environment. Students are expected to become familiar with these tools and learn how to use them effectively. However, this does not mean their use should be indiscriminate or unquestioned. In my experience, AI does not typically provide correct or meaningful answers to the kind of exam questions I design, which require specific conceptual understanding and critical thinking. Nonetheless, these tools can be useful for learning, exploring ideas, and improving the quality of projects when used responsibly and thoughtfully.</p>
+<p>I also recognize that students themselves bring varied attitudes and circumstances to their learning. I believe that most students are genuinely interested in the subject matter, although I understand that not everyone comes to class under the same circumstances. Some may not enjoy the topic, others may be navigating difficult personal situations, and some may simply be struggling to stay engaged. I try to be mindful of this while maintaining high academic standards. I care about students’ mental health and well-being, and I do not believe that learning should come at the expense of anyone’s stability or health.</p>
+<p>I do not believe there is such a thing as a “bad student.” I believe all students have potential and ability, though they may face different challenges and arrive with different levels of preparation or support. My job is not to judge students by their difficulties, but to meet them where they are and help them move forward. At the same time, I also believe that earning good grades or performing well in a course is not the same as being a good person, and that the latter is far more important. Education is a powerful tool for personal and professional growth, but it should also cultivate empathy, integrity, and other higher values.</p>
+<p>That said, learning is a shared responsibility. My role is to provide structure, guidance, and support, but students are expected to attend class, follow the rules, and engage actively with the material. They need to prepare, participate, and take ownership of their learning. I provide detailed plans for every class so students know exactly what to read, deliver, and when assignments are due. I design assessments not only to evaluate performance but also to reinforce understanding. I value clarity and fairness in grading, and I offer feedback as a tool to support improvement and critical thinking. While I maintain fixed course standards that all students are expected to meet, I provide the necessary support to help them reach these requirements. Clear communication is essential for the success of the course. I encourage students to contact me with academic questions or other concerns that may affect their learning. I am here to support their progress and to help them stay on track.</p>
+<p>This collaborative approach works best within a structured framework. Our course operates within a clear set of rules and regulations established in the syllabus and official university documents. While I value communication and acknowledge personal and emotional challenges, I am also committed to applying these rules consistently and fairly. These guidelines exist to ensure transparency, fairness, and academic integrity. We are not expected to change or adapt the rules based on individual circumstances, and I believe it is important to uphold this principle for the benefit of the entire class.</p>
+<p>I strive to maintain a professional teaching approach while remaining approachable and supportive. I love my profession, I enjoy what I do, and I am always willing to help students learn and develop relevant skills. I do not try to entertain or to be friends, but I do aim to maintain a respectful and cordial relationship that supports our ability to meet the course objectives in a constructive and professional manner.</p>
+<p>Within this professional framework, I welcome and respect the diversity of student backgrounds, experiences, and perspectives. This diversity enriches the learning environment and helps prepare us for working in a global and interconnected world. At the same time, I believe it is important to distinguish between valuing diverse viewpoints and maintaining academic rigor. While a range of perspectives is encouraged in class discussions, this does not mean that all answers are equally valid from a technical or disciplinary standpoint. Sound reasoning, evidence, and established knowledge remain essential. Education should promote open dialogue, but it must also be grounded in facts, analytical thinking, and a shared commitment to learning. I also encourage students to be aware of the broader social and environmental context of our actions. In my view, education should not only build knowledge and skills but also reinforce values of responsibility, including care for the environment we all share.</p>
+<p>I believe that professors and students are not competitors; we are collaborators working toward a shared goal: learning. When a disagreement arises, I don’t see it as a conflict. Instead, I treat it as an opportunity for dialogue. Sometimes I may be wrong, and I try to correct my mistakes openly and promptly. Other times, I may need to explain to the student, using clear reasoning, subject knowledge, or university regulations, why their understanding might not align with course expectations. I understand that my role comes with institutional authority, and I take seriously the responsibility to use that authority fairly. I try to create an environment where students feel heard, even when we disagree, and where they can trust that decisions are based on principles, not personal judgment. Disagreements don’t have to become confrontations. With open communication and mutual respect, they can become part of the learning process itself.</p>
+<p>As I reflect on these principles, I’m mindful that higher education serves multiple purposes and represents different things to different people. Particularly in fields like business, finance, and economics, education is not only an academic pursuit but also a strategic investment. Whether tuition is paid by the student, their family, or a sponsoring institution, there is an expectation of value and return. As students and instructors, we have a shared responsibility to treat this process with the seriousness it deserves. That said, it’s also important to remember that education, while valuable, is not the only, or the most important, aspect of our lives as individuals. Our health, our relationships, and our character and values matter even more. I hope my students leave the classroom not only with stronger skills but with a deeper sense of what really matters.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<!-- Google tag (gtag.js) -->
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9QZBSVHDZ9"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-9QZBSVHDZ9');
+
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+<script src="1 Well_files/libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

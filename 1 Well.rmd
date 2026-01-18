@@ -25,9 +25,9 @@ Knowing how to work effectively in online environments is just as important as d
 
 ## `r fontawesome::fa("laugh")` About me.
 
-My full and updated curriculum vitae, is [here](https://mlozanoqf.github.io/resume/).
+My full and updated curriculum vitae is available [here](https://mlozanoqf.github.io/resume/).
 
-I am currently a professor of finance and economics at UDEM. I regularly collaborate as research fellow with the [University of Manchester](https://www.manchester.ac.uk/) through the [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/) and as a teaching fellow with [SOAS University of London](https://www.soas.ac.uk/) via the [Centre for Financial and Management Studies (CeFiMS)](https://www.cefims.ac.uk/).
+I am currently a professor of finance and economics at UDEM. I collaborate as a research fellow with the [University of Manchester](https://www.manchester.ac.uk/) through the [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/) and as a teaching fellow with [SOAS University of London](https://www.soas.ac.uk/) via the [Centre for Financial and Management Studies (CeFiMS)](https://www.cefims.ac.uk/).
 
 **Areas of expertise.** Finance, Economics, Statistics, Data Science.
 
@@ -38,9 +38,10 @@ I am currently a professor of finance and economics at UDEM. I regularly collabo
 **Education:**
 
 - Postdoc in Finance – [University of Manchester](https://www.manchester.ac.uk/).  
-- PhD in Quantitative Finance – University of the Basque Country (*Doctor Europaeus* distinction from the [European University Association](https://eua.eu/)).
-- Four MSc degrees in: Statistical Learning, Modern Applied Statistics, Quantitative Finance, and Finance.
-- Three University Expert diplomas in: Statistical Learning, Applied Statistical Methods, and Advanced Statistics – from [EGADE](https://egade.tec.mx/es/home) and [UNED](https://www.uned.es/universidad/inicio.html).  
+- PhD in Quantitative Finance – [University of the Basque Country](https://www.ehu.eus/es/).
+- *Doctor Europaeus* distinction – [European University Association](https://eua.eu/).
+- Four MSc degrees in: Statistical Learning, Modern Applied Statistics, Quantitative Finance, and Finance – from [EGADE Business School](https://egade.tec.mx/es/home), [Universidad Complutense de Madrid](www.ucm.es) and [UNED](https://www.uned.es/universidad/inicio.html). 
+- Three University Expert diplomas in: Statistical Learning, Applied Statistical Methods, and Advanced Statistics – [UNED](https://www.uned.es/universidad/inicio.html).  
 - BS in Economics – [Tecnológico de Monterrey](https://tec.mx/es).  
 
 I have also completed more than 20 professional training programs in various areas, including data science, sustainable finance, migration, and innovation. These programs were offered by prestigious institutions such as [Strathclyde Business School](https://www.strath.ac.uk/business/), [University of Bath](https://www.bath.ac.uk/), [Duke University](https://duke.edu/), [RISIS Research Infrastructure for Science and Innovation Policy Studies](https://www.risis2.eu/), [Università della Svizzera Italiana](https://www.usi.ch/it), [AIT Austrian Institute of Technology](https://www.ait.ac.at/en/), [The Alan Turing Institute](https://www.turing.ac.uk/), [Universidad Complutense de Madrid](https://www.ucm.es/), [Manchester Institute of Innovation Research](https://www.mioir.manchester.ac.uk/), among others.
