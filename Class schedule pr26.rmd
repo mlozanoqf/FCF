@@ -85,7 +85,7 @@ FCF1, Spring 2026. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02w
 
 - Topic 2/3: Discounting and compounding: The analytical core of financial decision-making.
 - Reading. Interés. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
-- Reading. Finanzas. See: [https://mlozanoqf.github.io/ensayos/](https://mlozanoqf.github.io/ensayos/)
+- Reading. [Finanzas](https://ahyaentendi.substack.com/p/finanzas-como-infraestructura-social?r=7eldc0)
 - Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* Available at: [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
 - Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, February 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
 
