@@ -1,0 +1,82 @@
+# Internet resources {#sec-internet-resources}
+
+This section is a curated starting point, not an exhaustive directory. I prioritize official documentation, stable open textbooks, institutional data sources, and active technical communities. These resources are useful for learning, checking syntax, finding data, improving code, and understanding methods, but the course instructions and policies always take priority.
+
+Because websites, tools, and AI systems change quickly, students should verify that a resource is current before relying on it. When using AI tools or internet resources, students remain responsible for checking the output, understanding the work, and following the rules stated in this syllabus.
+
+## Core software and documentation
+
+- [R Project](https://www.r-project.org/). Official website for R, the statistical computing environment used widely in data analysis, statistics, econometrics, and finance.
+- [CRAN manuals](https://cran.r-project.org/manuals.html). Official manuals for learning and using R.
+- [RStudio Desktop](https://posit.co/download/rstudio-desktop/). Local development environment for R and related workflows.
+- [Quarto documentation](https://quarto.org/docs/guide/). Documentation for creating technical documents, websites, books, presentations, and reproducible reports.
+- [Jupyter documentation](https://docs.jupyter.org/). Documentation for Jupyter notebooks, JupyterLab, and notebook-based workflows.
+- [Python documentation](https://docs.python.org/3/). Official documentation for Python.
+- [pandas documentation](https://pandas.pydata.org/docs/). Documentation for data manipulation, time series, tabular data, and data analysis in Python.
+- [NumPy documentation](https://numpy.org/doc/stable/). Documentation for numerical computing in Python.
+- [statsmodels documentation](https://www.statsmodels.org/stable/index.html). Documentation for statistical and econometric modeling in Python.
+- [scikit-learn user guide](https://scikit-learn.org/stable/user_guide.html). Documentation for machine learning tools in Python.
+- [Git documentation](https://git-scm.com/doc). Official documentation for version control with Git.
+- [GitHub Docs](https://docs.github.com/). Documentation for repositories, collaboration, GitHub Pages, and related workflows.
+
+## Learning R, Python, and data science
+
+- [R for Data Science, 2nd edition](https://r4ds.hadley.nz/). A modern open book for data import, transformation, visualization, and communication in R.
+- [Tidyverse documentation](https://www.tidyverse.org/). Documentation and package information for the tidyverse ecosystem.
+- [Posit Primers](https://posit.cloud/learn/primers). Interactive introductions to R and tidyverse tools.
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/). Open textbook for applied econometrics with R.
+- [Forecasting: Principles and Practice, 3rd edition](https://otexts.com/fpp3/). Open textbook for forecasting with R.
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/). Open book covering core Python tools for data science.
+- [Kaggle Learn](https://www.kaggle.com/learn). Short practical courses in Python, data visualization, machine learning, SQL, and related topics.
+- [DataCamp](https://www.datacamp.com/). Course platform used in this class for selected certifications and complementary practice.
+- [DataLab](https://www.datacamp.com/datalab). Cloud notebook platform used in this class for team work, notebooks, and computational activities.
+
+## AI-assisted learning and coding
+
+AI tools can help students understand concepts, generate examples, debug code, compare approaches, and prepare explanations. They should be treated as assistants, not authorities. Students should verify calculations, test code, check references, and be prepared to explain their work without AI support during the Oral component.
+
+- [ChatGPT](https://chatgpt.com/). General-purpose AI assistant.
+- [Claude](https://claude.ai/). General-purpose AI assistant.
+- [Gemini](https://gemini.google.com/). General-purpose AI assistant from Google.
+- [GitHub Copilot documentation](https://docs.github.com/en/copilot). Documentation for AI-assisted coding inside development environments.
+
+The AI landscape changes quickly. Students may use other AI tools if they are appropriate, reliable, and consistent with the rules of the activity. Do not upload private, confidential, or sensitive information to external tools unless the activity explicitly allows it and the information is safe to share.
+
+## Finance, economics, and public data
+
+The following sources are useful starting points for financial, economic, macroeconomic, and institutional data. Prefer official or primary data sources when possible.
+
+- [FRED](https://fred.stlouisfed.org/). Economic data from the Federal Reserve Bank of St. Louis.
+- [World Bank Open Data](https://data.worldbank.org/). Global development, economic, demographic, and financial indicators.
+- [IMF Data](https://www.imf.org/en/Data). International macroeconomic and financial data.
+- [OECD Data](https://www.oecd.org/en/data.html). Economic and social data from the OECD.
+- [BIS Statistics](https://www.bis.org/statistics/). International banking, financial, credit, derivatives, and payments statistics.
+- [Banco de Mexico SIE](https://www.banxico.org.mx/SieInternet/). Economic and financial data from Mexico's central bank.
+- [INEGI Datos](https://www.inegi.org.mx/datos/). Official statistical data for Mexico.
+- [BEA Data](https://www.bea.gov/data). U.S. national, international, regional, and industry economic accounts.
+- [BLS Data](https://www.bls.gov/data/). U.S. labor, price, productivity, and employment data.
+- [SEC EDGAR](https://www.sec.gov/edgar/search/). Public company filings in the United States.
+- [Kaggle Datasets](https://www.kaggle.com/datasets). Public datasets for practice and exploration. When using Kaggle, check the original source, documentation, license, and update date.
+
+## Research and current context
+
+- [Google Scholar](https://scholar.google.com/). Search engine for academic literature.
+- [SSRN](https://www.ssrn.com/). Working papers and research in finance, economics, law, accounting, and related areas.
+- [NBER Working Papers](https://www.nber.org/papers). Working papers from the National Bureau of Economic Research.
+- [Campbell Harvey YouTube channel](https://www.youtube.com/@campbellharvey). Lectures and talks by Campbell R. Harvey, Professor of Finance at Duke University's Fuqua School of Business and Research Associate of the NBER. Useful as complementary material for financial economics, investment management, risk, decentralized finance, and current topics in finance.
+- [IDEAS/RePEc](https://ideas.repec.org/). Bibliographic database for economics research.
+- [BIS publications](https://www.bis.org/publ/). Research and policy publications from the Bank for International Settlements.
+- [Federal Reserve Economic Research](https://www.federalreserve.gov/econres.htm). Research and publications from the Federal Reserve Board.
+
+For news and market context, students may also consult reputable financial journalism such as Reuters, Bloomberg, the Financial Times, The Wall Street Journal, or The Economist. Some sources may require institutional or personal access. News is useful for context, but it is not a substitute for data, methods, and course materials.
+
+## Technical communities
+
+Communities are useful for troubleshooting, but answers can be outdated or incorrect. Prefer recent answers, read documentation, test code, and adapt solutions carefully.
+
+- [Stack Overflow](https://stackoverflow.com/). Questions and answers about programming.
+- [Cross Validated](https://stats.stackexchange.com/). Questions and answers about statistics, machine learning, and data analysis.
+- [Posit Community](https://forum.posit.co/). Community support for R, RStudio, Quarto, Shiny, and related tools.
+- [TeX Stack Exchange](https://tex.stackexchange.com/). Questions and answers about LaTeX and related typesetting tools.
+- [R-Ladies](https://rladies.org/). Global community that promotes gender diversity in the R community.
+- [R-Bloggers](https://www.r-bloggers.com/). Aggregator of R-related blog posts. Use it as a way to discover examples, not as an official source.

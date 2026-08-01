@@ -1,0 +1,96 @@
+# Activities {#sec-activities}
+
+Activities are structured tasks or exercises designed to facilitate the acquisition of knowledge, skills, and understanding in an educational context. They are intended to promote active engagement, deepen understanding, and support the achievement of specific learning objectives.
+
+Activities are classified into three categories: graded activities, bonus points activities, and non-graded activities.
+
+- **Graded activities** are two applied, research-oriented homework assignments $H_1$, $H_2$, two scheduled, remote partial exams $E_1$, $E_2$, and one scheduled, remote final exam $E_F$. Together, these team activities account for 100% of the final grade.
+- **Bonus points activities** are optional and individual. They can increase the mark applied to the next exam or final exam, as explained below and in the evaluation method.
+- **Non-graded activities** support learning, participation, or class logistics but are not included in the grading process. Some non-graded activities may be connected to attendance rules when they are used as an alternative to remaining in the classroom.
+
+This chapter explains what activities are and how they are organized in practice.
+
+## <span class="bi bi-check-circle content-icon" aria-hidden="true"></span> Graded activities
+
+Graded activities evaluate understanding, analytical reasoning, computational work, interpretation of results, and professional communication. Homework assignments provide space to practice and prepare for exams; exams evaluate course topics under a structured time frame. Students are expected to start homework early and keep detailed notes throughout the semester.
+
+Most graded activities include a Written component and an Oral component. The final exam $E_F$ has only a Written component.
+
+::: {.activity-components-table}
+| Activity | Written component | Oral component |
+|---|---|---|
+| $H_1$ | Team DataLab notebook or required evidence completed by the homework deadline. | Homework presentation with an individual Oral component mark for each student. |
+| $H_2$ | Team DataLab notebook or required evidence completed by the homework deadline. | Homework presentation with a team Oral component mark. |
+| $E_1$, $E_2$ | Remote exam notebook completed during the scheduled exam period. | Oral defense after the complete Written component is submitted. |
+| $E_F$ | Remote final exam notebook completed during the scheduled final-exam period. | Not applicable. |
+:::
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
+| $H_1$, $H_2$ | DataLab notebook or required evidence completed by the homework deadline. | Homework presentation after the Written component is completed. |
+-->
+
+The activity marks are calculated as explained in [Evaluation](evaluation.qmd#sec-evaluation).
+
+<!-- Previous reusable wording for syllabi where all these marks are team marks:
+The team marks are calculated as explained in [Evaluation](evaluation.qmd#sec-evaluation).
+-->
+
+**Written component.** The Written component is completed in DataLab, normally through a <tt>`.ipynb`</tt> Jupyter Notebook file distributed through Blackboard. Students may use all available resources while producing the Written component, subject to the official rules.
+
+**Oral component.** The Oral component consists of explaining and defending the Written component version that was completed by the homework deadline or submitted during the partial-exam period. Students prepare the oral explanation, not a new document: they do not upload a separate presentation document, corrected notebook, slide deck, or improved version for the Oral component. Homework deadlines, exam dates, and oral presentation or defense dates are listed in [Schedule](schedule.qmd#sec-schedule). Oral sessions may take more than one class session depending on enrollment, number of teams, and class format. A team may complete the Oral component only if the corresponding Written component is complete: the homework assignment must be complete, and a partial exam must include the three required answered questions. If the Written component is incomplete, the team has no opportunity to present or defend that activity. For $H_1$, each student receives an individual Oral component mark based on the understanding that the student demonstrates during the presentation. The team may organize the presentation internally, but every team member is individually responsible for demonstrating sufficient understanding to be assessed. For $H_2$, $E_1$, and $E_2$, the team decides whether one, several, or all members present, unless I give different instructions, and the Oral component is initially graded as a team mark. Individual differences for those activities are handled later through bonus points, when applicable, and coevaluation as explained in [Evaluation](evaluation.qmd#sec-evaluation). I will normally display the submitted homework or partial-exam answer on screen, and students explain their work from that displayed version only. I will normally give feedback in front of the class so that the feedback can also support the learning of other students. A weak but complete Written component can still lead to a strong Oral component mark if students clearly identify mistakes and explain precisely how to correct or improve them. A strong Written component does not guarantee a strong Oral component mark if students cannot explain the work clearly.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark and coevaluation:
+**Oral component.** The Oral component consists of explaining and defending the Written component version that was completed by the homework deadline or submitted during the partial-exam period. Students prepare the oral explanation, not a new document: they do not upload a separate presentation document, corrected notebook, slide deck, or improved version for the Oral component. Homework deadlines, exam dates, and oral presentation or defense dates are listed in [Schedule](schedule.qmd#sec-schedule). Oral sessions may take more than one class session depending on enrollment, number of teams, and class format. A team may complete the Oral component only if the corresponding Written component is complete: the homework assignment must be complete, and a partial exam must include the three required answered questions. If the Written component is incomplete, the team has no opportunity to present or defend that activity. Once a team is scheduled or selected to present, the team decides whether one, several, or all members present, unless I give different instructions. The Oral component is initially graded as a team mark based on the explanation and defense provided during the session, regardless of whether one, several, or all team members speak. Individual differences are handled later through bonus points and coevaluation as explained in [Evaluation](evaluation.qmd#sec-evaluation). I will normally display the submitted homework or partial-exam answer on screen, and students explain their work from that displayed version only. I will normally give feedback in front of the class so that the feedback can also support the learning of other students. A weak but complete Written component can still lead to a strong Oral component if the team clearly identifies mistakes and explains precisely how to correct or improve them. A strong Written component does not guarantee a strong Oral component if the team cannot explain the work clearly.
+-->
+
+**Non-presenting teams during oral sessions.** During oral presentation or oral defense sessions, once I have announced or confirmed that a team is not scheduled to present in the corresponding session or block, that team has three options: remain in the classroom as audience members, complete a Campus Contribution Mission, or leave the classroom to organize, practice, or work on its own Oral component. Remaining in the classroom can help students learn from other teams, observe the questions I ask, and listen to the feedback given to others. Campus Contribution Missions and team oral preparation are non-graded alternatives described below and regulated in [Activity rules and consequences](course-policies.qmd#sec-ap).
+
+**Questions about feedback.** Students who have difficulty understanding their mistakes or feedback are expected to contact me for clarification.
+
+**Official rules.** The complete rules for graded activities are stated in [Activity rules and consequences](course-policies.qmd#sec-ap). Students are responsible for reading them carefully.
+
+## <span class="bi bi-emoji-heart-eyes content-icon" aria-hidden="true"></span> Bonus points
+
+Bonus points activities are optional and individual. You do not lose points if you do not complete them, but you can earn additional points if you complete them on time. Bonus points apply directly to the next scheduled exam, either a partial exam or the final exam, according to [Schedule](schedule.qmd#sec-schedule).
+
+**DataCamp certifications.** DataCamp bonus activities are based on certifications selected for the course. The specific certifications may change depending on the course topic and semester. There may be between one and three DataCamp certification opportunities during the semester. [Schedule](schedule.qmd#sec-schedule) specifies the certification, deadline, number of bonus points, and exam to which the points apply. It is not necessary to send evidence unless I explicitly request it, because DataCamp records completion automatically.
+
+**The wheel of fortune.** I may spin a virtual wheel of fortune during the semester to randomly allocate bonus points to selected students. There are normally three wheel-of-fortune opportunities during the semester: one applied to the first partial exam, one applied to the second partial exam, and one applied to the final exam. Attendance in these sessions is required to claim the bonus points if you are selected by the wheel.
+
+**Exceptional class performance.** In extraordinary cases, I may assign bonus points at my discretion for outstanding performance or participation during class. This is not common and should not be expected as a regular part of the course; for example, I did not use this option during the previous semester.
+
+**Others.** Other bonus points opportunities may be listed in [Schedule](schedule.qmd#sec-schedule) or announced during the semester.
+
+## <span class="bi bi-boxes content-icon" aria-hidden="true"></span> Non-graded
+
+Non-graded activities are optional learning, participation, or class-logistics activities that may be suggested during the semester. They are intended to support preparation, practice, class interaction, or academic community, but they do not contribute to the final grade.
+
+**UN CC:Learn activities.** Students are encouraged to explore [UN CC:Learn](https://unccelearn.org/), the One UN Climate Change Learning Partnership, as an optional non-graded learning activity. UN CC:Learn is a United Nations learning platform developed through collaboration among multilateral organizations, with courses and resources on climate change, green economy, circular economy, climate action, and related topics. These activities are not required and do not affect the course grade. Their purpose is to give students an opportunity to explore current global issues that are increasingly relevant for finance, business, risk management, public policy, and sustainability. Some UN CC:Learn courses address topics closely connected to sustainable finance, climate finance, environmental risk, and the transition toward low-carbon and socially inclusive economies. Students may choose any UN CC:Learn course according to their own interests. If a student completes a course and obtains a certificate, they may keep it as evidence of complementary learning for their CV, LinkedIn profile, or professional portfolio. Course availability, certificate conditions, and possible certificate fees depend on UN CC:Learn and may change over time.
+
+**Campus Contribution Mission.** During oral presentation or oral defense sessions, students in a non-presenting team may complete a Campus Contribution Mission instead of remaining in the classroom. A Campus Contribution Mission is a brief good deed or positive action completed on campus for someone, for a university space, or for the university community. This option recognizes that some students may use the time productively by contributing directly to the campus community. This activity is non-graded: it does not add points and it does not replace any graded Written or Oral component. Because it is used as an attendance alternative during class time, students must follow the evidence and attendance rules stated in [Activity rules and consequences](course-policies.qmd#sec-ap).
+
+**Team oral preparation.** During oral presentation or oral defense sessions, a non-presenting team may leave the classroom to organize, practice, or work on its own Oral component. This option is non-graded, does not add points, and does not replace the team's graded Oral component. No evidence needs to be submitted for this preparation option.
+
+**Pet introduction.** Especially during Zoom sessions, students may briefly introduce their pet to the class and tell us its story. This is a playful, optional, non-graded activity intended to help us know each other a little better and make the class environment warmer. All kinds of pets are welcome, but students are not expected to participate if they do not have a pet or prefer not to share.
+
+## Activity mechanics {#sec-am}
+
+This section explains how homework assignments, exams, oral sessions, and related activities are organized in practice. The enforceable rules and consequences are stated in [Policies](course-policies.qmd#sec-policies).
+
+**Schedule and exam duration.** Exam dates follow the university's official calendar and are listed in [Schedule](schedule.qmd#sec-schedule). Homework deadlines and oral presentation or defense sessions are also listed in [Schedule](schedule.qmd#sec-schedule). $E_1$ and $E_2$ are 1.5-hour scheduled exam activities during official class time and may be completed remotely. $E_F$ lasts 2 hours and may also be completed remotely.
+
+**Activity files and coevaluation links.** Homework instructions will be available in Blackboard with sufficient advance notice as Jupyter Notebook (`.ipynb`) files. Each team must download the notebook and upload it to the correct team workspace in DataLab. Exam instructions are also distributed through Blackboard as Jupyter Notebook files; they normally become available 5 minutes before the scheduled start of the exam so teams can download the file, upload it to DataLab, and work in the correct team workspace during the exam period. After $E_1$ and $E_2$, the Google Forms link for the corresponding coevaluation will be available on Blackboard: the first coevaluation applies only to $E_1$, and the second applies to $H_2$ and $E_2$. There is no coevaluation for $H_1$. Each coevaluation deadline is stated in [Schedule](schedule.qmd#sec-schedule).
+
+<!-- Previous reusable wording for syllabi where H1 has coevaluation:
+**Activity files and coevaluation links.** Homework instructions will be available in Blackboard with sufficient advance notice as Jupyter Notebook (`.ipynb`) files. Each team must download the notebook and upload it to the correct team workspace in DataLab. Exam instructions are also distributed through Blackboard as Jupyter Notebook files; they normally become available 5 minutes before the scheduled start of the exam so teams can download the file, upload it to DataLab, and work in the correct team workspace during the exam period. After $E_1$ and $E_2$, a Google Forms link will appear in Blackboard for the corresponding coevaluation: one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. The coevaluation deadline depends on when the oral defenses for that partial exam are completed and will be stated in Blackboard or [Schedule](schedule.qmd#sec-schedule).
+-->
+
+**Oral presentation and defense selection.** The teams that present or defend in a given Oral component session or block are selected by random draw. For partial-exam Oral defenses, the exam question that the selected team must defend is also selected by random draw from the team's three answered questions. During the $H_1$ presentation, each team member is assessed individually and must demonstrate sufficient understanding to receive an individual Oral component mark. For $H_2$, $E_1$, and $E_2$, the team decides whether one, several, or all members present, unless I explicitly state otherwise. This internal decision does not change the team's responsibility for understanding and defending the submitted work, and the Oral component for those activities is initially graded as a team mark.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
+**Oral presentation and defense selection.** The teams that present or defend in a given Oral component session or block are selected by random draw. For partial-exam Oral defenses, the exam question that the selected team must defend is also selected by random draw from the team's three answered questions. Once a team is selected to present or defend, the team decides whether one, several, or all members present, unless I explicitly state otherwise. This internal decision does not change the team's responsibility for understanding and defending the submitted work, and the Oral component is initially graded as a team mark.
+-->
+
+**Non-presenting teams during oral sessions.** During oral presentation or oral defense sessions listed in [Schedule](schedule.qmd#sec-schedule), after I have announced or confirmed that a team is not scheduled to present in a given session or block, that team may choose one of three options during class time: remain in the classroom as audience members, complete a Campus Contribution Mission, or leave the classroom to organize, practice, or work on its own Oral component. Students may complete a Campus Contribution Mission individually or with classmates of their choice. If a team leaves for oral preparation, no evidence needs to be submitted. If students leave the classroom for either option, they may remain outside for the rest of the session unless they are scheduled to present in a later block or I give different instructions.
+
+**Final exam timing.** The final exam $E_F$ is the last graded activity of the semester. No extra activities are planned after $E_F$ to increase marks or pass the course. The $E_F$ date may be moved earlier for administrative reasons in the case of graduating students.

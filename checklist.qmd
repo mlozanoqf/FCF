@@ -1,0 +1,28 @@
+# Checklist {#sec-checklist}
+
+As a student in this course, and more broadly as a member of the academic community, you are expected to respect the rules stated in this syllabus and in the university's academic regulations. These rules are not arbitrary; they exist to ensure fairness, transparency, and equal treatment for everyone enrolled in the course.
+
+Students may sometimes believe that their personal situation justifies an exception. I will always listen respectfully to concerns and questions. However, being heard does not mean that an exception can be granted. My responsibility is to apply the course rules consistently. Individual exceptions, even when requested in good faith, can create unfairness for other students.
+
+My commitment is to be clear, respectful, and fair. In return, I expect every student to approach the course with maturity, responsibility, and awareness that the rules are part of the learning environment we all share.
+
+Please consider the following checklist to improve your chances of achieving a strong performance in this course.
+
+1. **Read the syllabus carefully.** You are responsible for knowing the contents of this syllabus and all linked materials. Not reading the syllabus is not an acceptable excuse for missing deadlines, requirements, or policies. Quoting Yoda <span class="bi bi-stars content-icon" aria-hidden="true"></span>: *read the syllabus you must.*
+1. **Use the available resources to learn and practice.** Coding is a required component of this course, but learning to code in 2026 does not mean memorizing syntax or working without assistance. Use DataCamp, course materials, examples, documentation, AI tools, and office-hour support as needed. The important point is that you understand the work well enough to explain it clearly.
+1. **Ask for help early.** If you are confused, stuck, or unsure how to improve, contact me before the problem grows. If I ever take longer than expected to answer an email or request, please insist and kindly remind me.
+1. **Maintain academic quality standards.** Course sessions and activities are planned in advance. Read, prepare, and make steady progress every week. Strong performance usually comes from starting early, keeping good notes, and revising your work carefully.
+1. **Recover from mistakes.** If you do poorly on an activity, do not stop at the first failed attempt. Review your notes, feedback, and solutions discussed in class. Redo the activity on your own, identify what you missed, and then contact me if you need clarification.
+1. **Take team work seriously.** If a teammate does not contribute under basic team standards, use the coevaluation process honestly. A teammate can receive a coevaluation score of 0, and that can result in that student receiving 0 for the corresponding activity. Teams should keep internal agreements and contribution records when they expect those records to matter later.
+1. **Take care of your well-being.** This course can be challenging, and frustration is normal. Your mental and emotional health matters. Seek support early from me and/or university support services if you are struggling. At the same time, course policies and deadlines apply equally to everyone and cannot be adjusted case by case.
+1. **Understand the evaluation method.** The evaluation method is designed to reward improvement and demonstrated understanding. The stronger homework mark and the stronger partial-exam mark receive more weight than the weaker ones, and the Oral component has substantial weight in homework assignments and partial exams.
+1. **Stay in communication.** If you would like to share something with me, ask a question, or clarify a situation, feel free to contact me. My email is <tt>`<martin.lozano@udem.edu>`</tt>.
+1. **Return to item 1.** Seriously: read the syllabus carefully and return to it during the semester.
+
+Prof. Dan Fleisch describes an effective way to ask for help in college classes.
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/dXG9UgW65fU" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```

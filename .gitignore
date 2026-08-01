@@ -4,3 +4,11 @@
 .Ruserdata
 
 /.quarto/
+/_book/
+/docs/
+/includes/generated/
+
+# Accidental local/render leftovers that are not part of the Quarto book.
+/1 Well.html
+/1 Well_files/
+/VideoDecodeStats/

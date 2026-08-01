@@ -1,0 +1,307 @@
+<script>
+function initSidebarAccordion() {
+  var sidebar = document.querySelector("#quarto-sidebar");
+
+  if (!sidebar) {
+    return;
+  }
+
+  function addScheduleSection() {
+    var scheduleLink = Array.prototype.slice.call(
+      sidebar.querySelectorAll("a.sidebar-link[href]")
+    ).find(function (link) {
+      return pageNameFromUrl(link.getAttribute("href")) === "schedule.html";
+    });
+
+    if (!scheduleLink) {
+      return;
+    }
+
+    var scheduleItem = scheduleLink.closest("li.sidebar-item");
+
+    if (!scheduleItem || scheduleItem.classList.contains("sidebar-item-section")) {
+      return;
+    }
+
+    var container = scheduleItem.querySelector(".sidebar-item-container");
+
+    if (!container) {
+      return;
+    }
+
+    var sectionId = "quarto-sidebar-section-schedule";
+    var sectionTrigger = document.createElement("a");
+    sectionTrigger.className = "sidebar-item-text sidebar-link text-start collapsed";
+    sectionTrigger.setAttribute("data-bs-toggle", "collapse");
+    sectionTrigger.setAttribute("data-bs-target", "#" + sectionId);
+    sectionTrigger.setAttribute("role", "navigation");
+    sectionTrigger.setAttribute("aria-expanded", "false");
+
+    var triggerText = document.createElement("span");
+    triggerText.className = "menu-text";
+    triggerText.textContent = "Schedule";
+    sectionTrigger.appendChild(triggerText);
+
+    var toggle = document.createElement("a");
+    toggle.className = "sidebar-item-toggle text-start collapsed";
+    toggle.setAttribute("data-bs-toggle", "collapse");
+    toggle.setAttribute("data-bs-target", "#" + sectionId);
+    toggle.setAttribute("role", "navigation");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Toggle section");
+
+    var toggleIcon = document.createElement("i");
+    toggleIcon.className = "bi bi-chevron-right ms-2";
+    toggle.appendChild(toggleIcon);
+
+    while (container.firstChild) {
+      container.removeChild(container.firstChild);
+    }
+
+    container.appendChild(sectionTrigger);
+    container.appendChild(toggle);
+
+    var section = document.createElement("ul");
+    section.id = sectionId;
+    section.className = "collapse list-unstyled sidebar-section depth1";
+    section.setAttribute("data-schedule-section", "true");
+
+    [
+      { href: "./schedule.html#part-1", text: "Part 1" },
+      { href: "./schedule.html#part-2", text: "Part 2" },
+      { href: "./schedule.html#part-3", text: "Part 3" }
+    ].forEach(function (part) {
+      var item = document.createElement("li");
+      item.className = "sidebar-item";
+
+      var itemContainer = document.createElement("div");
+      itemContainer.className = "sidebar-item-container";
+
+      var link = document.createElement("a");
+      link.className = "sidebar-item-text sidebar-link";
+      link.href = part.href;
+      link.setAttribute("data-schedule-part", part.href.split("#")[1]);
+
+      var text = document.createElement("span");
+      text.className = "chapter-title";
+      text.textContent = part.text;
+      link.appendChild(text);
+
+      link.addEventListener("click", function (event) {
+        var destination = new URL(link.href, window.location.href);
+        var currentPage = window.location.pathname.split("/").pop() || "index.html";
+        var destinationPage = destination.pathname.split("/").pop() || "index.html";
+
+        if (currentPage !== destinationPage || !destination.hash) {
+          return;
+        }
+
+        var target = document.getElementById(destination.hash.slice(1));
+
+        if (!target) {
+          return;
+        }
+
+        event.preventDefault();
+        history.pushState(null, "", destination.hash);
+
+        var localNav = document.querySelector(".page-local-nav");
+        var offset = localNav ? Math.ceil(localNav.getBoundingClientRect().height + 16) : 0;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: Math.max(0, top),
+          behavior: "smooth"
+        });
+
+        window.setTimeout(syncActiveSchedulePart, 50);
+      });
+
+      itemContainer.appendChild(link);
+      item.appendChild(itemContainer);
+      section.appendChild(item);
+    });
+
+    scheduleItem.classList.add("sidebar-item-section");
+    scheduleItem.appendChild(section);
+  }
+
+  addScheduleSection();
+
+  var sections = Array.prototype.slice.call(
+    sidebar.querySelectorAll("ul.sidebar-section.depth1.collapse[id]")
+  );
+
+  sidebar.querySelectorAll("a.sidebar-link[href]").forEach(function (link) {
+    if (pageNameFromUrl(link.getAttribute("href")) !== "index.html") {
+      return;
+    }
+
+    var item = link.closest("li.sidebar-item");
+    if (item) {
+      item.style.display = "none";
+    }
+  });
+
+  if (sections.length === 0) {
+    return;
+  }
+
+  function syncTriggers(section, isOpen) {
+    sidebar.querySelectorAll('[data-bs-target="#' + section.id + '"]').forEach(function (trigger) {
+      trigger.classList.toggle("collapsed", !isOpen);
+      trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+  }
+
+  function closeSection(section) {
+    if (window.bootstrap && window.bootstrap.Collapse) {
+      window.bootstrap.Collapse.getOrCreateInstance(section, {
+        toggle: false
+      }).hide();
+    } else {
+      section.classList.remove("show");
+      syncTriggers(section, false);
+    }
+  }
+
+  function closeOtherSections(openSection) {
+    sections.forEach(function (section) {
+      if (section !== openSection && section.classList.contains("show")) {
+        closeSection(section);
+      }
+    });
+  }
+
+  function setCurrentSection(currentSection) {
+    sections.forEach(function (section) {
+      var sectionItem = section.closest("li.sidebar-item-section");
+
+      if (sectionItem) {
+        sectionItem.classList.toggle("sidebar-section-current", section === currentSection);
+      }
+    });
+  }
+
+  function pageNameFromUrl(value) {
+    var url = new URL(value, window.location.href);
+    var pageName = url.pathname.split("/").pop();
+
+    return pageName || "index.html";
+  }
+
+  function localNavOffset() {
+    var localNav = document.querySelector(".page-local-nav");
+
+    return localNav ? Math.ceil(localNav.getBoundingClientRect().height + 16) : 0;
+  }
+
+  function currentSchedulePartId() {
+    var currentPart = "part-1";
+    var threshold = localNavOffset() + 24;
+
+    ["part-1", "part-2", "part-3"].forEach(function (partId) {
+      var target = document.getElementById(partId);
+
+      if (target && target.getBoundingClientRect().top <= threshold) {
+        currentPart = partId;
+      }
+    });
+
+    return currentPart;
+  }
+
+  function syncActiveSchedulePart() {
+    var isSchedulePage = pageNameFromUrl(window.location.href) === "schedule.html";
+    var currentPart = isSchedulePage ? currentSchedulePartId() : "";
+
+    sidebar.querySelectorAll("[data-schedule-part]").forEach(function (link) {
+      var isActive = link.getAttribute("data-schedule-part") === currentPart;
+
+      link.classList.toggle("active", isActive);
+
+      if (isActive) {
+        link.setAttribute("aria-current", "location");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  function markCurrentSection() {
+    var currentPage = pageNameFromUrl(window.location.href);
+
+    sections.forEach(function (section) {
+      var sectionItem = section.closest("li.sidebar-item-section");
+      var isCurrent = Array.prototype.slice.call(section.querySelectorAll("a.sidebar-link[href]")).some(function (link) {
+        return pageNameFromUrl(link.getAttribute("href")) === currentPage;
+      });
+
+      if (sectionItem) {
+        sectionItem.classList.toggle("sidebar-section-current", isCurrent);
+      }
+
+      if (isCurrent && section.getAttribute("data-schedule-section") === "true") {
+        section.classList.add("show");
+        syncTriggers(section, true);
+      }
+    });
+  }
+
+  markCurrentSection();
+  syncActiveSchedulePart();
+  window.addEventListener("pageshow", markCurrentSection);
+  window.addEventListener("load", markCurrentSection);
+  window.setTimeout(markCurrentSection, 250);
+  window.setTimeout(markCurrentSection, 1000);
+  window.addEventListener("hashchange", syncActiveSchedulePart);
+
+  var scheduleScrollFrame = null;
+
+  window.addEventListener("scroll", function () {
+    if (scheduleScrollFrame || pageNameFromUrl(window.location.href) !== "schedule.html") {
+      return;
+    }
+
+    scheduleScrollFrame = window.requestAnimationFrame(function () {
+      scheduleScrollFrame = null;
+      syncActiveSchedulePart();
+    });
+  }, { passive: true });
+
+  sidebar.querySelectorAll("[data-bs-target]").forEach(function (trigger) {
+    var target = trigger.getAttribute("data-bs-target");
+
+    if (!target || target.indexOf("#quarto-sidebar-section-") !== 0) {
+      return;
+    }
+
+    var section = sidebar.querySelector(target);
+
+    if (!section) {
+      return;
+    }
+
+    trigger.addEventListener("click", function () {
+      setCurrentSection(section);
+
+      if (!section.classList.contains("show")) {
+        closeOtherSections(section);
+      }
+    });
+  });
+
+  sections.forEach(function (section) {
+    section.addEventListener("show.bs.collapse", function () {
+      setCurrentSection(section);
+      closeOtherSections(section);
+    });
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initSidebarAccordion);
+} else {
+  initSidebarAccordion();
+}
+</script>

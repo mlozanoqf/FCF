@@ -1,0 +1,76 @@
+# Evaluation {#sec-evaluation}
+
+This section explains the final-grade calculation used in the course. Partial grades reported to the Registrar's Office during the semester may be administrative indicators when Oral components or coevaluations are still pending. Those partial reports do not replace the final-grade calculation described here. Individual marks may differ within a team because the $H_1$ Oral component is graded individually and because coevaluations and individual bonus points are applied separately when applicable.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark and coevaluation:
+This section explains the final-grade calculation used in the course. Partial grades reported to the Registrar's Office during the semester may be administrative indicators when Oral components or coevaluations are still pending. Those partial reports do not replace the final-grade calculation described here. Individual marks may differ within a team because coevaluations and individual bonus points are applied separately to each student.
+-->
+
+For transparency, I may periodically upload an Excel file to Blackboard with team-level and component marks during the semester. This file may include the team Written component mark for $H_1$, but it is not necessarily a complete record of each student's individual $H_1$ Oral component mark or final individual marks after bonus points and coevaluations. Students may contact me if they have questions about their marks or need clarification.
+
+<!-- Previous reusable wording for syllabi where H1 is reported as a team mark:
+For transparency, I may periodically upload an Excel file to Blackboard with team-level marks during the semester. This file is intended as a reference for team marks, not as a complete record of each student's individual mark after bonus points and coevaluations. Students may contact me if they have questions about their marks or need clarification.
+-->
+
+## Homework and partial exams (70%)
+
+Homework assignments and partial exams together represent 70% of the final grade: 40% from homework assignments and 30% from partial exams. This section explains how the individual marks for $H_1$, $H_2$, $E_1$, and $E_2$ are obtained. The activity rules and mechanics are stated in [Activities](course-activities.qmd#sec-activities), [Activity mechanics](course-activities.qmd#sec-am), [Activity rules and consequences](course-policies.qmd#sec-ap), and [Rubrics](rubrics.qmd#sec-rubrics).
+
+The calculation follows a sequence:
+
+1. **Written and Oral component marks.** For $H_1$, $H_2$, $E_1$, and $E_2$, the Written component is worth 20% and the Oral component is worth 80%. The Written component is a team mark for all four activities. For $H_1$, the Oral component is graded individually, so each student's $H_1$ mark combines 20% of the team Written component mark and 80% of that student's individual Oral component mark. For $H_2$, $E_1$, and $E_2$, the Oral component is initially a team mark, and the 20/80 calculation produces a team activity mark. The final exam $E_F$ has no Oral component; its mark is based only on the Written component.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
+1. **Team mark for each activity.** For $H_1$, $H_2$, $E_1$, and $E_2$, I first assign a team mark based on two components: the Written component is worth 20%, and the Oral component is worth 80%. The Oral component is initially a team mark even if the team decides that only one or some members speak during the presentation or defense. The final exam $E_F$ has no Oral component; its mark is based only on the Written component.
+-->
+
+1. **Individual bonus points.** DataCamp certifications, wheel-of-fortune points, and other individual bonus points are added to the next scheduled exam for the student who earned them. Bonus points are individual, not shared, and may create further differences among students from the same team. If bonus points make an internal exam mark exceed 100, that mark is kept for the final-grade calculation. However, grades reported to the Registrar's Office cannot exceed 100.
+
+<!-- Previous reusable wording for syllabi where individual differences begin with bonus points:
+1. **Individual bonus points.** DataCamp certifications, wheel-of-fortune points, and other individual bonus points are added to the next scheduled exam for the student who earned them. Bonus points are individual, not shared. This is the first point in the calculation where students from the same team may have different marks. If bonus points make an internal exam mark exceed 100, that mark is kept for the final-grade calculation. However, grades reported to the Registrar's Office cannot exceed 100.
+-->
+
+1. **Coevaluation.** There are two coevaluations: the first one applies only to $E_1$, and the second one applies to $H_2$ and $E_2$. There is no coevaluation for $H_1$ because its Oral component is already graded individually. Coevaluation helps recognize individual contribution within team activities and discourages free-riding. The coevaluation assigned to each student is the average score assigned by their teammates. A coevaluation score of 0 can result in that student receiving 0 for the corresponding activity. If a student does not complete the coevaluation form, that student loses the opportunity to evaluate their teammates. If nobody in the team completes the coevaluation, this step is skipped: the team members' marks are not adjusted by coevaluation, and this does not mean that students lose points.
+
+<!-- Previous reusable wording for syllabi where H1 has coevaluation:
+1. **Coevaluation.** There are two coevaluations: the first one applies to $H_1$ and $E_1$, and the second one applies to $H_2$ and $E_2$. Coevaluation helps recognize individual contribution within team activities and discourages free-riding. The coevaluation assigned to each student is the average score assigned by their teammates. A coevaluation score of 0 can result in that student receiving 0 for the corresponding activity. If a student does not complete the coevaluation form, that student loses the opportunity to evaluate their teammates. If nobody in the team completes the coevaluation, this step is skipped: the team members' marks are not adjusted by coevaluation, and this does not mean that students lose points.
+-->
+
+1. **Individual marks for homework and partial exams.** The individual $H_1$ mark is obtained directly from 20% of the team Written component mark and 80% of the student's individual Oral component mark; no coevaluation is applied. For $H_2$, coevaluation is applied to the team homework mark. For $E_1$ and $E_2$, coevaluation is applied after individual bonus points have been added to the student's exam mark. When coevaluation applies, if both the activity mark and the coevaluation are 70 or above, the individual mark is 70% activity mark and 30% coevaluation. If either one is below 70, the individual mark is the lower of the two. There is no coevaluation for $E_F$.
+
+<!-- Previous reusable wording for syllabi where H1 has a team mark and coevaluation:
+1. **Individual marks for homework and partial exams.** For homework assignments, coevaluation is applied to the team homework mark. For partial exams, coevaluation is applied after individual bonus points have been added to the student's exam mark. If both the activity mark and the coevaluation are 70 or above, the individual mark is 70% activity mark and 30% coevaluation. If either one is below 70, the individual mark is the lower of the two. There is no coevaluation for $E_F$.
+-->
+
+1. **Homework and partial-exam weighted averages.** Once the individual marks $H_1$, $H_2$, $E_1$, and $E_2$ are obtained, the higher homework mark receives 70% of the homework weighted average and the lower homework mark receives 30%. The same rule applies to the two partial exams. Together, homework assignments and partial exams represent 70% of the final grade.
+
+The 20/80 rule gives substantial weight to the Oral component of homework assignments and partial exams, because students must be able to explain the work they submitted. For $H_1$, this means that each student's own oral performance determines 80% of that student's activity mark. The 70/30 rule gives more weight to the stronger homework mark and the stronger partial-exam mark. Together, these rules reward understanding, oral defense, and improvement during the semester.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
+The 20/80 rule gives substantial weight to the Oral component of homework assignments and partial exams, because students must be able to explain the work they submitted. The 70/30 rule gives more weight to the stronger homework mark and the stronger partial-exam mark. Together, these rules reward understanding, oral defense, and improvement during the semester.
+-->
+
+Coevaluations are completed using Google Forms, as explained in [Activity mechanics](course-activities.qmd#sec-am). The first form applies only to $E_1$, and the second applies to $H_2$ and $E_2$; $H_1$ is not included. Students usually receive a copy of their answers by email. If the form does not open, make sure you are logged in with your university email address. A student may fail an activity that includes coevaluation even if the team mark for that activity was good.
+
+<!-- Previous reusable wording for syllabi where H1 has coevaluation:
+Coevaluations are completed using Google Forms, as explained in [Activity mechanics](course-activities.qmd#sec-am). Students usually receive a copy of their answers by email. If the form does not open, make sure you are logged in with your university email address. A student may fail an activity because of coevaluation even if the team mark for that activity was good.
+-->
+
+## Final exam and final grade
+
+The final exam $E_F$ represents the remaining 30% of the final grade. It has no Oral component and no coevaluation. Its mark is based on the Written component, plus any individual bonus points that apply to the final exam.
+
+The final grade combines homework assignments, partial exams, and the final exam as follows:
+
+::: {.evaluation-summary-table}
+| Activity | Calculation rule | Weight in the final grade |
+|---|---|---:|
+| Two homework assignments: Written 20%, Oral 80% | Weighted average: higher mark 70%; lower mark 30%. $H_1$ has an individual Oral component and no coevaluation; coevaluation applies to $H_2$. | 40% |
+| Two partial exams: Written 20%, Oral 80% | Weighted average: higher mark 70%; lower mark 30%. Bonus points and coevaluation apply. | 30% |
+| One final exam | Bonus points apply. | 30% |
+| **Total** |  | **100%** |
+:::
+
+<!-- Previous reusable table row for syllabi where H1 has coevaluation:
+| Two homework assignments: Written 20%, Oral 80% | Weighted average: higher mark 70%; lower mark 30%. Coevaluation applies. | 40% |
+-->

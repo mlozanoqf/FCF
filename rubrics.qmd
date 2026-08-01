@@ -1,0 +1,120 @@
+# Rubrics {#sec-rubrics}
+
+This section provides the rubric for the Oral component of homework assignments and partial exams. The Written component is evaluated according to the specific instructions, questions, and required outputs of each activity. Written work must also follow [Activity rules and consequences](<course-policies.qmd#sec-ap>).
+
+The $H_1$ mark combines a team Written component mark and an individual Oral component mark for each student. For $H_2$, $E_1$, and $E_2$, the Written and Oral component marks are initially team marks. The complete calculations are stated in [Evaluation](evaluation.qmd#sec-evaluation). The final exam has only a Written component.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
+Team marks for homework assignments and partial exams combine the Written and Oral components as stated in [Evaluation](evaluation.qmd#sec-evaluation). The final exam has only a Written component.
+-->
+
+## Oral component rubric
+
+The same Oral component criteria apply to homework presentations and partial-exam defenses. The rubric evaluates demonstrated understanding of the complete Written component version submitted by the team, not a separate presentation document or corrected version. For $H_1$, the rubric is applied separately to each student and produces an individual Oral component mark based on the understanding that student demonstrates during the presentation. For $H_2$, $E_1$, and $E_2$, the rubric produces an initial team Oral component mark even if the team decides that only one or some members speak during the presentation or defense. A student or team may earn a strong Oral component mark even if the complete Written component contains mistakes, provided that the mistakes are identified and precise corrections or improvements are explained. Conversely, a strong Written component does not guarantee a strong Oral component mark when the submitted work cannot be explained clearly.
+
+<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
+The same Oral component rubric applies to homework presentations and partial-exam defenses. It evaluates demonstrated understanding of the complete Written component version submitted by the team, not a separate presentation document or corrected version. The rubric produces an initial team Oral component mark, even if the team decides that only one or some members speak during the presentation or defense. A team may earn a strong Oral component mark even if the complete Written component contains mistakes, provided that the team identifies those mistakes and explains precise corrections or improvements. Conversely, a strong Written component does not guarantee a strong Oral component mark if the team cannot explain the work clearly.
+-->
+
+During the Oral component, I will normally display the submitted homework or partial-exam answer on screen. Students explain the submitted work from that displayed version only and may not use written notes, scripts, prepared guides, AI tools, electronic assistance, or any other support material.
+
+| Criterion | No evidence or weak (0-10) | Emerging (11-17) | Competent (18-21) | Strong (22-25) |
+|---|---|---|---|---|
+| Problem, objectives, and concepts (25 points) | Cannot explain the problem, objective, or core concepts. | Shows partial or unclear understanding. | Explains the problem and main concepts with reasonable clarity. | Explains the problem, objective, and concepts clearly, accurately, and thoughtfully. |
+| Methodology and implementation (25 points) | Cannot explain the method, code, or implementation. | Mentions the method or code but with limited understanding. | Explains the method and implementation with mostly correct reasoning. | Clearly justifies the methodology and explains the code or implementation with confidence. |
+| Results, interpretation, and limitations (25 points) | Cannot interpret the results or conclusions. | Gives superficial or partially incorrect interpretation. | Interprets results and conclusions in a mostly clear and relevant way. | Interprets results, limitations, mistakes, and possible improvements clearly and precisely. |
+| Communication, clarity, and defense (25 points) | Presentation is disorganized, unclear, or read without understanding. | Communication is hesitant, incomplete, or difficult to follow. | Presentation is clear enough, structured, and mostly coherent. | Presentation is clear, fluent, professional, and responsive to questions. |
+
+## Common instruction verbs
+
+Here, I define a few common verbs used in homework and exam instructions.  
+
+1. **Define.** State the precise meaning of a term or concept. Your response should be concise, accurate, and free from ambiguity, often including a formal or widely accepted definition.  
+1. **Describe.**  Provide a detailed account of the characteristics or features of a concept, process, or phenomenon. Focus on "what it is" and include relevant details, but avoid analysis or interpretation unless specified.  
+1. **Explain.**  Clarify the "why" or "how" of a concept or phenomenon. Provide reasoning, causes, or mechanisms to ensure the topic is fully understood, often using examples or logical arguments to support your answer.  
+1. **Replicate.** (e.g., replicate a figure or table). Reproduce a figure, table, or result from provided data or information using appropriate tools and methods. Ensure that the replication matches the original in terms of accuracy, formatting, and presentation.  
+1. **Compare.** Identify and discuss the similarities between two or more items, concepts, or processes. Highlight key points of resemblance and ensure the comparison is structured and focused.  
+1. **Contrast.**  Identify and discuss the differences between two or more items, concepts, or processes. Highlight key points of distinction while maintaining a clear structure in your response.  
+1. **Evaluate.**  Assess the strengths, weaknesses, or implications of a concept, argument, or result. Your answer should include a reasoned judgment supported by evidence or criteria, rather than mere opinion.  
+1. **Analyze.**  Break down a topic or problem into its essential components to examine relationships, patterns, or underlying principles. Your response should include interpretation and insight based on evidence or logical reasoning.  
+1. **Extend.** (e.g., extend an analysis or model)  Go beyond the original scope of an analysis or model by adding new elements, perspectives, or considerations. This could involve applying it to new data, proposing modifications, or exploring additional implications.  
+1. **Estimate.**  Provide an approximate calculation, measurement, or judgment based on available data, information, or assumptions. Clearly state the method or reasoning used to arrive at your estimate and acknowledge its potential limitations.  
+1. **Comment.** Provide a brief but insightful observation or opinion on a topic, issue, or result. Your response should be concise and focused, offering interpretation, critique, or additional perspective without requiring extensive elaboration.
+1. **Discuss.** Explore a topic in depth by presenting a balanced argument or analysis. Your response should include multiple viewpoints, evidence, or examples, and may evaluate or interpret different aspects of the topic. A structured and thorough approach is expected.
+
+
+<!-- The following list illustrates a typical generic rubric for graded activities. -->
+
+<!-- **What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding. -->
+
+<!-- In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) give their tips on ways to improve your English. -->
+
+<!-- Video reference: https://youtu.be/NPwTgfswnD8 -->
+
+<!-- **What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question. -->
+
+<!-- **What is a poor answer?** Work shows some weak understanding of the main elements of the course material. Shows very limited achievement of the relevant intended learning outcomes of the course. Has a weak understanding of fundamental concepts with no critical analysis. Produces answers that contain factual or conceptual inadequacies or inadequate analytic skills. Provides poorly written answers that fail to address the question, or answers that are too brief to answer the question properly. Shows a confusing or wrong math notation as e^-rT instead of $e^{-rT}$, this is wrong because as in chemistry as we do not write H2O, we write $H_2O$. -->
+
+<!-- You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester. -->
+
+<!-- Following the assignment and exam instructions are important to get full marks.  -->
+
+<!-- This is a complementary rubric for some kind of quantitative assignments. -->
+
+<!-- **Criterion 1: Comments and explanations in the code.** -->
+
+<!-- | Level.            | Description.                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | 3. Complete (86 – 100).  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. | -->
+<!-- | 2. Adequate (70 – 85).   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. | -->
+<!-- | 1. Insufficient (0 – 69).| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. | -->
+
+<!-- --- -->
+
+<!-- **Criterion 2: Quality of analysis.** -->
+
+<!-- | Level.            | Description.                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | 3. Ambitious & in-depth (86 – 100).  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. | -->
+<!-- | 2. Adequate (70 – 85).   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. | -->
+<!-- | 1. Insufficient (0 – 69).| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. | -->
+
+<!-- --- -->
+
+<!-- **Criterion 3: Report structure.** -->
+
+<!-- | Level.            | Description.                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | 3. Clear & logical (86 – 100).  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. | -->
+<!-- | 2. Adequate (70 – 85).   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. | -->
+<!-- | 1 – Confusing & disorganized (0 – 69).| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. | -->
+
+
+<!-- **Criterio 1: Comentarios y explicaciones en el código.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Completo (86 – 100)**  | El código está bien documentado con comentarios claros que explican las secciones clave. Las explicaciones en inglés son bien redactadas, con un hilo conductor lógico, y demuestran un sólido entendimiento de lo que se está haciendo y su propósito. Los comentarios demuestran no solo un entendimiento de lo que se está haciendo, sino también de por qué se hacen de esa manera, mostrando una comprensión avanzada de las decisiones de diseño. | -->
+<!-- | **2 – Adecuado (70 – 85)**   | El código incluye algunos comentarios, pero faltan en varias secciones clave. Las explicaciones en inglés son comprensibles, aunque pueden tener errores menores o falta de coherencia en el hilo conductor. El entendimiento del propósito es adecuado pero no profundo. Los comentarios son suficientes pero no profundizan en las decisiones de diseño o en la justificación de las implementaciones. | -->
+<!-- | **1 – Insuficiente (0 – 69)**| El código tiene pocos o ningún comentario, y las explicaciones en inglés son mínimas, mal redactadas, o inexistentes. No se demuestra un entendimiento claro de lo que se está haciendo ni de su propósito. La ausencia o escasez de comentarios hace que el código sea difícil de entender para terceros, afectando la calidad del reporte. | -->
+
+<!-- --- -->
+
+<!-- **Criterio 2: Calidad del análisis.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Ambicioso y Profundo (86 – 100)**  | El análisis es original, ambicioso, y profundamente desarrollado. Cumple con todas las instrucciones de la actividad, es claro, detallado y bien fundamentado. La solución presentada es creativa, bien estructurada y demuestra un entendimiento profundo del problema. El análisis no solo es profundo y ambicioso, sino que también anticipa y aborda posibles problemas o limitaciones en la solución propuesta. | -->
+<!-- | **2 – Adecuado (70 – 85)**   | El análisis es pertinente y cumple con la mayoría de las instrucciones de la actividad. Es claro y detallado, pero puede carecer de profundidad o creatividad. La solución presentada es correcta, pero no destaca por su originalidad o fundamentación exhaustiva. El análisis es adecuado pero puede no explorar completamente todas las posibles alternativas o implicaciones de la solución. | -->
+<!-- | **1 – Insuficiente (0 – 69)**| El análisis se aleja de las instrucciones de la actividad, es superficial o se limita a reproducir el material de estudio sin aportar ideas propias. La solución presentada es incompleta, mal fundamentada, o incorrecta. La falta de un análisis profundo sugiere una comprensión limitada del problema o de las posibles soluciones. | -->
+
+<!-- --- -->
+
+<!-- **Criterio 3: Estructura del reporte.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Clara y lógica (86 – 100)**  | El reporte está bien organizado con secciones y subsecciones claras. La estructura es lógica y facilita la comprensión de los resultados. La redacción es clara, y el contenido está bien presentado, priorizando calidad y claridad. La estructura lógica del reporte resalta los puntos clave del análisis, facilitando la comprensión del lector. | -->
+<!-- | **2 – Adecuada (70 – 85)**   | El reporte está organizado, pero puede carecer de algunas subsecciones necesarias o presentar una estructura que no siempre es fácil de seguir. La redacción es en general clara, aunque puede tener algunas partes confusas. Una estructura menos clara puede hacer que los argumentos pierdan fuerza y dificultar la presentación de resultados. | -->
+<!-- | **1 – Confusa y desordenada (0 – 69)**| El reporte carece de una estructura lógica, con secciones confusas o mal organizadas. La redacción es difícil de seguir y compromete la comprensión de los resultados. El reporte es extenso pero carece de claridad y calidad en el contenido. Una estructura confusa no solo dificulta la comprensión, sino que también compromete una evaluación justa del trabajo presentado. | -->
+

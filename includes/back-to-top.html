@@ -1,0 +1,30 @@
+<button type="button" id="btn-back-to-top" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M12 19V5"></path>
+    <path d="m5 12 7-7 7 7"></path>
+  </svg>
+</button>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var backToTopButton = document.getElementById("btn-back-to-top");
+
+  if (!backToTopButton) {
+    return;
+  }
+
+  function toggleBackToTopButton() {
+    backToTopButton.classList.toggle("is-visible", window.scrollY > 480);
+  }
+
+  backToTopButton.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  toggleBackToTopButton();
+  window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
+});
+</script>

@@ -1,0 +1,188 @@
+# Schedule {#sec-schedule}
+
+{{< meta course.code >}}, {{< meta course.term >}}. Room {{< meta course.room >}}, {{< meta course.meeting-days >}} {{< meta course.meeting-time >}}. Zoom {{< meta course.zoom >}}.
+
+**Reading categories.** Required readings are mandatory course preparation. Materials labeled Supplementary are optional resources intended to reinforce or extend the session.
+
+## <span class="bi bi-battery content-icon icon-muted" aria-hidden="true"></span> Part 1
+
+**Session 1. <span class="bi bi-people content-icon" aria-hidden="true"></span> Monday, August 3.**
+
+- Activity. Read the course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team. Teams may have up to four members, or another maximum that I announce based on class enrollment.
+- Bonus points. Group challenge. You must subscribe to the [Ah, ya entendí YouTube channel](https://www.youtube.com/@ahyaentendi) by the end of this class session. We will verify the result in class. If every student in this class has subscribed by that time, I will award +5 bonus points to each student's individual $E_1$ mark.
+- Optional. If you already have a Substack account, you may subscribe to [Ah, ya entendí on Substack](https://ahyaentendi.substack.com/). This is not required. If you do not already have a Substack account, do not create one for this activity.
+
+**Session 2. Thursday, August 6.**
+
+- Activity. Read the course syllabus (this document).
+- Activity. How DataCamp, DataLab, and RStudio work.
+
+**Session 3. Monday, August 10.**
+
+- Topic 1/3: Credit scoring models.
+- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (1/4).
+- Required. Accept the course policies by completing this [form](https://forms.gle/mHGKXoXmbb1m9HYB9) using your UDEM email account. If you do not complete the form by the end of Friday, August 14, 5 points will be deducted from your individual $E_1$ mark.
+
+**Session 4. Thursday, August 13.**
+
+- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (2/4).
+- Supplementary reading. @HullRM5, chapter 1: *Introduction*.
+- Supplementary reading. @ruppert2015statistics, chapter 11, sections 11.6: *Binary Regression* and 11.12.3: *Binary Regression: Who Owns an Air Conditioner?*.
+- Supplementary short. [Bitcoin frente al oro desde 2014](https://www.youtube.com/shorts/V-DH5TqCefc).
+
+**Session 5. Monday, August 17.**
+
+- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (3/4).
+- Supplementary short. [SPY vs libre de riesgo: invertir $1 desde 1998](https://www.youtube.com/shorts/veZp_7Vx9wg).
+
+**Session 6. Thursday, August 20.**
+
+- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (4/4).
+- Supplementary short. [La paradoja de Parrondo en finanzas](https://www.youtube.com/shorts/lBy7jn3sp60).
+- Supplementary video. [La paradoja de Parrondo](https://www.youtube.com/watch?v=cEuyfD2qVgQ).
+
+**Session 7, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, August 24.**
+
+- Required reading. @lozanoARF, chapter 2: *Tree-based credit scoring* (1/3).
+- Supplementary essay. Lozano (2026), [*El riesgo financiero y las formas del terror*](https://ahyaentendi.substack.com/p/el-riesgo-financiero-y-las-formas).
+
+**Session 8. Thursday, August 27.**
+
+- Required reading. @lozanoARF, chapter 2: *Tree-based credit scoring* (2/3).
+- Supplementary video. [Carteras de inversión: diseño y análisis](https://www.youtube.com/watch?v=OO09EqT-aAM).
+
+**Session 9. Monday, August 31.**
+
+- Required reading. @lozanoARF, chapter 2: *Tree-based credit scoring* (3/3).
+- Supplementary video. [Cartera óptima con rendimiento objetivo](https://www.youtube.com/watch?v=D00PcnSUFbs).
+
+**Session 10. Thursday, September 3.**
+
+- Graded. The Written component of $H_1$ is due before class begins.
+- Graded. Team Oral presentations for $H_1$, with each student assessed individually: first of two presentation sessions.
+- *The deadline is not yet available, but please remember to complete the Avanza 180 survey.*
+
+**Session 11. Monday, September 7.**
+
+- Graded. Team Oral presentations for $H_1$, with each student assessed individually: second of two presentation sessions.
+
+**Session 12, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, September 10.**
+
+- Graded. Complete the Written component of $E_1$ remotely during the scheduled class period.
+
+**Session 13. Monday, September 14.**
+
+- Graded. Team Oral defenses for $E_1$: first of two defense sessions.
+
+**Session 14. <span class="bi bi-flag-fill content-icon" aria-hidden="true"></span> Thursday, September 17.**
+
+- Graded. Team Oral defenses for $E_1$: second of two defense sessions.
+- Graded. The link to complete the coevaluation for $E_1$ will be available on Blackboard. Deadline: Friday, September 18, 10:00 a.m.
+- Bonus points. The wheel of fortune 1/3. This is a class activity.
+
+## <span class="bi bi-battery-half content-icon icon-red" aria-hidden="true"></span> Part 2
+
+**Session 15. <span class="bi bi-peace-fill content-icon" aria-hidden="true"></span> Monday, September 21.**
+
+- Topic 2/3: Structural credit risk and market pricing.
+- Required reading. @lozanoARF, chapter 3: *The Merton model* (1/2).
+
+**Session 16. Thursday, September 24.**
+
+- Required reading. @lozanoARF, chapter 3: *The Merton model* (2/2).
+- Required reading. @Hull11, chapter 24, sections 24.1: *Credit ratings*; 24.2: *Historical default probabilities*; and 24.6: *Using equity prices to estimate default probabilities*.
+- Supplementary video. [Estrategias de cobertura y especulación usando opciones financieras](https://www.youtube.com/watch?v=O3aSF-748v8).
+
+**Session 17, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, September 28.**
+
+- Required reading. @lozanoARF, chapter 4: *Credit Spreads and CDS Valuation* (1/3).
+- Supplementary essay. Lozano (2026), [*Portafolio y existencia, asignar pesos bajo incertidumbre*](https://ahyaentendi.substack.com/p/portafolio-y-existencia-asignar-pesos).
+
+**Session 18. <span class="bi bi-cup-hot-fill content-icon" aria-hidden="true"></span> Thursday, October 1.**
+
+- Required reading. @lozanoARF, chapter 4: *Credit Spreads and CDS Valuation* (2/3).
+- Required reading. @Hull11, chapter 24, sections 24.3: *Recovery rates*; 24.4: *Estimating default probabilities from bond yield spreads*; and 24.5: *Comparison of default probability estimates*; and chapter 25, sections 25.1: *Credit default swaps* and 25.2: *Valuation of credit default swaps*.
+- Supplementary video. [Mínima varianza global: pesos, riesgo y rendimiento](https://www.youtube.com/watch?v=0C81uTt6i18).
+
+**Session 19. <span class="bi bi-mortarboard-fill content-icon" aria-hidden="true"></span> Monday, October 5.**
+
+- Required reading. @lozanoARF, chapter 4: *Credit Spreads and CDS Valuation* (3/3).
+- Supplementary video. [Mínima varianza con 5 y 10 industrias](https://www.youtube.com/watch?v=LV6-9AoGK54).
+
+**Session 20. Thursday, October 8.**
+
+- Graded. The Written component of $H_2$ is due before class begins.
+- Graded. Team Oral presentations for $H_2$: first of two presentation sessions.
+
+**Session 21. <span class="bi bi-globe-americas content-icon" aria-hidden="true"></span> Monday, October 12.**
+
+- Graded. Team Oral presentations for $H_2$: second of two presentation sessions.
+
+**Session 22, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, October 15.**
+
+- Graded. Complete the Written component of $E_2$ remotely during the scheduled class period.
+
+**Session 23. Monday, October 19.**
+
+- Graded. Team Oral defenses for $E_2$: first of two defense sessions.
+
+**Session 24. Thursday, October 22.**
+
+- Graded. Team Oral defenses for $E_2$: second of two defense sessions.
+- Graded. The link to complete the coevaluation for $H_2$ and $E_2$ will be available on Blackboard. Deadline: Friday, October 23, 10:00 a.m.
+- Bonus points. The wheel of fortune 2/3. This is a class activity.
+
+## <span class="bi bi-battery-half content-icon icon-orange" aria-hidden="true"></span> Part 3
+
+**Session 25. Monday, October 26.**
+
+- Topic 3/3: Portfolio and climate credit risk.
+- Required reading. @lozanoARF, chapter 5: *The Gaussian copula model for portfolio credit risk* (1/3).
+
+**Session 26. Thursday, October 29.**
+
+- Required reading. @lozanoARF, chapter 5: *The Gaussian copula model for portfolio credit risk* (2/3).
+- Required reading. @Hull11, chapter 24, sections 24.8: *Default correlation* and 24.9: *Credit VaR*.
+- Supplementary reading. @ruppert2015statistics, chapter 7, sections 7.5: *The Multivariate Normal Distribution* and 7.6: *The Multivariate t-Distribution*; chapter 8, sections 8.3: *Gaussian and t-Copulas*, 8.6: *Tail Dependence*, and 8.9.1: *Simulating from Copula Models*.
+- Supplementary video. [Fronteras eficientes en movimiento](https://www.youtube.com/watch?v=vOCBioteplY).
+
+**Session 27. <span class="bi bi-flower1 content-icon" aria-hidden="true"></span> Monday, November 2.**
+
+- Required reading. @lozanoARF, chapter 5: *The Gaussian copula model for portfolio credit risk* (3/3).
+- *The deadline is not yet available, but please remember to complete the Avanza 360 survey.*
+
+**Session 28. <span class="bi bi-shield-check content-icon" aria-hidden="true"></span> Thursday, November 5.**
+
+- Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (1/3).
+- Supplementary essay. Lozano (2026), [*Riesgo climático y la tragedia de los horizontes temporales*](https://ahyaentendi.substack.com/p/riesgo-climatico-y-la-tragedia-de).
+- Optional, non-graded. Share your DataCamp experience on social media if you wish. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 29, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. <span class="bi bi-stars content-icon" aria-hidden="true"></span> Monday, November 9.**
+
+- Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (2/3).
+- Supplementary reading. @HullRM5, chapter 22, sections 22.1: *Generating the Scenarios*; 22.2: *Regulation*; and 22.3: *What to Do with the Results*.
+- Supplementary video. [Animación del portafolio de mínima varianza: 5 activos](https://www.youtube.com/watch?v=HjPnHEir_XA).
+- Supplementary video. [Animación del portafolio de mínima varianza: 10 activos](https://www.youtube.com/watch?v=tcgtNfPl5gI).
+
+**Session 30. Thursday, November 12.**
+
+- Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (3/3).
+- Bonus points. **Data Analyst Certification.** Complete this DataCamp certification before 10:00 a.m. to earn +20 points on your individual $E_F$ mark. DataCamp also offers a **Data Analyst Associate** certification, but that version does not satisfy this activity. It is not necessary to send evidence because DataCamp automatically records whether the required certification was completed on time.
+
+**Holiday. <span class="bi bi-umbrella content-icon" aria-hidden="true"></span> Monday, November 16.**
+
+**Session 31, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. <span class="bi bi-chat-quote-fill content-icon" aria-hidden="true"></span> Thursday, November 19.**
+
+- Activity. $E_F$ review.
+- Bonus points. The wheel of fortune 3/3. This is a class activity.
+- Farewell <span class="bi bi-heart-fill content-icon icon-red" aria-hidden="true"></span>.
+
+## <span class="bi bi-battery-full content-icon icon-green" aria-hidden="true"></span> The end
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. XXX.**
+
+- Graded. $E_F$ Instructions in Blackboard.
+

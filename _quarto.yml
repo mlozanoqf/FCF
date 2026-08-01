@@ -1,36 +1,82 @@
-title: Fundamentos Cuantitativos en Finanzas FCF1.
-subtitle: Course syllabus. Spring 2026.
-author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
-date-modified: now
-date-format: "MMMM D, YYYY, HH:mm:ss a."
+project:
+  type: book
+  output-dir: docs
+  pre-render:
+    - powershell -NoProfile -ExecutionPolicy Bypass -File scripts/prepare-book-metadata.ps1
+  post-render:
+    - powershell -NoProfile -ExecutionPolicy Bypass -File scripts/finalize-render.ps1
 
+course:
+  code: FCF
+  title: Fundamentos cuantitativos en finanzas FCF.
+  term: Fall 2026
+  status: Under review
+  room: XXX
+  meeting-days: XXX
+  meeting-time: "XXX"
+  zoom: XXX
 
-abstract: A course syllabus is an academic document containing relevant information for students. This document serves as your ultimate guide to successfully completing this course. Please read it regularly and carefully. Within this document, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references, and learning outcomes. The objective of this document is to provide you with complete certainty regarding what to expect from this course, starting from day 1 until the final exam. Based on my experience, reading this syllabus is positively correlated with students' performance.
+book:
+  title: "{{< meta course.title >}}"
+  subtitle: "Course syllabus. {{< meta course.term >}}. {{< meta course.status >}}."
+  date: today
+  date-format: "MMMM D, YYYY"
+  author: Dr. Martín Lozano
+  page-navigation: true
+  search: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+  page-footer:
+    left: "{{< meta course.title >}}"
+    right: 'Dr. Mart&iacute;n Lozano &middot; <a href="mailto:martin.lozano@udem.edu">martin.lozano@udem.edu</a> &middot; <a href="https://mlozanoqf.github.io/">mlozanoqf.github.io</a>'
+  chapters:
+    - index.qmd
+    - part: "Course Foundations"
+      chapters:
+        - welcome.qmd
+        - course-overview.qmd
+        - tools-data-science.qmd
+    - part: "Activities, Evaluation, and Policies"
+      chapters:
+        - course-activities.qmd
+        - evaluation.qmd
+        - rubrics.qmd
+        - course-policies.qmd
+        - checklist.qmd
+    - schedule.qmd
+    - part: "References"
+      chapters:
+        - learning-resources.qmd
+        - internet-resources.qmd
+        - references.qmd
+
 bibliography: 9mybibfile.bib
-  
-theme:
-  light: flatly
-  dark: darkly
   
 format: 
   html:
-    toc: true
-    toc-title: Contents
+    theme:
+      light: flatly
+      dark: darkly
+    toc: false
+    toc-title: On this page
     smooth-scroll: true
     code-fold: false
-    code-tools:
-      source: false
-      toggle: true
+    code-copy: true
+    code-tools: false
     code-block-bg: true
     code-block-border-left: "#6A0DAD"
     code-line-numbers: true
-    number-sections: true
-    toc-location: left
+    number-sections: false
+    toc-location: right
     toc-depth: 2
     page-layout: full
-    include-after-body: analytics_fcf.html
-    include-in-header: 
-      - 11_back-to-top.html
-      - 12_progressbar.html
-    css: 13_styles.css
+    include-after-body:
+      - includes/analytics.html
+      - includes/back-to-top.html
+      - includes/progress-bar.html
+      - includes/local-navigation.html
+      - includes/page-sections.html
+      - includes/sidebar-accordion.html
+    css: syllabus-styles.css
     link-citations: true

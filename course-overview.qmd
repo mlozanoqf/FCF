@@ -1,0 +1,185 @@
+# Overview
+
+This section explains what the course is about, what students are expected to learn, how the course works, and the standards of academic integrity and professional responsibility that apply throughout the semester.
+
+
+## <span class="bi bi-piggy-bank content-icon" aria-hidden="true"></span> Course description
+
+Quantitative fundamentals play a central role in modern finance. This course introduces the financial, statistical, and computational foundations that students need to analyze financial problems using data, models, and clear quantitative reasoning.
+
+Students learn how financial decisions are supported by cash flows, financial statements, valuation methods, risk-return analysis, financial projections, and basic financial modeling. The course connects core financial concepts with practical analytical tools, helping students evaluate companies, projects, investment decisions, and financial performance.
+
+The purpose of the course is not only to apply formulas, but to understand how quantitative reasoning supports better financial decisions under uncertainty. Students work with data, models, and computational tools to organize information, produce calculations, interpret results, and communicate financial analysis clearly.
+
+The course also helps students develop the computational and analytical habits that are increasingly important in finance. Students may use R, Python, spreadsheets, publishing tools, and AI-assisted workflows to document their work, improve their analysis, and explain their results professionally.
+
+The main references for this course include @brealey2020principles, @brigham2019fundamentals, and @drake2010basics. Complementary references may include @james2013introduction, @RundelIntroduction, and other course materials depending on the topics covered during the semester.
+
+For the specific sequence of topics, activities, deadlines, and required readings, refer to the course calendar: @sec-schedule.
+
+
+<!-- ## <span class="bi bi-graph-up-arrow content-icon" aria-hidden="true"></span> EMF description. -->
+
+<!-- Financial econometrics applies statistical, computational, and data-based methods to problems in finance and economics. In this course, students learn how to use data to estimate relationships, evaluate uncertainty, build forecasting models, and interpret empirical evidence in a financial context. -->
+
+<!-- The course emphasizes financial forecasting, economic forecasting, model estimation, interpretation of results, and practical implementation using R and Python. Students work with financial and economic data to understand how empirical models can support decision-making, risk analysis, investment analysis, and applied research. The goal is not only to learn econometric techniques, but also to understand when they are useful, how they can fail, and how their results should be communicated. -->
+
+<!-- If available during the semester, the course may include a COIL (Collaborative Online International Learning) activity with students from another university. This activity is intended to promote intercultural collaboration and expose students to different academic and professional perspectives. -->
+
+<!-- The main references for this course include @49018680cf534023b6ae0f4e933c475d, @lozanoEMF, and @brooks2019introductory. Additional references include @hanck2020introduction, @gujarati2012basic, @Oswaldeconometrics, @heiss2020usingR, @heiss2020usingPython, @mcnulty2021handbook, @RundelIntroduction, and @james2013introduction. -->
+
+<!-- For the specific sequence of topics, activities, deadlines, and required readings, refer to the course calendar: @sec-schedule. -->
+
+<!-- IF. <span class="bi bi-gear-wide-connected content-icon" aria-hidden="true"></span> Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
+
+The course primarily relies on the renowned textbook by John C. Hull, @Hull11, which is widely recognized as an essential reference in both academia and the financial industry. This course serves as a solid foundation for students aspiring to pursue a master's degree in Finance or seeking professional certification in the field of quantitative finance. Another valuable resource for this course is @lozanoIF, which effectively combines model analysis with practical computational modeling using R. Additionally, @goetzmann2014modern is a recommended complementary reference book as it offers a comprehensive and up-to-date presentation of modern portfolio analysis. Other useful references include @brealey2020principles, @ruppert2015statistics, and @james2013introduction, which strike a balance between theoretical aspects and practical applications.
+
+One of the remarkable aspects of financial engineering is its ability to integrate knowledge from related fields such as computational finance, financial derivatives, and statistics, enabling innovative solutions and informed financial decision-making.
+
+Please refer to the course calendar provided at the end of this syllabus for a detailed overview of the topics, activities, and required readings. -->
+
+<!-- PMF. Traditional financial models, characterized by their assumptions, principles, functions, and equations, serve as essential tools for making informed financial decisions. However, by leveraging relevant technology, these models can be translated into computational code, marking the initial step towards automation and expanding the possibilities and boundaries of financial analysis. This course combines financial analysis with financial modeling, aiming to transform paper-based models into functional computational code. Proficiency in such skills is currently in high demand and highly valued not only in the job market but also in research, FinTech, and innovation projects.
+
+The primary textbook for this course is @lozanoPMF, specifically designed to bridge the gap between model analysis and its implementation through computational modeling in R. Additionally, some recommended complementary reference books include @hull2020machine, @james2013introduction, and @ruppert2015statistics.
+
+Please refer to the course calendar provided at the end of this syllabus for a comprehensive overview of the topics, activities, and required readings. -->
+
+<!-- EFPI. \faSearchDollar \hspace{1 mm} Investment is commonly recognized as a catalyst for growth within both firms and countries. However, investment decisions can have adverse outcomes due to economic conditions or inadequate risk assessment. This course delves into the fundamentals and advanced techniques used to evaluate investment projects, which can encompass financial products such as investment funds or entire firms. Investment projects typically involve an upfront payment in exchange for future cash flows. The challenge arises when these projects fail to generate the anticipated cash flows. Evaluating investment projects helps us assess their riskiness in relation to the promised future cash flows. Through analysis and evaluation, we gain insights into how to enhance their attractiveness and distinguish between sound and poor investment decisions. Our primary textbook for this course is @brealey2020principles. -->
+
+<!-- MPA. Economics is a social science that enables us to comprehend how resources are allocated to fulfill human needs. Unlike natural laws in physics or chemistry, the allocation of resources in economics is based on human behavior and choices. This course focuses on microeconomics, which examines the economic behavior of individual agents, such as firms. In contrast, macroeconomics studies the collective behavior of multiple agents.
+
+Microeconomics helps us understand how individual agents, including firms, consumers, and governments, make rational decisions when faced with limited resources and unlimited wants and needs. This segmentation allows us to analyze the interactions between preferences, incentives, objectives, and constraints within each economic agent. For instance, individuals aim to increase their well-being by consuming goods and services, but they are limited by their budget, which consists of income and wealth. Similarly, firms face regulatory issues, costs, financial constraints, market conditions, and imperfect information, while striving to maximize profits. Governments, on the other hand, ideally seek to provide public goods, reduce poverty, promote welfare, and ensure a competitive environment, but they are constrained by limited tax resources and misaligned incentives.
+
+Understanding microeconomics empowers economic agents to make better-informed decisions based on a scientific approach rather than relying solely on intuition. Since this process of resource allocation is perpetual in real-life situations, individuals who grasp the foundations of microeconomic analysis gain a significant comparative advantage in business and management. Therefore, it is essential to comprehend microeconomics early on in undergraduate studies. -->
+
+
+## <span class="bi bi-binoculars content-icon" aria-hidden="true"></span> Objectives
+
+The course has three main objectives:
+
+1. **Understand the course topics.** Students are expected to develop a solid understanding of the models, techniques, and principles covered in the course, especially in foundational finance, financial economics, and quantitative reasoning.
+
+2. **Apply quantitative techniques.** Students will learn how to implement financial models by translating paper-based formulations into functional computer code. Through course activities, students will use computational tools to analyze financial data, generate results, and interpret findings.
+
+3. **Develop professional financial competencies.** The course is designed to strengthen the practical abilities required of financial professionals, practitioners, and junior researchers. These include financial analysis, financial modeling, computational implementation, interpretation of results, and written reporting.
+
+The course combines theoretical understanding with practical application. Its purpose is not only to present financial concepts, but also to help students use them in a rigorous, reproducible, and professionally relevant way.
+
+To achieve these objectives, students are expected to complete several tasks throughout the semester:
+
+1. **Read carefully.** Students must study the recommended textbooks, academic papers, course notes, and other resources provided. Reading is a fundamental requirement for understanding the course material.
+
+2. **Work consistently.** Success in the course requires sustained effort. Students are expected to attend class, participate actively, complete course activities, and engage seriously with the course material.
+
+3. **Ask for assistance when needed.** Students who encounter difficulties or have questions are encouraged to contact me at <tt>`<martin.lozano@udem.edu>`</tt>. I can help clarify concepts, resolve doubts, and support a deeper understanding of the material. However, students are responsible for asking for help in a timely manner.
+
+Learning usually requires repeated attempts, additional inputs, and persistence. Persistence and determination are central to the learning process. Persistence means continuing to work toward a goal despite difficulties, obstacles, or setbacks. It requires motivation, resilience, focus, and sustained effort. By reading carefully, working consistently, and seeking assistance when needed, students increase their chances of understanding the material and succeeding in the course.
+
+## <span class="bi bi-gear-wide-connected content-icon" aria-hidden="true"></span> Mechanics
+
+The course operates on the assumption that students will approach it with enthusiasm, a positive attitude, and a willingness to engage actively with the material. The following expectations apply throughout the semester:
+
+1. **Active participation.** Students are expected to be proactive and engaged throughout the semester. This includes completing course activities and readings on time. Active participation contributes to a deeper understanding of the subject matter.
+
+2. **Understanding and application.** Students are expected to study the material thoroughly, understand the underlying concepts, and apply them in relevant financial contexts.
+
+3. **Course calendar.** The course calendar, provided in @sec-schedule, is the roadmap for the semester. It lists lecture topics, required readings, course activities, deadlines, and exams. Students are responsible for consulting it regularly and following its timeline.
+
+4. **Time management.** Some tasks may require more than a week to complete. Students must plan ahead and allocate enough time to fulfill their course responsibilities effectively.
+
+**Class time and independent study.** The course includes more material than can be explained, discussed, or practiced fully during scheduled class time. Class sessions are intended to guide learning, clarify difficult concepts, and apply selected parts of the material; they do not replace independent study. Completing the required readings and studying outside class are essential course responsibilities, not optional recommendations. Students are responsible for the required material listed in [Schedule](schedule.qmd#sec-schedule), including material that may not be discussed in full during class. Consistent independent study is critical for achieving the course objectives and learning outcomes.
+
+Students are expected to approach the required material proactively and conscientiously. This means studying in advance and engaging in independent practice. Doing so creates the conditions for meaningful class participation, useful comments, and thoughtful questions.
+
+Conscious and proactive study habits are important because they help students stay on track and avoid falling behind. They also ensure that students are familiar with the topics discussed in class and have a foundation on which to build. Studying and practicing in advance allows students to take better advantage of the learning opportunities provided in the course, deepen their understanding, reinforce key concepts, and gain additional insights.
+
+If a student does not engage in conscious study and practice, or cannot do so because of their current circumstances, they may struggle to keep up with the course requirements and experience frustration. Falling behind can lead to loss of interest, lower grades, and potentially failure. To reduce this risk and improve learning outcomes, students are expected to study the required material in advance and practice independently as much as necessary. This preparation improves class participation and increases the probability of success.
+
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share useful strategies for getting the most out of university lectures.
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/Aa01-lwYllU" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+
+In accordance with some of the [United Nations Sustainable Development Goals](https://sdgs.un.org/goals), see @UN17, all compulsory readings and activity submissions are available in electronic format. Complementary materials and activities may be incorporated or adjusted during the semester depending on relevant news or events that do not yet exist or are difficult to anticipate at the beginning of the term. If this happens, I will inform students in advance.
+
+Students should be confident that all course materials and activities are suitable for undergraduate students enrolled in a prestigious university. No intellectual challenge in this course is intended to be impossible to overcome with the appropriate amount of enthusiasm, time, work, determination, and, if necessary, assistance. The course is designed so that students can pass and learn if they invest the required time and work.
+
+## <span class="bi bi-hand-thumbs-up content-icon" aria-hidden="true"></span> Academic integrity
+
+Individuals with integrity demonstrate moral character and ethical judgment. They choose to do what is right even when facing difficult decisions or temptations. They are trustworthy, reliable, and accountable. Integrity is essential in personal relationships, professional settings, and society because it fosters trust, respect, and fairness.
+
+We pledge to uphold the highest standards of honesty and integrity, both for ourselves and for our peers. Violations of academic integrity, including plagiarism and cheating, are strictly prohibited and may result in serious consequences, including failure of a course activity, failure of the course, and additional disciplinary action under current regulations.
+
+Plagiarism means presenting another person's ideas, words, analysis, code, or work as one's own in a way that violates attribution requirements, activity instructions, or academic-integrity standards. This includes copying from textbooks, websites, online sources, generative AI tools, other students, or any other material without proper acknowledgment when attribution is required. Routine use of AI tools is allowed as explained in [Computational tools and AI](tools-data-science.qmd), and it does not need to be declared unless a specific activity explicitly requires it. The academic-integrity problem is not the mere use of AI; it is submitting work that students did not verify, cannot explain, or present as compliant with the instructions when it is not.
+
+Please watch the following video from [York St. John University](https://www.yorksj.ac.uk/) on understanding plagiarism.
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/ptHIA5bMnio" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+I strongly advise against constructing a piece of work by cutting, pasting, or copying material written by others into something submitted as original work. Regardless of any pressure students may feel to complete a course activity, taking this type of shortcut is unacceptable. This also applies to generative AI tools when their output is used as a substitute for understanding, verification, adaptation, or compliance with the activity instructions. Such behavior may have serious consequences.
+
+See the following video to illustrate this point:
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/cUVAbvXjTeg" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+Ethical behavior is implicit in the mechanics and rules of the course, and it will also be discussed explicitly in several course topics. Following the instructions in this syllabus is a basic and concrete way to practice ethical behavior. Ethical concerns are inherent in business, economics, and finance because professionals in these fields frequently manage resources to achieve a range of objectives, not exclusively to maximize profits. Ethical behavior also helps build solid institutions, which is consistent with the [United Nations Sustainable Development Goals](https://sdgs.un.org/goals), @UN17.
+
+Managing one's own resources or third-party resources entails a high degree of responsibility. People may face incentives to use unethical strategies to advance their own interests. For this reason, it is necessary to discuss ethics, decision-making, and conflicts of interest in order to raise awareness among young professionals. In the end, following an ethical code as a business practice can strengthen a professional reputation, one of the most important assets students are currently building.
+
+Take a look at this video about integrity.
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/m1AxHZSX5VA" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+Integrity is particularly important for finance professionals for the following reasons:
+
+1. **Trust and credibility.** Finance professionals handle sensitive financial information, make critical financial decisions, and often act as stewards of other people's money. Integrity is essential to establish and maintain trust and credibility with clients, investors, and stakeholders. Clients need to trust that their financial advisor or accountant will act in their best interests, provide accurate information, and handle their funds responsibly.
+
+2. **Ethical responsibility.** Finance professionals have a significant ethical responsibility to act in an ethical and responsible manner. They must adhere to ethical codes of conduct, such as those set by professional organizations, and follow legal and regulatory requirements. Acting with integrity ensures that financial professionals prioritize ethical behavior, avoid conflicts of interest, and make decisions that are in the best interest of their clients or organizations.
+
+3. **Confidentiality and privacy.** Finance professionals often have access to confidential financial information, including personal and sensitive data. Integrity is crucial in maintaining the privacy and confidentiality of this information. Professionals must handle financial data responsibly, protect client information, and maintain the highest standards of confidentiality and data security.
+
+4. **Risk management.** Financial decisions and transactions involve risks, and integrity plays a critical role in managing these risks. Acting with integrity helps finance professionals accurately assess and communicate risks to clients or stakeholders. It involves being honest about the potential risks involved in investments, disclosing relevant information, and ensuring transparency in financial reporting.
+
+5. **Compliance and regulatory requirements.** Finance professionals must adhere to various legal and regulatory requirements in their work. Integrity is essential in complying with these regulations, reporting accurate financial information, and avoiding fraudulent or deceptive practices. Acting with integrity helps professionals maintain compliance with laws such as anti-money laundering regulations, financial reporting standards, and tax laws.
+
+6. **Professional reputation.** The finance industry relies heavily on reputation and credibility. Finance professionals with a reputation for integrity are more likely to attract clients, secure partnerships, and build long-term relationships. Conversely, a lack of integrity can quickly damage a professional's reputation and have long-lasting negative consequences.
+
+7. **Industry ethics and public trust.** The finance industry plays a significant role in the economy and society at large. Maintaining integrity within the industry is crucial for public trust and confidence in the financial system. Finance professionals with integrity contribute to the overall reputation and trustworthiness of the industry, helping to foster a healthy and reliable financial environment.
+
+In summary, integrity is vital for finance professionals because it helps them establish trust, uphold ethical standards, protect confidentiality, manage risks, comply with regulations, maintain a strong professional reputation, and contribute to the overall integrity of the finance industry.
+
+## <span class="bi bi-flower1 content-icon icon-green" aria-hidden="true"></span> Sustainable finance
+
+I am certified as "carbon literate" by the [UN Climate Change Conference](https://unfccc.int/) and [Coventry University](https://www.coventry.ac.uk/). This certification reflects an understanding of the climate context and a commitment to identifying ways to adjust our behavior, reduce our carbon footprint, and influence our social and professional circles. In my view, learning about sustainable finance is one way to contribute positively to the environment and society.
+
+According to the [European Commission](https://commission.europa.eu/index_en), sustainable finance refers to taking environmental, social, and governance (ESG) considerations into account when making investment decisions in the financial sector. This approach supports long-term investment in sustainable economic activities and projects. Environmental considerations may include climate change mitigation and adaptation, biodiversity preservation, pollution prevention, and the circular economy. Social considerations may include inequality, inclusiveness, labor relations, investment in human capital and communities, and human rights. Governance considerations include the management of public and private institutions, including management structures, employee relations, and executive remuneration, all of which play an important role in decision-making.
+
+In this course, students will be introduced to sustainable finance, climate change, and the green economy. In particular, students will become familiar with basic skills and tools for applying sustainable finance mechanisms to real-world policy and business contexts.
+
+Learning materials are taken from The One UN Climate Change Learning Partnership [UN CC:Learn](https://unccelearn.org/), a joint initiative of more than 30 multilateral organizations that helps countries pursue climate change action through general climate literacy and applied skills development. [UN CC:Learn](https://unccelearn.org/) provides strategic advice and learning resources to help people, governments, and businesses understand, adapt to, and build resilience to climate change.
+
+See the earth's historic global average surface temperature, according to an analysis by NASA:
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/jWoCXLuTIkI" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+Learning about sustainable finance is important because it enables individuals and organizations to make informed financial decisions that consider environmental and social factors, manage risks, comply with regulations, meet investor demand, and contribute to a more sustainable and responsible financial system.
