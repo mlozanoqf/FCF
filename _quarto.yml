@@ -11,10 +11,9 @@ course:
   title: Fundamentos cuantitativos en finanzas FCF.
   term: Fall 2026
   status: Under review
-  room: XXX
-  meeting-days: XXX
-  meeting-time: "XXX"
-  zoom: XXX
+  meeting-days: Tuesday & Friday
+  meeting-time: "10:00 a.m. - 11:30 a.m."
+  zoom: https://us02web.zoom.us/j/83198593252
 
 book:
   title: "{{< meta course.title >}}"

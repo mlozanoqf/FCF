@@ -2,18 +2,18 @@
 
 This section provides the rubric for the Oral component of homework assignments and partial exams. The Written component is evaluated according to the specific instructions, questions, and required outputs of each activity. Written work must also follow [Activity rules and consequences](<course-policies.qmd#sec-ap>).
 
-The $H_1$ mark combines a team Written component mark and an individual Oral component mark for each student. For $H_2$, $E_1$, and $E_2$, the Written and Oral component marks are initially team marks. The complete calculations are stated in [Evaluation](evaluation.qmd#sec-evaluation). The final exam has only a Written component.
-
-<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
 Team marks for homework assignments and partial exams combine the Written and Oral components as stated in [Evaluation](evaluation.qmd#sec-evaluation). The final exam has only a Written component.
+
+<!-- Reusable wording for syllabi where H1 has an individual Oral component mark:
+The $H_1$ mark combines a team Written component mark and an individual Oral component mark for each student. For $H_2$, $E_1$, and $E_2$, the Written and Oral component marks are initially team marks. The complete calculations are stated in [Evaluation](evaluation.qmd#sec-evaluation). The final exam has only a Written component.
 -->
 
 ## Oral component rubric
 
-The same Oral component criteria apply to homework presentations and partial-exam defenses. The rubric evaluates demonstrated understanding of the complete Written component version submitted by the team, not a separate presentation document or corrected version. For $H_1$, the rubric is applied separately to each student and produces an individual Oral component mark based on the understanding that student demonstrates during the presentation. For $H_2$, $E_1$, and $E_2$, the rubric produces an initial team Oral component mark even if the team decides that only one or some members speak during the presentation or defense. A student or team may earn a strong Oral component mark even if the complete Written component contains mistakes, provided that the mistakes are identified and precise corrections or improvements are explained. Conversely, a strong Written component does not guarantee a strong Oral component mark when the submitted work cannot be explained clearly.
-
-<!-- Previous reusable wording for syllabi where H1 has a team Oral component mark:
 The same Oral component rubric applies to homework presentations and partial-exam defenses. It evaluates demonstrated understanding of the complete Written component version submitted by the team, not a separate presentation document or corrected version. The rubric produces an initial team Oral component mark, even if the team decides that only one or some members speak during the presentation or defense. A team may earn a strong Oral component mark even if the complete Written component contains mistakes, provided that the team identifies those mistakes and explains precise corrections or improvements. Conversely, a strong Written component does not guarantee a strong Oral component mark if the team cannot explain the work clearly.
+
+<!-- Reusable wording for syllabi where H1 has an individual Oral component mark:
+The same Oral component criteria apply to homework presentations and partial-exam defenses. The rubric evaluates demonstrated understanding of the complete Written component version submitted by the team, not a separate presentation document or corrected version. For $H_1$, the rubric is applied separately to each student and produces an individual Oral component mark based on the understanding that student demonstrates during the presentation. For $H_2$, $E_1$, and $E_2$, the rubric produces an initial team Oral component mark even if the team decides that only one or some members speak during the presentation or defense. A student or team may earn a strong Oral component mark even if the complete Written component contains mistakes, provided that the mistakes are identified and precise corrections or improvements are explained. Conversely, a strong Written component does not guarantee a strong Oral component mark when the submitted work cannot be explained clearly.
 -->
 
 During the Oral component, I will normally display the submitted homework or partial-exam answer on screen. Students explain the submitted work from that displayed version only and may not use written notes, scripts, prepared guides, AI tools, electronic assistance, or any other support material.

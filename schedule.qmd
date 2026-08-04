@@ -1,12 +1,12 @@
 # Schedule {#sec-schedule}
 
-{{< meta course.code >}}, {{< meta course.term >}}. Room {{< meta course.room >}}, {{< meta course.meeting-days >}} {{< meta course.meeting-time >}}. Zoom {{< meta course.zoom >}}.
+{{< meta course.code >}}, {{< meta course.term >}}. Online via Zoom, {{< meta course.meeting-days >}} {{< meta course.meeting-time >}}; Zoom [{{< meta course.zoom >}}]({{< meta course.zoom >}})
 
-**Reading categories.** Required readings are mandatory course preparation. Materials labeled Supplementary are optional resources intended to reinforce or extend the session.
+**Required materials.** Required readings, essays, videos, and shorts are mandatory course preparation. Each assigned Brigham and Houston chapter is required in full; the session-level section references indicate reading pace rather than exclusions. The assigned sections from Drake and Fabozzi are also required.
 
 ## <span class="bi bi-battery content-icon icon-muted" aria-hidden="true"></span> Part 1
 
-**Session 1. <span class="bi bi-people content-icon" aria-hidden="true"></span> Monday, August 3.**
+**Session 1. <span class="bi bi-people content-icon" aria-hidden="true"></span> Tuesday, August 4.**
 
 - Activity. Read the course syllabus (this document).
 - Activity. Welcome and introduction to the course.
@@ -15,121 +15,140 @@
 - Bonus points. Group challenge. You must subscribe to the [Ah, ya entendí YouTube channel](https://www.youtube.com/@ahyaentendi) by the end of this class session. We will verify the result in class. If every student in this class has subscribed by that time, I will award +5 bonus points to each student's individual $E_1$ mark.
 - Optional. If you already have a Substack account, you may subscribe to [Ah, ya entendí on Substack](https://ahyaentendi.substack.com/). This is not required. If you do not already have a Substack account, do not create one for this activity.
 
-**Session 2. Thursday, August 6.**
+**Session 2. Friday, August 7.**
 
 - Activity. Read the course syllabus (this document).
 - Activity. How DataCamp, DataLab, and RStudio work.
 
-**Session 3. Monday, August 10.**
+**Session 3. Tuesday, August 11.**
 
-- Topic 1/3: Credit scoring models.
-- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (1/4).
+- Topic 1/3: Foundations of finance and financial management.
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, section 1-1: *What Is Finance?* (1/7).
+- Required essay. Lozano (2026), [*Finanzas como infraestructura social*](https://ahyaentendi.substack.com/p/finanzas-como-infraestructura-social).
+- Required short. [Finanzas](https://youtube.com/shorts/PJG_Ct2P7mE).
 - Required. Accept the course policies by completing this [form](https://forms.gle/mHGKXoXmbb1m9HYB9) using your UDEM email account. If you do not complete the form by the end of Friday, August 14, 5 points will be deducted from your individual $E_1$ mark.
 
-**Session 4. Thursday, August 13.**
+**Session 4. Friday, August 14.**
 
-- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (2/4).
-- Supplementary reading. @HullRM5, chapter 1: *Introduction*.
-- Supplementary reading. @ruppert2015statistics, chapter 11, sections 11.6: *Binary Regression* and 11.12.3: *Binary Regression: Who Owns an Air Conditioner?*.
-- Supplementary short. [Bitcoin frente al oro desde 2014](https://www.youtube.com/shorts/V-DH5TqCefc).
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, sections 1-2: *Jobs in Finance* and 1-3: *Forms of Business Organization* (2/7).
+- Required reading. @drake2010basics, chapter 1: *What Is Finance?*, sections *Capital Markets and Capital Market Theory*, *Financial Management*, and *Investment Management*.
+- Required essay. Lozano (2026), [*Dinero e ideas*](https://ahyaentendi.substack.com/p/dinero-e-ideas).
+- Required short. [El sistema financiero](https://youtube.com/shorts/w_iSirguc-M).
 
-**Session 5. Monday, August 17.**
+**Session 5. Tuesday, August 18.**
 
-- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (3/4).
-- Supplementary short. [SPY vs libre de riesgo: invertir $1 desde 1998](https://www.youtube.com/shorts/veZp_7Vx9wg).
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, section 1-4: *The Main Financial Goal: Creating Value for Investors* (3/7).
+- Required essay. Lozano (2026), [*Amor, stock y flujos*](https://ahyaentendi.substack.com/p/amor-stock-y-flujos).
+- Required video. [Dinero, tiempo e información](https://youtu.be/8pIBBWmmLg8).
 
-**Session 6. Thursday, August 20.**
+**Session 6. Friday, August 21.**
 
-- Required reading. @lozanoARF, chapter 1: *Logistic credit scoring* (4/4).
-- Supplementary short. [La paradoja de Parrondo en finanzas](https://www.youtube.com/shorts/lBy7jn3sp60).
-- Supplementary video. [La paradoja de Parrondo](https://www.youtube.com/watch?v=cEuyfD2qVgQ).
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, section 1-5: *Stockholder-Manager Conflicts* (4/7).
+- Required essay. Lozano (2026), [*IA en educación superior y la ilusión de comprender*](https://ahyaentendi.substack.com/p/ia-en-educacion-superior-y-la-ilusion).
+- Required short. [Contabilidad](https://youtube.com/shorts/W8RLa8G20Lc).
 
-**Session 7, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, August 24.**
+**Session 7. Tuesday, August 25.**
 
-- Required reading. @lozanoARF, chapter 2: *Tree-based credit scoring* (1/3).
-- Supplementary essay. Lozano (2026), [*El riesgo financiero y las formas del terror*](https://ahyaentendi.substack.com/p/el-riesgo-financiero-y-las-formas).
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, section 1-6: *Stockholder-Debtholder Conflicts* (5/7).
+- Required video. [Estados financieros y su análisis | Introducción](https://youtu.be/q3F4Uq782mo).
 
-**Session 8. Thursday, August 27.**
+**Session 8. Friday, August 28.**
 
-- Required reading. @lozanoARF, chapter 2: *Tree-based credit scoring* (2/3).
-- Supplementary video. [Carteras de inversión: diseño y análisis](https://www.youtube.com/watch?v=OO09EqT-aAM).
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, section 1-7: *Balancing Shareholder Interests and the Interests of Society* (6/7).
+- Required short. [Costo en contabilidad, finanzas y economía](https://youtube.com/shorts/oYuL7Zqxw68).
 
-**Session 9. Monday, August 31.**
+**Session 9. Tuesday, September 1.**
 
-- Required reading. @lozanoARF, chapter 2: *Tree-based credit scoring* (3/3).
-- Supplementary video. [Cartera óptima con rendimiento objetivo](https://www.youtube.com/watch?v=D00PcnSUFbs).
+- Required reading. @brigham2019fundamentals, chapter 1: *An Overview of Financial Management*, section 1-8: *Business Ethics* (7/7).
+- Required short. [Venta en corto](https://youtube.com/shorts/NtEjxDCqd4A).
 
-**Session 10. Thursday, September 3.**
+**Session 10. Friday, September 4.**
 
 - Graded. The Written component of $H_1$ is due before class begins.
-- Graded. Team Oral presentations for $H_1$, with each student assessed individually: first of two presentation sessions.
+- Graded. Team Oral presentations for $H_1$: first of two presentation sessions.
 - *The deadline is not yet available, but please remember to complete the Avanza 180 survey.*
 
-**Session 11. Monday, September 7.**
+**Session 11. Tuesday, September 8.**
 
-- Graded. Team Oral presentations for $H_1$, with each student assessed individually: second of two presentation sessions.
+- Graded. Team Oral presentations for $H_1$: second of two presentation sessions.
 
-**Session 12, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, September 10.**
+**Session 12. Friday, September 11.**
 
 - Graded. Complete the Written component of $E_1$ remotely during the scheduled class period.
 
-**Session 13. Monday, September 14.**
+**Session 13. Tuesday, September 15.**
 
 - Graded. Team Oral defenses for $E_1$: first of two defense sessions.
 
-**Session 14. <span class="bi bi-flag-fill content-icon" aria-hidden="true"></span> Thursday, September 17.**
+**Session 14. <span class="bi bi-flag-fill content-icon" aria-hidden="true"></span> Friday, September 18.**
 
 - Graded. Team Oral defenses for $E_1$: second of two defense sessions.
-- Graded. The link to complete the coevaluation for $E_1$ will be available on Blackboard. Deadline: Friday, September 18, 10:00 a.m.
+- Graded. The link to complete the coevaluation for $H_1$ and $E_1$ will be available on Blackboard. Deadline: Friday, September 18, 10:00 a.m.
 - Bonus points. The wheel of fortune 1/3. This is a class activity.
 
 ## <span class="bi bi-battery-half content-icon icon-red" aria-hidden="true"></span> Part 2
 
-**Session 15. <span class="bi bi-peace-fill content-icon" aria-hidden="true"></span> Monday, September 21.**
+**Session 15. <span class="bi bi-peace-fill content-icon" aria-hidden="true"></span> Tuesday, September 22.**
 
-- Topic 2/3: Structural credit risk and market pricing.
-- Required reading. @lozanoARF, chapter 3: *The Merton model* (1/2).
+- Topic 2/3: Time value of money, interest, annuities, and amortization.
+- Required reading. @brigham2019fundamentals, chapter 5: *Time Value of Money*, sections 5-1: *Time Lines*, 5-2: *Future Values*, and 5-3: *Present Values* (1/5).
+- Required reading. @drake2010basics, chapter 10: *The Math of Finance*, sections *Why the Time Value of Money?*, *Calculating the Future Value*, and *Calculating a Present Value*.
+- Required essay. Lozano (2026), [*La tasa de interés como precio del tiempo*](https://ahyaentendi.substack.com/p/la-tasa-de-interes-como-precio-del).
+- Required video. [Valor del dinero en el tiempo](https://youtu.be/OoBnNb-QhLw).
+- Required short. [Valor presente y futuro | Intuición y derivación](https://youtube.com/shorts/nGciVJEHE0k).
+- Required short. [Capitalizar y descontar | La intuición financiera](https://youtube.com/shorts/GOJBwAivg2k).
+- Required short. [Valor futuro con interés simple y compuesto](https://youtube.com/shorts/HXR1_EfQKZ4).
 
-**Session 16. Thursday, September 24.**
+**Session 16. Friday, September 25.**
 
-- Required reading. @lozanoARF, chapter 3: *The Merton model* (2/2).
-- Required reading. @Hull11, chapter 24, sections 24.1: *Credit ratings*; 24.2: *Historical default probabilities*; and 24.6: *Using equity prices to estimate default probabilities*.
-- Supplementary video. [Estrategias de cobertura y especulación usando opciones financieras](https://www.youtube.com/watch?v=O3aSF-748v8).
+- Required reading. @brigham2019fundamentals, chapter 5: *Time Value of Money*, sections 5-4: *Finding the Interest Rate, I* and 5-5: *Finding the Number of Years, N* (2/5).
+- Required reading. @drake2010basics, chapter 10: *The Math of Finance*, section *Determining the Unknown Interest Rate*.
+- Required essay. Lozano (2026), [*Simplificar para entender*](https://ahyaentendi.substack.com/p/simplificar-para-entender).
+- Required video. [Derivaciones matemáticas | Valor del dinero en el tiempo](https://youtu.be/fXL6R1nmN_g).
+- Required short. [Cómo encontrar la tasa de interés con valor presente y valor futuro](https://youtube.com/shorts/IMlcaUjgntQ).
+- Required short. [Valor del dinero en el tiempo | Encontrar el plazo](https://youtube.com/shorts/sV1LJ7GaT0A).
 
-**Session 17, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, September 28.**
+**Session 17. Tuesday, September 29.**
 
-- Required reading. @lozanoARF, chapter 4: *Credit Spreads and CDS Valuation* (1/3).
-- Supplementary essay. Lozano (2026), [*Portafolio y existencia, asignar pesos bajo incertidumbre*](https://ahyaentendi.substack.com/p/portafolio-y-existencia-asignar-pesos).
+- Required reading. @brigham2019fundamentals, chapter 5: *Time Value of Money*, sections 5-6 through 5-11: *Annuities*, *Future Value of an Ordinary Annuity*, *Future Value of an Annuity Due*, *Present Value of an Ordinary Annuity*, *Finding Annuity Payments, Periods, and Interest Rates*, and *Perpetuities* (3/5).
+- Required reading. @drake2010basics, chapter 10: *The Math of Finance*, sections *The Time Value of a Series of Cash Flows* and *Annuities*.
+- Required essay. Lozano (2026), [*La IA y los incentivos para entender*](https://ahyaentendi.substack.com/p/la-ia-y-los-incentivos-para-entender).
+- Required video. [Anualidades](https://youtu.be/NbGjBMUfkVY).
+- Required short. [Anualidades ordinarias | La derivación completa](https://youtube.com/shorts/aY72j_qrMNY).
+- Required short. [Anualidad anticipada | Valor presente y valor futuro](https://youtube.com/shorts/fiJKwi--XMQ).
 
-**Session 18. <span class="bi bi-cup-hot-fill content-icon" aria-hidden="true"></span> Thursday, October 1.**
+**Session 18. <span class="bi bi-cup-hot-fill content-icon" aria-hidden="true"></span> Friday, October 2.**
 
-- Required reading. @lozanoARF, chapter 4: *Credit Spreads and CDS Valuation* (2/3).
-- Required reading. @Hull11, chapter 24, sections 24.3: *Recovery rates*; 24.4: *Estimating default probabilities from bond yield spreads*; and 24.5: *Comparison of default probability estimates*; and chapter 25, sections 25.1: *Credit default swaps* and 25.2: *Valuation of credit default swaps*.
-- Supplementary video. [Mínima varianza global: pesos, riesgo y rendimiento](https://www.youtube.com/watch?v=0C81uTt6i18).
+- Required reading. @brigham2019fundamentals, chapter 5: *Time Value of Money*, sections 5-12 through 5-14: *Uneven Cash Flows*, *Future Value of an Uneven Cash Flow Stream*, and *Solving for I with Uneven Cash Flows* (4/5).
+- Required essay. Lozano (2026), [*Respuesta convincente y convicción interna en la IA*](https://ahyaentendi.substack.com/p/respuesta-convincente-y-conviccion).
+- Required short. [Cómo encontrar n en anualidades con valor presente y futuro](https://youtube.com/shorts/STYrT4p8XEY).
+- Required short. [Cómo se deriva la fórmula de una perpetuidad](https://youtube.com/shorts/2b0igr3lqME).
 
-**Session 19. <span class="bi bi-mortarboard-fill content-icon" aria-hidden="true"></span> Monday, October 5.**
+**Session 19. <span class="bi bi-mortarboard-fill content-icon" aria-hidden="true"></span> Tuesday, October 6.**
 
-- Required reading. @lozanoARF, chapter 4: *Credit Spreads and CDS Valuation* (3/3).
-- Supplementary video. [Mínima varianza con 5 y 10 industrias](https://www.youtube.com/watch?v=LV6-9AoGK54).
+- Required reading. @brigham2019fundamentals, chapter 5: *Time Value of Money*, sections 5-15 through 5-18: *Semiannual and Other Compounding Periods*, *Comparing Interest Rates*, *Fractional Time Periods*, and *Amortized Loans*; web appendixes 5A: *Continuous Compounding and Discounting* and 5B: *Growing Annuities* (5/5).
+- Required reading. @drake2010basics, chapter 10: *The Math of Finance*, sections *Loan Amortization* and *Interest Rates and Yields*.
+- Required short. [Capitalización discreta vs. capitalización continua](https://youtube.com/shorts/fj2pGK7prt4).
+- Required short. [Tasa nominal vs. tasa efectiva](https://youtube.com/shorts/QBMlbu2GLds).
 
-**Session 20. Thursday, October 8.**
+**Session 20. Friday, October 9.**
 
 - Graded. The Written component of $H_2$ is due before class begins.
 - Graded. Team Oral presentations for $H_2$: first of two presentation sessions.
 
-**Session 21. <span class="bi bi-globe-americas content-icon" aria-hidden="true"></span> Monday, October 12.**
+**Session 21. <span class="bi bi-globe-americas content-icon" aria-hidden="true"></span> Tuesday, October 13.**
 
 - Graded. Team Oral presentations for $H_2$: second of two presentation sessions.
 
-**Session 22, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, October 15.**
+**Session 22. Friday, October 16.**
 
 - Graded. Complete the Written component of $E_2$ remotely during the scheduled class period.
 
-**Session 23. Monday, October 19.**
+**Session 23. Tuesday, October 20.**
 
 - Graded. Team Oral defenses for $E_2$: first of two defense sessions.
 
-**Session 24. Thursday, October 22.**
+**Session 24. Friday, October 23.**
 
 - Graded. Team Oral defenses for $E_2$: second of two defense sessions.
 - Graded. The link to complete the coevaluation for $H_2$ and $E_2$ will be available on Blackboard. Deadline: Friday, October 23, 10:00 a.m.
@@ -137,44 +156,47 @@
 
 ## <span class="bi bi-battery-half content-icon icon-orange" aria-hidden="true"></span> Part 3
 
-**Session 25. Monday, October 26.**
+**Session 25. Tuesday, October 27.**
 
-- Topic 3/3: Portfolio and climate credit risk.
-- Required reading. @lozanoARF, chapter 5: *The Gaussian copula model for portfolio credit risk* (1/3).
+- Topic 3/3: Interest rates and their financial applications.
+- Bonus points. **AI Fundamentals.** Complete this DataCamp certification before 10:00 a.m. to earn +10 points on your individual $E_F$ mark. It is not necessary to send evidence because DataCamp automatically records whether the required certification was completed on time.
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, section 6-1: *The Cost of Money* (1/7).
+- Required reading. @drake2010basics, chapter 18: *The Structure of Interest Rates*, section *The Base Interest Rate*.
+- Required essay. Lozano (2026), [*FinTech y la reorganización de las finanzas*](https://ahyaentendi.substack.com/p/fintech-y-la-reorganizacion-de-las).
+- Required video. [Rendimiento aritmético y geométrico](https://youtu.be/Gm-NVynPD38).
 
-**Session 26. Thursday, October 29.**
+**Session 26. Friday, October 30.**
 
-- Required reading. @lozanoARF, chapter 5: *The Gaussian copula model for portfolio credit risk* (2/3).
-- Required reading. @Hull11, chapter 24, sections 24.8: *Default correlation* and 24.9: *Credit VaR*.
-- Supplementary reading. @ruppert2015statistics, chapter 7, sections 7.5: *The Multivariate Normal Distribution* and 7.6: *The Multivariate t-Distribution*; chapter 8, sections 8.3: *Gaussian and t-Copulas*, 8.6: *Tail Dependence*, and 8.9.1: *Simulating from Copula Models*.
-- Supplementary video. [Fronteras eficientes en movimiento](https://www.youtube.com/watch?v=vOCBioteplY).
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, section 6-2: *Interest Rate Levels* (2/7).
+- Required essay. Lozano (2026), [*IA en finanzas, una perspectiva desde la empresa y la investigación financiera*](https://ahyaentendi.substack.com/p/ia-en-finanzas-una-perspectiva-desde).
+- Required short. [La paradoja del rendimiento máximo](https://youtube.com/shorts/8sACKl122-4).
 
-**Session 27. <span class="bi bi-flower1 content-icon" aria-hidden="true"></span> Monday, November 2.**
+**Session 27. <span class="bi bi-flower1 content-icon" aria-hidden="true"></span> Tuesday, November 3.**
 
-- Required reading. @lozanoARF, chapter 5: *The Gaussian copula model for portfolio credit risk* (3/3).
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, section 6-3: *The Determinants of Market Interest Rates* (3/7).
 - *The deadline is not yet available, but please remember to complete the Avanza 360 survey.*
 
-**Session 28. <span class="bi bi-shield-check content-icon" aria-hidden="true"></span> Thursday, November 5.**
+**Session 28. <span class="bi bi-shield-check content-icon" aria-hidden="true"></span> Friday, November 6.**
 
-- Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (1/3).
-- Supplementary essay. Lozano (2026), [*Riesgo climático y la tragedia de los horizontes temporales*](https://ahyaentendi.substack.com/p/riesgo-climatico-y-la-tragedia-de).
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, section 6-4: *The Term Structure of Interest Rates* (4/7).
+- Required reading. @drake2010basics, chapter 18: *The Structure of Interest Rates*, section *The Term Structure of Interest Rates*.
 - Optional, non-graded. Share your DataCamp experience on social media if you wish. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
 
-**Session 29, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. <span class="bi bi-stars content-icon" aria-hidden="true"></span> Monday, November 9.**
+**Session 29. <span class="bi bi-stars content-icon" aria-hidden="true"></span> Tuesday, November 10.**
 
-- Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (2/3).
-- Supplementary reading. @HullRM5, chapter 22, sections 22.1: *Generating the Scenarios*; 22.2: *Regulation*; and 22.3: *What to Do with the Results*.
-- Supplementary video. [Animación del portafolio de mínima varianza: 5 activos](https://www.youtube.com/watch?v=HjPnHEir_XA).
-- Supplementary video. [Animación del portafolio de mínima varianza: 10 activos](https://www.youtube.com/watch?v=tcgtNfPl5gI).
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, section 6-5: *What Determines the Shape of the Yield Curve?* (5/7).
+- Required reading. @drake2010basics, chapter 18: *The Structure of Interest Rates*, section *Term Structure of Interest Rates Theories*.
 
-**Session 30. Thursday, November 12.**
+**Session 30. Friday, November 13.**
 
-- Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (3/3).
-- Bonus points. **Data Analyst Certification.** Complete this DataCamp certification before 10:00 a.m. to earn +20 points on your individual $E_F$ mark. DataCamp also offers a **Data Analyst Associate** certification, but that version does not satisfy this activity. It is not necessary to send evidence because DataCamp automatically records whether the required certification was completed on time.
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, section 6-6: *Using the Yield Curve to Estimate Future Interest Rates* (6/7).
 
-**Holiday. <span class="bi bi-umbrella content-icon" aria-hidden="true"></span> Monday, November 16.**
+**Session 31. Tuesday, November 17.**
 
-**Session 31, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. <span class="bi bi-chat-quote-fill content-icon" aria-hidden="true"></span> Thursday, November 19.**
+- Required reading. @brigham2019fundamentals, chapter 6: *Interest Rates*, sections 6-7: *Macroeconomic Factors that Influence Interest Rate Levels* and 6-8: *Interest Rates and Business Decisions* (7/7).
+- Bonus points. **Data Literacy.** Complete this DataCamp certification before 10:00 a.m. to earn +10 points on your individual $E_F$ mark. It is not necessary to send evidence because DataCamp automatically records whether the required certification was completed on time.
+
+**Session 32. <span class="bi bi-chat-quote-fill content-icon" aria-hidden="true"></span> Friday, November 20.**
 
 - Activity. $E_F$ review.
 - Bonus points. The wheel of fortune 3/3. This is a class activity.
@@ -182,7 +204,7 @@
 
 ## <span class="bi bi-battery-full content-icon icon-green" aria-hidden="true"></span> The end
 
-**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" class="schedule-zoom-icon" height="24" width="24" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. XXX.**
+**Final exam. XXX.**
 
 - Graded. $E_F$ Instructions in Blackboard.
 
