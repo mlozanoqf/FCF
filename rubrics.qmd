@@ -18,11 +18,13 @@ The same Oral component criteria apply to homework presentations and partial-exa
 
 During the Oral component, I will normally display the submitted homework or partial-exam answer on screen. Students explain the submitted work from that displayed version only and may not use written notes, scripts, prepared guides, AI tools, electronic assistance, or any other support material.
 
+**Applicability of criteria.** Not every criterion necessarily applies to every Oral component. When a criterion is not relevant because of the nature of the activity or selected question, it will be marked N/A and excluded from the calculation. The remaining applicable criteria will be weighted equally when calculating the Oral component mark. An N/A is not equivalent to zero.
+
 | Criterion | No evidence or weak (0-10) | Emerging (11-17) | Competent (18-21) | Strong (22-25) |
 |---|---|---|---|---|
-| Problem, objectives, and concepts (25 points) | Cannot explain the problem, objective, or core concepts. | Shows partial or unclear understanding. | Explains the problem and main concepts with reasonable clarity. | Explains the problem, objective, and concepts clearly, accurately, and thoughtfully. |
-| Methodology and implementation (25 points) | Cannot explain the method, code, or implementation. | Mentions the method or code but with limited understanding. | Explains the method and implementation with mostly correct reasoning. | Clearly justifies the methodology and explains the code or implementation with confidence. |
-| Results, interpretation, and limitations (25 points) | Cannot interpret the results or conclusions. | Gives superficial or partially incorrect interpretation. | Interprets results and conclusions in a mostly clear and relevant way. | Interprets results, limitations, mistakes, and possible improvements clearly and precisely. |
+| Understanding of the problem, objectives, or concepts (25 points) | Cannot explain the relevant problem, objectives, or concepts. | Shows limited or unclear understanding of the relevant elements. | Explains the relevant problem, objectives, or concepts with reasonable clarity. | Explains the relevant elements clearly, accurately, and thoughtfully. |
+| Methodology or implementation (25 points) | Cannot explain the relevant methodology, code, or implementation. | Describes the relevant elements with limited understanding. | Explains the relevant methodology, code, or implementation with mostly correct reasoning. | Clearly justifies the relevant methodology or explains the code or implementation with confidence. |
+| Results, interpretation, or limitations (25 points) | Cannot explain or interpret the relevant results, conclusions, or limitations. | Gives a superficial or partially incorrect account of the relevant elements. | Explains or interprets the relevant results, conclusions, or limitations with reasonable clarity. | Interprets the relevant elements clearly and precisely, including mistakes or possible improvements when applicable. |
 | Communication, clarity, and defense (25 points) | Presentation is disorganized, unclear, or read without understanding. | Communication is hesitant, incomplete, or difficult to follow. | Presentation is clear enough, structured, and mostly coherent. | Presentation is clear, fluent, professional, and responsive to questions. |
 
 ## Common instruction verbs
